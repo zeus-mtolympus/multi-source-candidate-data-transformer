@@ -50,15 +50,13 @@ def _normalize_records(records: list[dict]) -> None:
 def _candidate_id(profile: dict[str, Any]) -> str:
     emails = profile.get("emails", [])
     phones = profile.get("phones", [])
-    name = profile.get("full_name") or ""
-    company = profile.get("current_company") or ""
 
     if emails:
         seed = emails[0].lower()
     elif phones:
         seed = phones[0]
     else:
-        seed = f"{name}|{company}"
+        raise ValueError(f"Cannot generate candidate_id: no email or phone for candidate '{profile.get('full_name')}'")
 
     digest = hashlib.sha256(seed.encode()).hexdigest()[:12]
     return f"cand_{digest}"
