@@ -87,7 +87,7 @@ The first thing you'd think of for deduplication is fuzzy name matching — "Pri
 
 ### Confidence scoring that actually makes sense
 
-Early on the confidence score had a bug where a CSV-only candidate with just a name and email would score higher than a fully enriched candidate with skills, work history, and education. This happened because missing fields were simply excluded from the weighted average, so a candidate with two high-quality fields scored well against candidates with ten partially-filled fields. We fixed this by always including all fields in the denominator — missing fields contribute 0.0 to the score instead of being ignored. Now a CSV-only stub scores between 0.54 and 0.81, while a fully enriched profile scores between 0.86 and 0.89.
+The confidence score is a weighted average across all 9 key fields, and every field is always included in the calculation. If a field is missing, it contributes 0.0 to the score — it doesn't get excluded from the denominator. This means a profile with rich data (skills, experience, education, certifications) naturally scores higher than one with just a name and email from the CSV. A CSV-only stub typically scores between 0.54 and 0.81. A fully enriched profile with resume and GitHub data scores between 0.86 and 0.89.
 
 ### Provenance on everything
 
