@@ -1,0 +1,16 @@
+{
+"login": "priyades",
+"name": "Priyanka Desai",
+"bio": "Lead Frontend Engineer | React & TypeScript",
+"company": "InfoTech Solutions",
+"blog": "https://priyankadesai.in",
+"location": "Hyderabad, India",
+"email": null,
+"html_url": "https://github.com/priyades",
+"public_repos": 22,
+"repos": [
+{"name": "react-ui-kit", "language": "JavaScript"},
+{"name": "dashboard-template", "language": "TypeScript"},
+{"name": "performance-monitor", "language": "JavaScript"}
+]
+}

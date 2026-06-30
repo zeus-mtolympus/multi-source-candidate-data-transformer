@@ -1,0 +1,38 @@
+Rohan Kapoor
+rohan.kapoor@consult.in | +91 98203 45678 | Chennai, Tamil Nadu, India
+
+Objective
+Experienced solutions consultant with 12 years delivering digital transformation programmes for enterprise clients across banking, retail, and logistics verticals. Strong background in system design, stakeholder management, and cross-functional team leadership.
+
+Experience
+
+Consultify - Senior Consultant
+06/2021 - Present
+• Led digital transformation programme for Tier-1 bank migrating 40 legacy services to AWS
+• Designed event-driven microservices architecture processing 5M daily transactions with zero data loss
+• Managed stakeholder relationships across C-suite, product, and engineering for 8 concurrent accounts
+• Delivered cost optimisation engagement saving client $800k annually in cloud infrastructure spend
+
+Prev Corp - Technical Lead
+2018 to 2021
+• Architected cloud migration for legacy monolith to microservices on Azure
+• Led team of 9 engineers across 3 time zones
+• Introduced CI/CD practices using Jenkins and Docker reducing release cycle from monthly to weekly
+
+InfraBase - Software Engineer
+2012 – 2018
+• Developed backend services in Java Spring Boot for supply chain management platform
+• Built RESTful APIs integrating with 12 third-party logistics providers
+• Designed caching strategy using Redis reducing database load by 60%
+
+Education
+M.Tech, Anna University, 2012
+
+Certifications
+• AWS Certified Solutions Architect – Professional
+• PMP (Project Management Professional)
+
+Skills
+Java, Spring Boot, AWS, Azure, Microservices, Docker, Kubernetes, Terraform, REST API, Leadership, CI/CD, Redis, PostgreSQL, Git, Linux
+
+References available upon request - Contact: John Manager, john.manager@prevcorp.in, +91 98765 11111

@@ -1,0 +1,28 @@
+Arjun Singh
+arjun.singh@codebase.in | +91 87665 43210 | Gurgaon, Haryana, India
+
+Summary
+Backend Developer with 4 years building REST APIs and microservices in Java and Spring Boot. Focused on writing clean, tested code and delivering reliable features. Looking to grow into system design and distributed systems.
+
+Experience
+
+Codebase - Backend Developer
+March 2022 – Present
+• Developed REST APIs in Java Spring Boot for e-commerce order management platform serving 120k daily orders
+• Built asynchronous notification service using Kafka reducing checkout latency by 35ms
+• Implemented OAuth 2.0 and JWT-based authentication for B2B partner API
+• Wrote unit and integration tests with JUnit 5 and Mockito reaching 85% branch coverage
+• Participated in code reviews, architecture discussions, and sprint retrospectives
+
+TechNova - Junior Backend Developer
+2020 – 2022
+• Built CRUD APIs for internal HR and leave management system used by 1,500 employees
+• Integrated third-party email and SMS providers using adapter pattern
+• Optimised Hibernate queries reducing N+1 issues on core reporting endpoints
+• Wrote API documentation using Swagger/OpenAPI
+
+Education
+B.Tech Computer Science, NIT Kurukshetra, 2020
+
+Skills
+Java, Spring Boot, Spring, REST API, SQL, PostgreSQL, MySQL, Kafka, Docker, Git, Linux, AWS, Microservices, JWT, OAuth, TDD, CI/CD, Maven

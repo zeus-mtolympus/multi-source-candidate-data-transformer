@@ -1,0 +1,10 @@
+{
+  "fields": [
+    { "path": "full_name", "type": "string", "required": true },
+    { "path": "email", "from": "emails[0]", "type": "string", "required": true },
+    { "path": "linkedin", "from": "links.linkedin", "type": "string", "required": true }
+  ],
+  "include_confidence": false,
+  "include_provenance": false,
+  "on_missing": "null"
+}

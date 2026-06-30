@@ -1,0 +1,28 @@
+Ritu Mehta
+ritu.mehta@ailabs.in | +91 76543 21098 | Bangalore, Karnataka, India
+
+Summary
+ML Engineer with 3 years specialising in large language models, retrieval-augmented generation, and productionising ML systems. Experienced in fine-tuning open-source models and building LLM-powered APIs at scale.
+
+Experience
+
+AILabs - ML Engineer
+August 2022 – Present
+• Fine-tuned Llama 2 and Mistral models for domain-specific question answering achieving 88% accuracy on internal benchmark
+• Built RAG pipeline using LangChain, FAISS, and FastAPI serving 50,000 queries per day with p95 latency < 400ms
+• Reduced LLM inference cost by 55% through prompt caching, quantisation (GGUF), and batching strategies
+• Implemented model evaluation framework tracking hallucination rate, faithfulness, and relevance across 12 metrics
+• Deployed models on AWS SageMaker with auto-scaling and canary rollouts via MLflow
+• Contributed 3 open-source tools to the LangChain ecosystem (combined 1.2k GitHub stars)
+
+DataMinds - Data Scientist
+2021 – 2022
+• Built sentiment analysis pipeline using Hugging Face transformers for social media monitoring product
+• Developed multi-label text classification model (BERT fine-tune) with 93% F1 score
+• Designed Airflow DAG orchestrating weekly model retraining on fresh data
+
+Education
+B.Tech Computer Science, BITS Pilani, 2021
+
+Skills
+Python, PyTorch, TensorFlow, Hugging Face, LLM, RAG, LangChain, NLP, FastAPI, AWS, Docker, MLflow, Airflow, scikit-learn, sklearn, pandas, numpy, SQL, Git, FAISS, SageMaker

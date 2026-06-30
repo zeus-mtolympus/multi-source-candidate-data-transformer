@@ -1,0 +1,33 @@
+Preeta Subramaniam
+preeta.subramaniam@dataviz.in | +91 97112 34567 | Hyderabad, Telangana, India
+
+Summary
+Data Analyst with 7 years translating complex datasets into actionable business insights. Expert in SQL, Power BI, and Python analytics. Comfortable working with product, finance, and operations teams to define metrics and build self-serve dashboards.
+
+Experience
+
+DataViz - Data Analyst
+May 2021 – Present
+• Built 45-dashboard Power BI portfolio for C-suite and operational teams used by 300+ stakeholders daily
+• Designed star-schema data model on Snowflake reducing average dashboard load time from 18s to 2s
+• Automated weekly sales and retention reports replacing 12 hours of manual work per analyst per week
+• Built Python (Pyhton) scripts for data cleaning and anomaly detection feeding into Tableau dashboards
+• Defined company OKR metric framework and built tracking dashboards reviewed in all-hands meetings
+
+Insights Inc - Business Analyst
+2018 – 2021
+• Produced weekly executive dashboards in Tableau for supply chain and inventory operations
+• Wrote complex SQL queries on Redshift joining 25+ tables for revenue attribution analysis
+• Built cohort analysis models in Python identifying customer segments with 3x higher LTV
+• Trained 20 non-technical stakeholders to use self-serve Tableau reports
+
+CoreData - Junior Analyst
+2017 – 2018
+• Compiled and cleaned data from multiple sources into Excel and Google Sheets models
+• Created ad hoc SQL reports for marketing and product teams
+
+Education
+B.Tech Information Technology, JNTU Hyderabad, 2017
+
+Skills
+SQL, Python, Pyhton, Power BI, PowerBI, Tableau, Snowflake, Redshift, AWS, Excel, pandas, numpy, Git, Data Warehouse, ETL, BigQuery

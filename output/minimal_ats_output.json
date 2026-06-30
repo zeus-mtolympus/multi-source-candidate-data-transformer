@@ -1,0 +1,240 @@
+{
+  "results": [
+    {
+      "full_name": "Arjun Mehta",
+      "email": "arjun.mehta@techcorp.in",
+      "phone": "+919876543210",
+      "current_title": "Senior Software Engineer",
+      "current_company": "TechCorp India"
+    },
+    {
+      "full_name": "Priya Singh",
+      "email": "priya.singh@innovate.co.in",
+      "phone": "+919876543210"
+    },
+    {
+      "full_name": "Vikram Patel",
+      "email": "vikram.patel@freelance.dev",
+      "phone": "+442079460958"
+    },
+    {
+      "full_name": "Neha Gupta",
+      "email": "neha.gupta@startuplabs.in",
+      "phone": "+917012345678"
+    },
+    {
+      "full_name": "Rohan Kapoor",
+      "email": "rohan.kapoor@consult.in",
+      "phone": "+919820345678",
+      "current_title": "Senior Consultant",
+      "current_company": "Consultify"
+    },
+    {
+      "full_name": "Ananya Sharma",
+      "email": "ananya.sharma@globaltech.co",
+      "phone": "+919886712345",
+      "current_title": "Software Engineer",
+      "current_company": "GlobalTech"
+    },
+    {
+      "full_name": "Rahul Nair",
+      "email": "rahul.nair@legacy.in",
+      "phone": "+919445678901"
+    },
+    {
+      "full_name": "Rahul K Nair",
+      "email": "rahulknair@protonmail.com",
+      "phone": "+919445678902"
+    },
+    {
+      "full_name": "Sneha Reddy",
+      "email": "sneha.reddy@sparse.in",
+      "phone": "+918123456789"
+    },
+    {
+      "full_name": "Karan Iyer",
+      "email": "karan.iyer@devforge.in",
+      "phone": "+914445678901",
+      "current_title": "Principal Engineer",
+      "current_company": "DevForge"
+    },
+    {
+      "full_name": "Priyanka Desai",
+      "email": "priyanka.desai@infotech.in",
+      "phone": "+919765432109",
+      "current_title": "Lead Frontend Engineer",
+      "current_company": "InfoTech Solutions"
+    },
+    {
+      "full_name": "Amitabh Rao",
+      "email": "amitabh.rao@dyno.in",
+      "phone": "+918123498765"
+    },
+    {
+      "full_name": "Suresh Menon",
+      "email": "suresh.menon@freelance.in",
+      "phone": "+919876543211"
+    },
+    {
+      "full_name": "Lakshmi Venkatesh",
+      "email": "lakshmi.v@novatech.co.in",
+      "phone": "+917014567890"
+    },
+    {
+      "full_name": "Deepak Malhotra",
+      "email": "deepak.malhotra@apex.in",
+      "phone": "+919887654321",
+      "current_title": "Software Architect",
+      "current_company": "Apex Innovations"
+    },
+    {
+      "full_name": "Meera Iyer",
+      "email": "meera.iyer@legacycorp.in",
+      "phone": "+919445566778",
+      "current_title": "Software Engineer",
+      "current_company": "LegacyCorp"
+    },
+    {
+      "full_name": "Vivek Singh",
+      "email": "vivek.singh@techwave.in",
+      "phone": "+917550123456"
+    },
+    {
+      "full_name": "Vivek S. Singh",
+      "email": "vivekssingh@techwave.in",
+      "phone": "+917550123457"
+    },
+    {
+      "full_name": "Pooja Nair",
+      "email": "pooja.nair@cold.in",
+      "phone": "+919870011223"
+    },
+    {
+      "full_name": "Aditya Bose",
+      "email": "aditya.bose@cloudify.in",
+      "phone": "+914423456789",
+      "current_title": "Principal Cloud Architect",
+      "current_company": "Cloudify Solutions"
+    },
+    {
+      "full_name": "Shreya Kapoor",
+      "email": "shreya.kapoor@analytix.in",
+      "phone": "+919812345678",
+      "current_title": "Data Scientist",
+      "current_company": "Analytix AI"
+    },
+    {
+      "full_name": "Ankit Verma",
+      "email": "ankit.verma@appworld.in",
+      "phone": "+918765432109",
+      "current_title": "Mobile Developer",
+      "current_company": "AppWorld"
+    },
+    {
+      "full_name": "Pradeep Kumar",
+      "email": "pradeep.kumar@cloudops.in",
+      "phone": "+919011234567"
+    },
+    {
+      "full_name": "Tanveer Ahmed",
+      "email": "tanveer.ahmed@webtech.in",
+      "phone": "+919823456789",
+      "current_title": "Full Stack Developer",
+      "current_company": "WebTech Solutions"
+    },
+    {
+      "full_name": "Ritu Mehta",
+      "email": "ritu.mehta@ailabs.in",
+      "phone": "+917654321098",
+      "current_title": "ML Engineer",
+      "current_company": "AILabs"
+    },
+    {
+      "full_name": "Varun Gupta",
+      "email": "varun.gupta@gosystems.in",
+      "phone": "+919988765432",
+      "current_title": "Backend Developer",
+      "current_company": "GoSystems"
+    },
+    {
+      "full_name": "Pallavi Joshi",
+      "email": "pallavi.joshi@uxworks.in",
+      "phone": "+918877654321"
+    },
+    {
+      "full_name": "Naveen Reddy",
+      "email": "naveen.reddy@cloudfirst.in",
+      "phone": "+919765432109",
+      "current_title": "Cloud Architect",
+      "current_company": "CloudFirst"
+    },
+    {
+      "full_name": "Komal Singh",
+      "email": "komal.singh@dataflow.in",
+      "phone": "+918123456780",
+      "current_title": "Data Engineer",
+      "current_company": "DataFlow"
+    },
+    {
+      "full_name": "Harish Krishnan",
+      "email": "harish.krishnan@reliability.in",
+      "phone": "+919445512345",
+      "current_title": "Site Reliability Engineer",
+      "current_company": "Reliability Corp"
+    },
+    {
+      "full_name": "Shruti R. Kapoor",
+      "email": "shruti.kapoor@designco.in",
+      "phone": "+918765409877"
+    },
+    {
+      "full_name": "Nikhil R. Verma",
+      "email": "nikhil.verma@backendpro.in",
+      "phone": "+919556677890"
+    },
+    {
+      "full_name": "Ravi Shankar",
+      "email": "ravi.shankar@techbridge.in",
+      "phone": "+919800011223"
+    },
+    {
+      "full_name": "Preeta Subramaniam",
+      "email": "preeta.subramaniam@dataviz.in",
+      "phone": "+919711234567",
+      "current_title": "Data Analyst",
+      "current_company": "DataViz"
+    },
+    {
+      "full_name": "Farhan Ali",
+      "email": "farhan.ali@freelancer.in",
+      "phone": "+918800122334"
+    },
+    {
+      "full_name": "Sanjay Malhotra",
+      "email": "sanjay.malhotra@datainsights.in",
+      "phone": "+919123456780"
+    },
+    {
+      "full_name": "Kavitha Pillai",
+      "email": "kavitha.pillai@infratech.in",
+      "phone": "+919445598765",
+      "current_title": "DevOps Engineer",
+      "current_company": "InfraTech"
+    },
+    {
+      "full_name": "Arjun Singh",
+      "email": "arjun.singh@codebase.in",
+      "phone": "+918766543210",
+      "current_title": "Backend Developer",
+      "current_company": "Codebase"
+    }
+  ],
+  "failures": [],
+  "_meta": {
+    "config_used": "configs\\minimal_ats.json",
+    "generated_at": "2026-06-30T17:01:06.834513+00:00",
+    "total": 38,
+    "succeeded": 38,
+    "failed": 0
+  }
+}

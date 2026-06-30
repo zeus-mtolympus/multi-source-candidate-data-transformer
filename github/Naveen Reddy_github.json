@@ -1,0 +1,19 @@
+{
+"login": "naveenr",
+"name": "Naveen Reddy",
+"bio": "Cloud Architect | AWS | Azure | Terraform | Multi-cloud migrations",
+"company": "CloudFirst",
+"blog": "https://naveenreddy.dev",
+"location": "Hyderabad, India",
+"email": null,
+"html_url": "https://github.com/naveenr",
+"public_repos": 29,
+"repos": [
+  {"name": "terraform-aws-landing-zone", "language": "HCL"},
+  {"name": "cdk-patterns", "language": "Python"},
+  {"name": "eks-blueprints", "language": "HCL"},
+  {"name": "aws-cost-optimizer", "language": "Python"},
+  {"name": "azure-terraform-modules", "language": "HCL"},
+  {"name": "cloudformation-templates", "language": "Python"}
+]
+}

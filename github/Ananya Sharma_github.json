@@ -1,0 +1,18 @@
+{
+"login": "ananyash",
+"name": "Ananya Sharma",
+"bio": "Backend engineer | Distributed systems & cloud",
+"company": "GlobalTech",
+"blog": "https://ananyasharma.in",
+"location": "Bangalore",
+"email": null,
+"html_url": "https://github.com/ananyash",
+"public_repos": 18,
+"repos": [
+{"name": "go-service-template", "language": "Go"},
+{"name": "py-data-pipeline", "language": "Python"},
+{"name": "auth-service", "language": "JavaScript"},
+{"name": "postgres-orm", "language": "Python"},
+{"name": "ml-model-server", "language": "Python"}
+]
+}

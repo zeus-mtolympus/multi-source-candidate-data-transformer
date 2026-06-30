@@ -1,0 +1,409 @@
+{
+  "results": [
+    {
+      "full_name": "Arjun Mehta",
+      "phone_display": "098765 43210",
+      "top_skills": [
+        "Javascript",
+        "Python",
+        "Typescript",
+        "React",
+        "Node.Js"
+      ],
+      "most_recent_role": "Senior Software Engineer",
+      "most_recent_start": "Jan 2022"
+    },
+    {
+      "full_name": "Priya Singh",
+      "phone_display": "098765 43210",
+      "top_skills": [],
+      "most_recent_role": null,
+      "most_recent_start": null
+    },
+    {
+      "full_name": "Vikram Patel",
+      "phone_display": "020 7946 0958",
+      "top_skills": [],
+      "most_recent_role": null,
+      "most_recent_start": null
+    },
+    {
+      "full_name": "Neha Gupta",
+      "phone_display": "070123 45678",
+      "top_skills": [
+        "Javascript",
+        "Go",
+        "Python"
+      ],
+      "most_recent_role": null,
+      "most_recent_start": null
+    },
+    {
+      "full_name": "Rohan Kapoor",
+      "phone_display": "098203 45678",
+      "top_skills": [
+        "Java",
+        "Spring Boot",
+        "Aws",
+        "Azure",
+        "Microservices"
+      ],
+      "most_recent_role": "Senior Consultant",
+      "most_recent_start": "Jun 2021"
+    },
+    {
+      "full_name": "Ananya Sharma",
+      "phone_display": "098867 12345",
+      "top_skills": [
+        "Go",
+        "Python",
+        "Fastapi",
+        "Django",
+        "Celery"
+      ],
+      "most_recent_role": "Software Engineer",
+      "most_recent_start": "Jan 2021"
+    },
+    {
+      "full_name": "Rahul Nair",
+      "phone_display": "094456 78901",
+      "top_skills": [],
+      "most_recent_role": null,
+      "most_recent_start": null
+    },
+    {
+      "full_name": "Rahul K Nair",
+      "phone_display": "094456 78902",
+      "top_skills": [],
+      "most_recent_role": null,
+      "most_recent_start": null
+    },
+    {
+      "full_name": "Sneha Reddy",
+      "phone_display": "081234 56789",
+      "top_skills": [],
+      "most_recent_role": null,
+      "most_recent_start": null
+    },
+    {
+      "full_name": "Karan Iyer",
+      "phone_display": "044 4567 8901",
+      "top_skills": [
+        "Hcl",
+        "Javascript",
+        "Python",
+        "Go",
+        "Typescript"
+      ],
+      "most_recent_role": "Principal Engineer",
+      "most_recent_start": "Feb 2020"
+    },
+    {
+      "full_name": "Priyanka Desai",
+      "phone_display": "097654 32109",
+      "top_skills": [
+        "Javascript",
+        "Typescript",
+        "React",
+        "Css",
+        "Html"
+      ],
+      "most_recent_role": "Lead Frontend Engineer",
+      "most_recent_start": "Apr 2022"
+    },
+    {
+      "full_name": "Amitabh Rao",
+      "phone_display": "081234 98765",
+      "top_skills": [],
+      "most_recent_role": null,
+      "most_recent_start": null
+    },
+    {
+      "full_name": "Suresh Menon",
+      "phone_display": "098765 43211",
+      "top_skills": [],
+      "most_recent_role": null,
+      "most_recent_start": null
+    },
+    {
+      "full_name": "Lakshmi Venkatesh",
+      "phone_display": "070145 67890",
+      "top_skills": [
+        "Java",
+        "Python",
+        "Javascript"
+      ],
+      "most_recent_role": null,
+      "most_recent_start": null
+    },
+    {
+      "full_name": "Deepak Malhotra",
+      "phone_display": "098876 54321",
+      "top_skills": [
+        "Aws",
+        "Kubernetes",
+        "Java",
+        "Spring",
+        "Spring Boot"
+      ],
+      "most_recent_role": "Software Architect",
+      "most_recent_start": "Mar 2020"
+    },
+    {
+      "full_name": "Meera Iyer",
+      "phone_display": "094455 66778",
+      "top_skills": [
+        "Javascript",
+        "Typescript",
+        "React",
+        "Node.Js",
+        "Express"
+      ],
+      "most_recent_role": "Software Engineer",
+      "most_recent_start": "Jan 2023"
+    },
+    {
+      "full_name": "Vivek Singh",
+      "phone_display": "075501 23456",
+      "top_skills": [],
+      "most_recent_role": null,
+      "most_recent_start": null
+    },
+    {
+      "full_name": "Vivek S. Singh",
+      "phone_display": "075501 23457",
+      "top_skills": [],
+      "most_recent_role": null,
+      "most_recent_start": null
+    },
+    {
+      "full_name": "Pooja Nair",
+      "phone_display": "098700 11223",
+      "top_skills": [],
+      "most_recent_role": null,
+      "most_recent_start": null
+    },
+    {
+      "full_name": "Aditya Bose",
+      "phone_display": "044 2345 6789",
+      "top_skills": [
+        "Hcl",
+        "Go",
+        "Python",
+        "Aws",
+        "Kubernetes"
+      ],
+      "most_recent_role": "Principal Cloud Architect",
+      "most_recent_start": "Jan 2021"
+    },
+    {
+      "full_name": "Shreya Kapoor",
+      "phone_display": "098123 45678",
+      "top_skills": [
+        "Python",
+        "R",
+        "Machine Learning",
+        "Deep Learning",
+        "Nlp"
+      ],
+      "most_recent_role": "Data Scientist",
+      "most_recent_start": "Mar 2022"
+    },
+    {
+      "full_name": "Ankit Verma",
+      "phone_display": "087654 32109",
+      "top_skills": [
+        "Flutter",
+        "Dart",
+        "React Native",
+        "Javascript",
+        "Typescript"
+      ],
+      "most_recent_role": "Mobile Developer",
+      "most_recent_start": "Jul 2022"
+    },
+    {
+      "full_name": "Pradeep Kumar",
+      "phone_display": "090112 34567",
+      "top_skills": [
+        "Hcl",
+        "Python",
+        "Groovy"
+      ],
+      "most_recent_role": null,
+      "most_recent_start": null
+    },
+    {
+      "full_name": "Tanveer Ahmed",
+      "phone_display": "098234 56789",
+      "top_skills": [
+        "Typescript",
+        "Javascript",
+        "React",
+        "Next.Js",
+        "Node.Js"
+      ],
+      "most_recent_role": "Full Stack Developer",
+      "most_recent_start": "Jan 2022"
+    },
+    {
+      "full_name": "Ritu Mehta",
+      "phone_display": "076543 21098",
+      "top_skills": [
+        "Python",
+        "Pytorch",
+        "Tensorflow",
+        "Hugging Face",
+        "Llm"
+      ],
+      "most_recent_role": "ML Engineer",
+      "most_recent_start": "Aug 2022"
+    },
+    {
+      "full_name": "Varun Gupta",
+      "phone_display": "099887 65432",
+      "top_skills": [
+        "Go",
+        "Grpc",
+        "Postgresql",
+        "Redis",
+        "Kafka"
+      ],
+      "most_recent_role": "Backend Developer",
+      "most_recent_start": "Apr 2021"
+    },
+    {
+      "full_name": "Pallavi Joshi",
+      "phone_display": "088776 54321",
+      "top_skills": [
+        "Javascript",
+        "Css"
+      ],
+      "most_recent_role": null,
+      "most_recent_start": null
+    },
+    {
+      "full_name": "Naveen Reddy",
+      "phone_display": "097654 32109",
+      "top_skills": [
+        "Hcl",
+        "Python",
+        "Aws",
+        "Azure",
+        "Gcp"
+      ],
+      "most_recent_role": "Cloud Architect",
+      "most_recent_start": "Sep 2021"
+    },
+    {
+      "full_name": "Komal Singh",
+      "phone_display": "081234 56780",
+      "top_skills": [
+        "Python",
+        "Apache Spark",
+        "Kafka",
+        "Airflow",
+        "Dbt"
+      ],
+      "most_recent_role": "Data Engineer",
+      "most_recent_start": "Jun 2022"
+    },
+    {
+      "full_name": "Harish Krishnan",
+      "phone_display": "094455 12345",
+      "top_skills": [
+        "Python",
+        "Go",
+        "Kubernetes",
+        "Prometheus",
+        "Grafana"
+      ],
+      "most_recent_role": "Site Reliability Engineer",
+      "most_recent_start": "Feb 2020"
+    },
+    {
+      "full_name": "Shruti R. Kapoor",
+      "phone_display": "087654 09877",
+      "top_skills": [],
+      "most_recent_role": null,
+      "most_recent_start": null
+    },
+    {
+      "full_name": "Nikhil R. Verma",
+      "phone_display": "095566 77890",
+      "top_skills": [],
+      "most_recent_role": null,
+      "most_recent_start": null
+    },
+    {
+      "full_name": "Ravi Shankar",
+      "phone_display": "098000 11223",
+      "top_skills": [],
+      "most_recent_role": null,
+      "most_recent_start": null
+    },
+    {
+      "full_name": "Preeta Subramaniam",
+      "phone_display": "097112 34567",
+      "top_skills": [
+        "Sql",
+        "Python",
+        "Power Bi",
+        "Tableau",
+        "Snowflake"
+      ],
+      "most_recent_role": "Data Analyst",
+      "most_recent_start": "May 2021"
+    },
+    {
+      "full_name": "Farhan Ali",
+      "phone_display": "088001 22334",
+      "top_skills": [],
+      "most_recent_role": null,
+      "most_recent_start": null
+    },
+    {
+      "full_name": "Sanjay Malhotra",
+      "phone_display": "091234 56780",
+      "top_skills": [
+        "Python"
+      ],
+      "most_recent_role": null,
+      "most_recent_start": null
+    },
+    {
+      "full_name": "Kavitha Pillai",
+      "phone_display": "094455 98765",
+      "top_skills": [
+        "Hcl",
+        "Python",
+        "Terraform",
+        "Aws",
+        "Docker"
+      ],
+      "most_recent_role": "DevOps Engineer",
+      "most_recent_start": "Jan 2022"
+    },
+    {
+      "full_name": "Arjun Singh",
+      "phone_display": "087665 43210",
+      "top_skills": [
+        "Java",
+        "Spring Boot",
+        "Spring",
+        "Rest Api",
+        "Sql"
+      ],
+      "most_recent_role": "Backend Developer",
+      "most_recent_start": "Mar 2022"
+    }
+  ],
+  "failures": [],
+  "_meta": {
+    "config_used": "configs\\display_export.json",
+    "generated_at": "2026-06-30T17:01:06.951147+00:00",
+    "total": 38,
+    "succeeded": 38,
+    "failed": 0
+  }
+}

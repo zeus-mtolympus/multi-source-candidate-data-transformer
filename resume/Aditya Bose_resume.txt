@@ -1,0 +1,39 @@
+Aditya Bose
+aditya.bose@cloudify.in | +91 44 2345 6789 | Chennai, Tamil Nadu, India
+
+Professional Summary
+Principal Cloud Architect with 13 years helping engineering organisations adopt cloud-native infrastructure. Deep expertise in Kubernetes, Terraform, and multi-cloud strategies. Speaker at KubeCon, DockerCon, and multiple regional DevOps meetups.
+
+Experience
+
+Cloudify Solutions - Principal Cloud Architect
+2021 – Present
+• Led Kubernetes adoption programme across 6 business units, standardising on EKS with GitOps via ArgoCD
+• Implemented platform engineering practice reducing developer toil by 60% through self-service tooling
+• Designed multi-region active-active architecture achieving 99.999% availability for critical payments service
+• Built CI/CD platform using GitHub Actions, Helm, and ArgoCD enabling 200+ deploys per week
+• Established FinOps practice reducing cloud spend by $1.2M annually through rightsizing and Spot usage
+
+Earlier Company - DevOps Engineer
+2018 – 2021
+• Managed AWS infrastructure for e-commerce platform (Black Friday peak: 50k rps)
+• Designed disaster recovery architecture with RTO < 15 minutes and RPO < 5 minutes
+• Built monitoring stack using Prometheus, Grafana, and PagerDuty with zero missed SLA months
+• Automated 85% of operational runbooks using Python and Bash scripts
+
+StartCloud - Infrastructure Engineer
+2015 – 2018
+• Provisioned and maintained EC2, RDS, S3, and CloudFront infrastructure
+• Wrote Terraform modules standardising VPC and IAM patterns across 15 AWS accounts
+• Implemented log aggregation pipeline using Elasticsearch, Logstash, and Kibana
+
+Education
+B.Tech, IIT Madras, 2015
+
+Certifications
+• AWS Certified Solutions Architect – Professional
+• Certified Kubernetes Administrator (CKA)
+• HashiCorp Certified Terraform Associate
+
+Skills
+AWS, Kubernetes, Docker, Terraform, HCL, Helm, ArgoCD, Python, Go, CI/CD, DevOps, Pyhton, Machine Learning, ML, GitHub Actions, Prometheus, Grafana, Bash, Linux, CloudFormation, EKS, Lambda, Microservices

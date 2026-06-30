@@ -1,0 +1,40 @@
+Naveen Reddy
+naveen.reddy@cloudfirst.in | +91 97654 32109 | Hyderabad, Telangana, India
+
+Summary
+Cloud Architect with 10 years designing and delivering large-scale AWS and Azure solutions. Specialised in hybrid cloud migrations, cost optimisation, and cloud security. Led cloud centres of excellence at two organisations.
+
+Experience
+
+CloudFirst - Cloud Architect
+September 2021 – Present
+• Designed multi-cloud strategy spanning AWS and Azure for 200-person engineering org with 99.95% uptime
+• Led lift-and-shift and re-architect migration of 60 applications saving $3.1M annually
+• Built self-service infrastructure portal using Terraform CDK and AWS Service Catalog
+• Established cloud security baseline: IAM guardrails, AWS Config rules, Security Hub, and GuardDuty
+• Reduced S3 storage costs by 68% through intelligent tiering and lifecycle policies
+• Defined FinOps practice enabling per-team cost visibility and chargeback
+
+InfraStar - Senior Cloud Engineer
+2018 – 2021
+• Designed event-driven data processing pipeline on AWS Lambda, SQS, and S3 processing 4TB daily
+• Built multi-account AWS landing zone using Control Tower and AWS Organizations
+• Implemented EKS cluster with Karpenter node autoscaling handling 10x traffic spikes
+• Automated DR runbooks reducing RTO from 4 hours to 22 minutes
+
+TechPath - Cloud Engineer
+2014 – 2018
+• Provisioned and managed EC2, RDS, and CloudFront infrastructure for SaaS product
+• Wrote CloudFormation templates for network, compute, and database tiers
+• Implemented VPN and Direct Connect for hybrid connectivity with on-premise datacenter
+
+Education
+B.Tech Electronics and Communication, Osmania University, 2014
+
+Certifications
+• AWS Certified Solutions Architect – Professional
+• AWS Certified Security Specialty
+• Microsoft Certified Azure Solutions Architect Expert
+
+Skills
+AWS, Azure, GCP, Kubernetes, EKS, Terraform, CloudFormation, CDK, HCL, Lambda, Serverless, Docker, Python, Bash, CI/CD, Helm, ArgoCD, Prometheus, Grafana, Linux, Git, Microservices

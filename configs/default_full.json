@@ -1,0 +1,28 @@
+{
+  "fields": [
+    { "path": "candidate_id", "type": "string", "required": true },
+    { "path": "full_name", "type": "string", "required": true },
+    { "path": "primary_email", "from": "emails[0]", "type": "string", "required": true },
+    { "path": "all_emails", "from": "emails", "type": "string[]" },
+    { "path": "phone", "from": "phones[0]", "type": "string", "normalize": "E164" },
+    { "path": "location.city", "from": "location.city", "type": "string" },
+    { "path": "location.region", "from": "location.region", "type": "string" },
+    { "path": "location.country", "from": "location.country", "type": "string" },
+    { "path": "links.linkedin", "from": "links.linkedin", "type": "string" },
+    { "path": "links.github", "from": "links.github", "type": "string" },
+    { "path": "links.portfolio", "from": "links.portfolio", "type": "string" },
+    { "path": "headline", "type": "string" },
+    { "path": "years_experience", "type": "number" },
+    { "path": "skills", "from": "skills[].name", "type": "string[]", "normalize": "canonical" },
+    { "path": "current_title", "from": "experience[0].title", "type": "string" },
+    { "path": "current_company", "from": "experience[0].company", "type": "string" },
+    { "path": "experience", "from": "experience", "type": "object[]" },
+    { "path": "education", "from": "education", "type": "object[]" },
+    { "path": "certifications", "from": "certifications", "type": "object[]" },
+    { "path": "overall_confidence", "type": "number" },
+    { "path": "match_confidence", "type": "number" }
+  ],
+  "include_confidence": true,
+  "include_provenance": true,
+  "on_missing": "null"
+}

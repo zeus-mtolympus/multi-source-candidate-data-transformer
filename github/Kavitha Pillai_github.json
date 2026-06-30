@@ -1,0 +1,19 @@
+{
+"login": "kavithap",
+"name": "Kavitha Pillai",
+"bio": "DevOps Engineer | Terraform | ArgoCD | GitOps | Making deployments boring",
+"company": "InfraTech",
+"blog": "",
+"location": "Trivandrum, India",
+"email": null,
+"html_url": "https://github.com/kavithap",
+"public_repos": 17,
+"repos": [
+  {"name": "terraform-modules", "language": "HCL"},
+  {"name": "argocd-app-templates", "language": "HCL"},
+  {"name": "github-actions-workflows", "language": "Python"},
+  {"name": "helm-chart-library", "language": "HCL"},
+  {"name": "k8s-security-policies", "language": "Go"},
+  {"name": "ansible-server-bootstrap", "language": "Python"}
+]
+}

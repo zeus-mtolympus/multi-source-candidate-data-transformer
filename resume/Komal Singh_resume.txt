@@ -1,0 +1,29 @@
+Komal Singh
+komal.singh@dataflow.in | +91 81234 56780 | Delhi, India
+
+Summary
+Data Engineer with 4 years building reliable, scalable data pipelines and warehouse infrastructure. Strong in Apache Spark, Airflow, and cloud data platforms. Passionate about data quality and making data trustworthy for analysts and data scientists.
+
+Experience
+
+DataFlow - Data Engineer
+June 2022 – Present
+• Built batch and streaming data pipelines using Apache Spark and Kafka ingesting 500GB daily from 25 sources
+• Designed dimensional data model on Snowflake reducing average analyst query time by 72%
+• Implemented dbt transformation layer with 120+ models, automated tests, and documentation
+• Set up data quality framework using Great Expectations catching schema drift within minutes of ingestion
+• Built self-serve Airflow DAG scaffolding reducing time to create new pipelines from 2 days to 3 hours
+• Reduced Snowflake compute costs by 35% through clustering optimisation and materialized views
+
+QuickData - Junior Data Engineer
+2020 – 2022
+• Wrote ETL pipelines in Python and PySpark migrating on-premises warehouse to Google BigQuery
+• Built Airflow DAGs replacing 30 cron scripts improving reliability from 78% to 99.6% success rate
+• Created Tableau dashboards delivering daily operations reports to 60 stakeholders
+• Documented data lineage for 80+ datasets enabling GDPR compliance audit
+
+Education
+B.Tech Computer Science, DTU Delhi, 2020
+
+Skills
+Python, Apache Spark, Kafka, Airflow, dbt, Snowflake, BigQuery, SQL, PostgreSQL, AWS, GCP, Docker, Git, Tableau, pandas, Linux, Bash

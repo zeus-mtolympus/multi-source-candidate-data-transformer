@@ -1,0 +1,12 @@
+{
+  "fields": [
+    { "path": "full_name", "type": "string", "required": true },
+    { "path": "phone_display", "from": "phones[0]", "type": "string", "normalize": "national" },
+    { "path": "top_skills", "from": "skills[].name", "type": "string[]", "normalize": "display", "limit": 5 },
+    { "path": "most_recent_role", "from": "experience[0].title", "type": "string" },
+    { "path": "most_recent_start", "from": "experience[0].start", "type": "string", "normalize": "human" }
+  ],
+  "include_confidence": false,
+  "include_provenance": false,
+  "on_missing": "null"
+}

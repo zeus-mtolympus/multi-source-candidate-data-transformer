@@ -1,0 +1,20 @@
+{
+"login": "pradeepk",
+"name": "Pradeep Kumar",
+"bio": "DevOps Engineer | Kubernetes | Terraform | Automating everything",
+"company": "CloudOps",
+"blog": "",
+"location": "Hyderabad, India",
+"email": null,
+"html_url": "https://github.com/pradeepk",
+"public_repos": 18,
+"repos": [
+  {"name": "k8s-manifests", "language": "HCL"},
+  {"name": "terraform-aws-modules", "language": "HCL"},
+  {"name": "ansible-playbooks", "language": "Python"},
+  {"name": "helm-charts", "language": "HCL"},
+  {"name": "gh-actions-templates", "language": "Python"},
+  {"name": "jenkins-shared-lib", "language": "Groovy"},
+  {"name": "monitoring-stack", "language": "Python"}
+]
+}

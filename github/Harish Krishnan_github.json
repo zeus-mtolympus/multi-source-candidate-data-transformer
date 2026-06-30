@@ -1,0 +1,19 @@
+{
+"login": "harishk",
+"name": "Harish Krishnan",
+"bio": "SRE | Kubernetes | Observability | Chaos Engineering | On-call veteran",
+"company": "Reliability Corp",
+"blog": "",
+"location": "Chennai, India",
+"email": null,
+"html_url": "https://github.com/harishk",
+"public_repos": 23,
+"repos": [
+  {"name": "prometheus-alert-rules", "language": "Python"},
+  {"name": "k8s-admission-controllers", "language": "Go"},
+  {"name": "chaos-test-suite", "language": "Python"},
+  {"name": "slo-tracking", "language": "Go"},
+  {"name": "terraform-observability-stack", "language": "HCL"},
+  {"name": "runbook-generator", "language": "Python"}
+]
+}

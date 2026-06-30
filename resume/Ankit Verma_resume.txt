@@ -1,0 +1,30 @@
+Ankit Verma
+ankit.verma@appworld.in | +91 87654 32109 | Pune, Maharashtra, India
+
+Summary
+Mobile developer with 4 years building cross-platform iOS and Android applications using Flutter and React Native. Experienced in performance optimisation, offline-first architectures, and integrating device hardware APIs.
+
+Experience
+
+AppWorld - Mobile Developer
+July 2022 – Present
+• Built cross-platform fintech app in Flutter (Dart) serving 350,000 users with 4.7 App Store rating
+• Implemented offline-first architecture using SQLite and sync engine reducing user-reported errors by 65%
+• Integrated Stripe, Razorpay, and UPI payment SDKs with PCI-DSS compliant token handling
+• Reduced app startup time from 3.2s to 0.9s through lazy loading and code splitting
+• Set up Fastlane CI/CD pipeline automating iOS and Android builds and store submissions
+• Wrote widget and integration tests achieving 82% code coverage
+
+MobileSoft - React Native Developer
+2020 – 2022
+• Developed e-commerce app in React Native (RN) with 200k downloads and 4.5 Play Store rating
+• Built reusable component library shared across iOS and Android reducing development time by 35%
+• Integrated Firebase push notifications, analytics, and crash reporting (Crashlytics)
+• Optimised FlatList rendering for large product catalogs reducing scroll jank to zero
+• Collaborated with UX team on accessibility compliance (WCAG 2.1 AA)
+
+Education
+B.E. Computer Science, Pune University, 2020
+
+Skills
+Flutter, Dart, React Native, RN, JavaScript, TypeScript, iOS, Android, Swift, Kotlin, Firebase, Redux, REST API, GraphQL, Git, CI/CD, SQLite, Fastlane

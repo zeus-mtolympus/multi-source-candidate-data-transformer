@@ -1,0 +1,34 @@
+Nikhil Verma
+nikhil.verma@backendpro.in | +91 95566 77889 | Mumbai, Maharashtra, India
+
+Summary
+Senior Backend Engineer with 8 years building high-throughput distributed systems on the JVM. Expert in Java, Kafka, and event-driven architecture. Track record of leading platform migrations at scale without customer-facing downtime.
+
+Experience
+
+BackendPro - Senior Backend Engineer
+March 2020 – Present
+• Designed and built event sourcing platform in Java (Spring Boot) processing 8M events per day
+• Led Kafka adoption replacing synchronous RPC calls across 15 services, improving fault tolerance
+• Built schema registry and contract testing framework eliminating breaking API changes in production
+• Optimised JVM heap and GC settings reducing P99 latency from 2.1s to 340ms for core services
+• Introduced hexagonal architecture pattern improving testability and reducing time to new-feature delivery
+• Managed team of 4 engineers, ran architecture reviews, and contributed to hiring decisions
+
+DataSystems - Software Engineer
+2018 – 2020
+• Developed real-time analytics ingestion pipeline processing 200k events per second using Kafka and Spark
+• Built REST APIs in Spring Boot for analytics query engine serving internal BI teams
+• Migrated batch ETL pipelines from legacy stored procedures to Java-based Apache Spark jobs
+
+CodeBase - Junior Developer
+2016 – 2018
+• Built CRUD APIs in Java Spring MVC for HR management product
+• Wrote JUnit and Mockito tests covering core business logic
+• Contributed to migration from SVN to Git and introduced code review workflow
+
+Education
+B.Tech Computer Science, Mumbai University, 2016
+
+Skills
+Java, Spring Boot, Spring, Kafka, Apache Spark, PostgreSQL, Redis, Microservices, Docker, Kubernetes, AWS, REST API, gRPC, Git, Linux, CI/CD, TDD, SQL

@@ -1,0 +1,35 @@
+Harish Krishnan
+harish.krishnan@reliability.in | +91 94455 12345 | Chennai, Tamil Nadu, India
+
+Summary
+Site Reliability Engineer with 9 years ensuring production systems are fast, reliable, and observable. Expert in Kubernetes, Prometheus, and incident management. Reduced P1 incident frequency by 80% across two organisations through systematic chaos engineering and improved observability.
+
+Experience
+
+Reliability Corp - Site Reliability Engineer
+February 2020 – Present
+• Own reliability posture for 120-service platform serving 4M daily active users with 99.99% uptime SLA
+• Built observability platform (Prometheus, Grafana, Loki, Tempo) replacing legacy Nagios setup
+• Implemented chaos engineering programme with LitmusChaos uncovering 23 latent failure modes in first 6 months
+• Designed automated incident response runbooks using PagerDuty and Rundeck reducing MTTR from 45m to 8m
+• Built Kubernetes admission controllers enforcing resource limits, security contexts, and label standards
+• Led SRE guild of 7 engineers across 3 product teams
+
+NetReliable - SRE
+2017 – 2020
+• Maintained 99.9% availability for payment processing platform handling $2B annual transaction volume
+• Designed on-call rotation and escalation policies reducing alert fatigue by 60%
+• Built capacity planning models predicting infrastructure needs 3 months ahead with 92% accuracy
+• Introduced SLI/SLO framework aligned with product team roadmaps
+
+PlatOps - DevOps Engineer
+2015 – 2017
+• Managed Jenkins CI/CD pipelines for 35 Java and Python services
+• Migrated virtual machine deployments to Docker containers on AWS ECS
+• Wrote Ansible playbooks automating OS patching across 200 servers
+
+Education
+B.E. Information Technology, Anna University, 2015
+
+Skills
+Kubernetes, k8s, Python, Go, Prometheus, Grafana, Terraform, Helm, Docker, Linux, Bash, AWS, CI/CD, GitHub Actions, Ansible, Datadog, Elasticsearch, Git, SRE, Microservices

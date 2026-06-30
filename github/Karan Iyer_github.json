@@ -1,0 +1,19 @@
+{
+"login": "karaniyer",
+"name": "Karan Iyer",
+"bio": "Cloud architect | Mentor | Ex-IIT",
+"company": "DevForge",
+"blog": "https://karaniyer.in",
+"location": "Chennai, India",
+"email": null,
+"html_url": "https://github.com/karaniyer",
+"public_repos": 31,
+"repos": [
+{"name": "k8s-terraform", "language": "HCL"},
+{"name": "node-event-bus", "language": "JavaScript"},
+{"name": "postgres-scaling", "language": "Python"},
+{"name": "ml-inference", "language": "Python"},
+{"name": "react-admin", "language": "JavaScript"},
+{"name": "go-worker-queue", "language": "Go"}
+]
+}

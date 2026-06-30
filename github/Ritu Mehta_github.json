@@ -1,0 +1,18 @@
+{
+"login": "ritumehta",
+"name": "Ritu Mehta",
+"bio": "ML Engineer | LLMs | RAG | Fine-tuning | Open source contributor",
+"company": "AILabs",
+"blog": "",
+"location": "Bangalore, India",
+"email": "ritu.mehta@ailabs.in",
+"html_url": "https://github.com/ritumehta",
+"public_repos": 14,
+"repos": [
+  {"name": "llm-finetuning-recipes", "language": "Python"},
+  {"name": "rag-pipeline", "language": "Python"},
+  {"name": "langchain-tools", "language": "Python"},
+  {"name": "huggingface-experiments", "language": "Python"},
+  {"name": "fastapi-ml-server", "language": "Python"}
+]
+}

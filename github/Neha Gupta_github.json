@@ -1,0 +1,17 @@
+{
+"login": "nehagupta",
+"name": "Neha Gupta",
+"bio": "Engineering Manager passionate about building high-performing teams",
+"company": "StartupLabs",
+"blog": "",
+"location": "Pune, India",
+"email": "neha.gupta@startuplabs.in",
+"html_url": "https://github.com/nehagupta",
+"public_repos": 12,
+"repos": [
+{"name": "team-onboarding", "language": "JavaScript"},
+{"name": "api-gateway", "language": "Go"},
+{"name": "monitoring-dashboard", "language": "JavaScript"},
+{"name": "ml-pipeline", "language": "Python"}
+]
+}

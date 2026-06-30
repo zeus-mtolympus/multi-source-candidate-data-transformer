@@ -1,0 +1,42 @@
+Arjun Mehta
+arjun.mehta@techcorp.in | +91 98765 43210 | LinkedIn: linkedin.com/in/arjunmehta
+Bangalore, Karnataka, India
+
+Summary
+Full-stack engineer with 8+ years building scalable web applications and distributed systems. Experienced in leading small engineering teams and driving architectural decisions. Passionate about developer experience, observability, and shipping reliable software at high velocity.
+
+Experience
+
+TechCorp India - Senior Software Engineer
+January 2022 – Present
+• Led migration of monolithic application to microservices architecture serving 500,000+ daily active users
+• Designed event-driven order processing system using Kafka reducing latency by 40%
+• Implemented CI/CD pipelines with GitHub Actions and ArgoCD cutting deployment time by 60%
+• Introduced distributed tracing with OpenTelemetry improving mean time to resolution by 35%
+• Mentored team of 5 engineers; introduced code review standards and testing culture
+• Conducted system design interviews and contributed to hiring pipeline
+
+Nexus Solutions - Software Developer
+March 2019 – December 2021
+• Built REST APIs using Node.js, Express, and PostgreSQL serving 200k requests per day
+• Developed React dashboard for real-time analytics with Redux state management
+• Implemented caching layer using Redis reducing database load by 55%
+• Migrated legacy jQuery codebase to React, improving Lighthouse performance score from 42 to 91
+• Integrated third-party payment gateways and automated reconciliation workflows
+• Wrote comprehensive unit and integration tests achieving 87% code coverage
+
+InnoLabs - Junior Software Engineer
+June 2016 – February 2019
+• Developed RESTful services in Node.js for internal HR and payroll tools
+• Built data pipeline scripts in Python to automate report generation
+• Participated in on-call rotation and resolved production incidents
+
+Education
+B.Tech Computer Science, IIT Madras, 2016
+
+Certifications
+• AWS Certified Solutions Architect – Associate (2023)
+• MongoDB Developer Certification (2021)
+
+Skills
+JavaScript, TypeScript, React, Node.js, Python, AWS, Docker, Kubernetes, PostgreSQL, Redis, Kafka, MongoDB, Git, CI/CD, Terraform, GraphQL, SQL, Bash, Linux

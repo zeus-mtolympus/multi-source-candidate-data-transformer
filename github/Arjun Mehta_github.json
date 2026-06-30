@@ -1,0 +1,18 @@
+{
+"login": "arjunm",
+"name": "Arjun Mehta",
+"bio": "Full-stack engineer @TechCorp | Building scalable systems with React & Node",
+"company": "TechCorp India",
+"blog": "https://arjunmehta.dev",
+"location": "Bangalore, India",
+"email": null,
+"html_url": "https://github.com/arjunm",
+"public_repos": 24,
+"repos": [
+{"name": "taskflow-api", "language": "JavaScript"},
+{"name": "react-dashboard", "language": "JavaScript"},
+{"name": "cloud-deploy-scripts", "language": "Python"},
+{"name": "node-microservices", "language": "JavaScript"},
+{"name": "postgres-utils", "language": "Python"}
+]
+}

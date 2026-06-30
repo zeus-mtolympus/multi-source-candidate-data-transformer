@@ -1,0 +1,7417 @@
+[
+  {
+    "candidate_id": "cand_78fd73b88469",
+    "full_name": "Arjun Mehta",
+    "emails": [
+      "arjun.mehta@techcorp.in"
+    ],
+    "phones": [
+      "+919876543210"
+    ],
+    "location": {
+      "city": "Bangalore",
+      "region": "Karnataka",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/arjunmehta",
+      "github": "https://github.com/arjunm",
+      "portfolio": "https://arjunmehta.dev",
+      "other": []
+    },
+    "headline": "Full-stack engineer with passion for scalable systems",
+    "years_experience": 8,
+    "skills": [
+      {
+        "name": "javascript",
+        "confidence": 0.75,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "python",
+        "confidence": 0.75,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "typescript",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "react",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "node.js",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "aws",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "docker",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "kubernetes",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "postgresql",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "redis",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "kafka",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "mongodb",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "git",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "ci/cd",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "terraform",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "graphql",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "sql",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "bash",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "linux",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "TechCorp India",
+        "title": "Senior Software Engineer",
+        "start": "2022-01",
+        "end": null,
+        "summary": "Led migration of monolithic application to microservices architecture serving 500,000+ daily active users Designed event-driven order processing system using Kafka reducing latency by 40% Implemented CI/CD pipelines with GitHub Actions and ArgoCD cutting deployment time by 60% Introduced distributed tracing with OpenTelemetry improving mean time to resolution by 35% Mentored team of 5 engineers; introduced code review standards and testing culture Conducted system design interviews and contributed to hiring pipeline"
+      },
+      {
+        "company": "Nexus Solutions",
+        "title": "Software Developer",
+        "start": "2019-03",
+        "end": "2021-12",
+        "summary": "Built REST APIs using Node.js, Express, and PostgreSQL serving 200k requests per day Developed React dashboard for real-time analytics with Redux state management Implemented caching layer using Redis reducing database load by 55% Migrated legacy jQuery codebase to React, improving Lighthouse performance score from 42 to 91 Integrated third-party payment gateways and automated reconciliation workflows Wrote comprehensive unit and integration tests achieving 87% code coverage"
+      },
+      {
+        "company": "InnoLabs",
+        "title": "Junior Software Engineer",
+        "start": "2016-06",
+        "end": "2019-02",
+        "summary": "Developed RESTful services in Node.js for internal HR and payroll tools Built data pipeline scripts in Python to automate report generation Participated in on-call rotation and resolved production incidents"
+      }
+    ],
+    "education": [
+      {
+        "institution": "IIT Madras",
+        "degree": "B.Tech",
+        "field": "Computer Science",
+        "end_year": 2016
+      }
+    ],
+    "certifications": [
+      {
+        "name": "AWS Certified Solutions Architect \u2013 Associate",
+        "year": 2023
+      },
+      {
+        "name": "MongoDB Developer Certification",
+        "year": 2021
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Arjun Mehta",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Full-stack engineer with passion for scalable systems",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "github",
+        "method": "direct",
+        "value": "Full-stack engineer @TechCorp | Building scalable systems with React & Node",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 8,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "TechCorp India",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Senior Software Engineer",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "arjun.mehta@techcorp.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+919876543210",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Bangalore",
+          "region": "Karnataka",
+          "country": "IN"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "github",
+        "method": "direct",
+        "value": {
+          "city": "Bangalore",
+          "region": null,
+          "country": "IN"
+        },
+        "role": "conflicting_alternate"
+      }
+    ],
+    "overall_confidence": 0.876,
+    "match_confidence": 1.0,
+    "_meta": {
+      "sources_used": [
+        "csv",
+        "resume",
+        "github"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": []
+    }
+  },
+  {
+    "candidate_id": "cand_e6cc5d2f697c",
+    "full_name": "Priya Singh",
+    "emails": [
+      "priya.singh@innovate.co.in"
+    ],
+    "phones": [
+      "+919876543210"
+    ],
+    "location": {
+      "city": "Mumbai",
+      "region": null,
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/priyasingh",
+      "github": null,
+      "portfolio": "https://priya.design",
+      "other": []
+    },
+    "headline": "Product leader driving B2B SaaS growth",
+    "years_experience": 7,
+    "skills": [],
+    "experience": [],
+    "education": [],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": "Priya Singh",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "headline",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": "Product leader driving B2B SaaS growth",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": 6,
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "current_company",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": "Innovate Solutions",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "title",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": "Product Manager",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "phone",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": "+14155550123",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "email",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": "priya.singh@innovate.co.in",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Priya Singh",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Product leader driving B2B SaaS growth",
+        "role": "primary"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 7,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "Innovate Solutions",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Lead Product Manager",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "priya.singh@innovate.co.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+919876543210",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Mumbai",
+          "region": null,
+          "country": "IN"
+        },
+        "role": "primary"
+      }
+    ],
+    "overall_confidence": 0.81,
+    "match_confidence": null,
+    "_meta": {
+      "sources_used": [
+        "csv"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": [
+        "no_skills",
+        "no_experience",
+        "no_enrichment"
+      ]
+    }
+  },
+  {
+    "candidate_id": "cand_48775735ab75",
+    "full_name": "Vikram Patel",
+    "emails": [
+      "vikram.patel@freelance.dev"
+    ],
+    "phones": [
+      "+442079460958"
+    ],
+    "location": {
+      "city": "Hyderabad",
+      "region": null,
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/vikrampatel",
+      "github": "https://github.com/vikrampatelnx",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Backend developer specializing in cloud",
+    "years_experience": null,
+    "skills": [],
+    "experience": [],
+    "education": [],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Vikram Patel",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Backend developer specializing in cloud",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Software Developer",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "vikram.patel@freelance.dev",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+442079460958",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Hyderabad",
+          "region": null,
+          "country": "IN"
+        },
+        "role": "primary"
+      }
+    ],
+    "overall_confidence": 0.72,
+    "match_confidence": 0.5,
+    "_meta": {
+      "sources_used": [
+        "csv"
+      ],
+      "sources_failed": [
+        "github"
+      ],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": [
+        "no_skills",
+        "no_experience",
+        "no_enrichment"
+      ]
+    }
+  },
+  {
+    "candidate_id": "cand_5c92ac99e349",
+    "full_name": "Neha Gupta",
+    "emails": [
+      "neha.gupta@startuplabs.in"
+    ],
+    "phones": [
+      "+917012345678"
+    ],
+    "location": {
+      "city": "Pune",
+      "region": "Maharashtra",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/nehagupta",
+      "github": "https://github.com/nehagupta",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Full Stack Engineering Manager",
+    "years_experience": 9,
+    "skills": [
+      {
+        "name": "javascript",
+        "confidence": 0.5,
+        "sources": [
+          "github"
+        ]
+      },
+      {
+        "name": "go",
+        "confidence": 0.5,
+        "sources": [
+          "github"
+        ]
+      },
+      {
+        "name": "python",
+        "confidence": 0.5,
+        "sources": [
+          "github"
+        ]
+      }
+    ],
+    "experience": [],
+    "education": [],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Neha Gupta",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Full Stack Engineering Manager",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "github",
+        "method": "direct",
+        "value": "Engineering Manager passionate about building high-performing teams",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 9,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "StartupLabs",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Engineering Manager",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "neha.gupta@startuplabs.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+917012345678",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Pune",
+          "region": "Maharashtra",
+          "country": "IN"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "github",
+        "method": "direct",
+        "value": {
+          "city": "Pune",
+          "region": null,
+          "country": "IN"
+        },
+        "role": "conflicting_alternate"
+      }
+    ],
+    "overall_confidence": 0.86,
+    "match_confidence": 1.0,
+    "_meta": {
+      "sources_used": [
+        "csv",
+        "github"
+      ],
+      "sources_failed": [
+        "resume"
+      ],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": [
+        "no_experience"
+      ]
+    }
+  },
+  {
+    "candidate_id": "cand_e5f291bfb682",
+    "full_name": "Rohan Kapoor",
+    "emails": [
+      "rohan.kapoor@consult.in"
+    ],
+    "phones": [
+      "+919820345678"
+    ],
+    "location": {
+      "city": "Chennai",
+      "region": "Tamil Nadu",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/rohankapoor",
+      "github": null,
+      "portfolio": "https://rohanfolio.in",
+      "other": []
+    },
+    "headline": "Senior Solutions Architect",
+    "years_experience": 12,
+    "skills": [
+      {
+        "name": "java",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "spring boot",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "aws",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "azure",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "microservices",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "docker",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "kubernetes",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "terraform",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "rest api",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "leadership",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "ci/cd",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "redis",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "postgresql",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "git",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "linux",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Consultify",
+        "title": "Senior Consultant",
+        "start": "2021-06",
+        "end": null,
+        "summary": "Led digital transformation programme for Tier-1 bank migrating 40 legacy services to AWS Designed event-driven microservices architecture processing 5M daily transactions with zero data loss Managed stakeholder relationships across C-suite, product, and engineering for 8 concurrent accounts Delivered cost optimisation engagement saving client $800k annually in cloud infrastructure spend"
+      },
+      {
+        "company": "Prev Corp",
+        "title": "Technical Lead",
+        "start": "2018-01",
+        "end": "2021-01",
+        "summary": "Architected cloud migration for legacy monolith to microservices on Azure Led team of 9 engineers across 3 time zones Introduced CI/CD practices using Jenkins and Docker reducing release cycle from monthly to weekly"
+      },
+      {
+        "company": "InfraBase",
+        "title": "Software Engineer",
+        "start": "2012-01",
+        "end": "2018-01",
+        "summary": "Developed backend services in Java Spring Boot for supply chain management platform Built RESTful APIs integrating with 12 third-party logistics providers Designed caching strategy using Redis reducing database load by 60%"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Anna University",
+        "degree": "M.Tech",
+        "field": null,
+        "end_year": 2012
+      }
+    ],
+    "certifications": [
+      {
+        "name": "AWS Certified Solutions Architect \u2013 Professional",
+        "year": null
+      },
+      {
+        "name": "PMP (Project Management Professional)",
+        "year": null
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Rohan Kapoor",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Senior Solutions Architect",
+        "role": "primary"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 12,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "Consultify",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Consultant",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "rohan.kapoor@consult.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+919820345678",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Chennai",
+          "region": "Tamil Nadu",
+          "country": "IN"
+        },
+        "role": "primary"
+      }
+    ],
+    "overall_confidence": 0.875,
+    "match_confidence": 1.0,
+    "_meta": {
+      "sources_used": [
+        "csv",
+        "resume"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": []
+    }
+  },
+  {
+    "candidate_id": "cand_934bb5b056a2",
+    "full_name": "Ananya Sharma",
+    "emails": [
+      "ananya.sharma@globaltech.co"
+    ],
+    "phones": [
+      "+919886712345"
+    ],
+    "location": {
+      "city": "Bangalore",
+      "region": "Karnataka",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/ananyasharma",
+      "github": "https://github.com/ananyash",
+      "portfolio": "https://ananyasharma.in",
+      "other": []
+    },
+    "headline": "Backend Engineer building distributed systems",
+    "years_experience": 5,
+    "skills": [
+      {
+        "name": "go",
+        "confidence": 0.75,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "python",
+        "confidence": 0.75,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "fastapi",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "django",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "celery",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "postgresql",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "mongodb",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "redis",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "docker",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "kubernetes",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "aws",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "kafka",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "git",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "linux",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "datadog",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "graphql",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "sql",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "tensorflow",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "machine learning",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "javascript",
+        "confidence": 0.5,
+        "sources": [
+          "github"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "GlobalTech",
+        "title": "Software Engineer",
+        "start": "2021-01",
+        "end": null,
+        "summary": "Designed and built high-throughput REST APIs in Python (FastAPI) handling 3M+ requests per day Built async task processing pipeline using Celery and Redis reducing job queue latency by 70% Migrated PostgreSQL read replicas to read-optimised cluster improving query p99 from 800ms to 120ms Implemented structured logging and distributed tracing using OpenTelemetry and Datadog Led backend guild meetings and documented architectural decision records"
+      },
+      {
+        "company": "TechStart",
+        "title": "Junior Developer",
+        "start": "2019-01",
+        "end": "2021-01",
+        "summary": "Implemented ML pipelines using Pyhton and TensorFlow for churn prediction model Wrote data ingestion scripts pulling from third-party APIs into PostgreSQL Participated in on-call rotations and created runbooks for common failure modes Contributed to internal Python library reducing boilerplate across 6 microservices"
+      }
+    ],
+    "education": [
+      {
+        "institution": "NIT Trichy",
+        "degree": "B.E.",
+        "field": "Information Technology",
+        "end_year": 2019
+      }
+    ],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Ananya Sharma",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Backend Engineer building distributed systems",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "github",
+        "method": "direct",
+        "value": "Backend engineer | Distributed systems & cloud",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 5,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "GlobalTech",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Software Engineer",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "ananya.sharma@globaltech.co",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+919886712345",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Bangalore",
+          "region": "Karnataka",
+          "country": "IN"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "github",
+        "method": "direct",
+        "value": {
+          "city": "Bangalore",
+          "region": null,
+          "country": null
+        },
+        "role": "conflicting_alternate"
+      }
+    ],
+    "overall_confidence": 0.875,
+    "match_confidence": 1.0,
+    "_meta": {
+      "sources_used": [
+        "csv",
+        "resume",
+        "github"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": []
+    }
+  },
+  {
+    "candidate_id": "cand_e6a3575874d3",
+    "full_name": "Rahul Nair",
+    "emails": [
+      "rahul.nair@legacy.in"
+    ],
+    "phones": [
+      "+919445678901"
+    ],
+    "location": {
+      "city": "Coimbatore",
+      "region": "Tamil Nadu",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/rahulnair",
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": 11,
+    "skills": [],
+    "experience": [],
+    "education": [],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Rahul Nair",
+        "role": "primary"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 11,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "Legacy Systems Pvt Ltd",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Senior Developer",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "rahul.nair@legacy.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+919445678901",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Coimbatore",
+          "region": "Tamil Nadu",
+          "country": "IN"
+        },
+        "role": "primary"
+      }
+    ],
+    "overall_confidence": 0.72,
+    "match_confidence": null,
+    "_meta": {
+      "sources_used": [
+        "csv"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": [
+        "no_skills",
+        "no_experience",
+        "no_enrichment"
+      ]
+    }
+  },
+  {
+    "candidate_id": "cand_2f7e83fa5edc",
+    "full_name": "Rahul K Nair",
+    "emails": [
+      "rahulknair@protonmail.com"
+    ],
+    "phones": [
+      "+919445678902"
+    ],
+    "location": {
+      "city": "Coimbatore",
+      "region": "Tamil Nadu",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/rahulknair",
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": 10,
+    "skills": [],
+    "experience": [],
+    "education": [],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Rahul K Nair",
+        "role": "primary"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 10,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "Legacy Systems Pvt Ltd",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Software Architect",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "rahulknair@protonmail.com",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+919445678902",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Coimbatore",
+          "region": "Tamil Nadu",
+          "country": "IN"
+        },
+        "role": "primary"
+      }
+    ],
+    "overall_confidence": 0.72,
+    "match_confidence": null,
+    "_meta": {
+      "sources_used": [
+        "csv"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": [
+        "no_skills",
+        "no_experience",
+        "no_enrichment"
+      ]
+    }
+  },
+  {
+    "candidate_id": "cand_36b03b610e89",
+    "full_name": "Sneha Reddy",
+    "emails": [
+      "sneha.reddy@sparse.in"
+    ],
+    "phones": [
+      "+918123456789"
+    ],
+    "location": {
+      "city": null,
+      "region": null,
+      "country": null
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": null,
+    "skills": [],
+    "experience": [],
+    "education": [],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Sneha Reddy",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "sneha.reddy@sparse.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+918123456789",
+        "role": "primary"
+      }
+    ],
+    "overall_confidence": 0.54,
+    "match_confidence": null,
+    "_meta": {
+      "sources_used": [
+        "csv"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": [
+        "no_skills",
+        "no_experience",
+        "no_enrichment"
+      ]
+    }
+  },
+  {
+    "candidate_id": "cand_8700a2154658",
+    "full_name": "Karan Iyer",
+    "emails": [
+      "karan.iyer@devforge.in"
+    ],
+    "phones": [
+      "+914445678901"
+    ],
+    "location": {
+      "city": "Chennai",
+      "region": "Tamil Nadu",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/karaniyer",
+      "github": "https://github.com/karaniyer",
+      "portfolio": "https://karaniyer.in",
+      "other": []
+    },
+    "headline": "Cloud-native architect and mentor",
+    "years_experience": 14,
+    "skills": [
+      {
+        "name": "hcl",
+        "confidence": 0.75,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "javascript",
+        "confidence": 0.75,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "python",
+        "confidence": 0.75,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "go",
+        "confidence": 0.75,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "typescript",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "postgresql",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "machine learning",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "docker",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "kubernetes",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "aws",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "terraform",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "helm",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "argocd",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "kafka",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "prometheus",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "grafana",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "ci/cd",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "spring boot",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "java",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "microservices",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "tdd",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "git",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "DevForge",
+        "title": "Principal Engineer",
+        "start": "2020-02",
+        "end": null,
+        "summary": "Architected multi-tenant SaaS platform serving 8M users across 3 regions on AWS with 99.99% uptime SLA Led migration from EC2-based deployments to Kubernetes (EKS) reducing infrastructure costs by 38% Designed event sourcing and CQRS architecture for high-write financial transaction service Built internal developer platform using Backstage enabling 50+ engineers to self-service environments Defined engineering standards, led architecture review board, and drove adoption of TDD practices Recruited and grew platform team from 3 to 12 engineers over 3 years"
+      },
+      {
+        "company": "Earlier Startup",
+        "title": "Tech Lead",
+        "start": "2017-01",
+        "end": "2020-01",
+        "summary": "Built core services using JS and PostgreSQL for B2B SaaS analytics product (Series A, 200 enterprise clients) Introduced microservices split reducing average release cycle from 2 weeks to 1 day Set up observability stack: Prometheus, Grafana, and PagerDuty alerting"
+      },
+      {
+        "company": "ThoughtEdge",
+        "title": "Senior Software Engineer",
+        "start": "2013-01",
+        "end": "2017-01",
+        "summary": "Delivered full-stack features in Java Spring Boot and AngularJS Designed RESTful API gateway handling authentication and rate limiting for 15 downstream services Introduced automated regression testing reducing production incidents by 42%"
+      }
+    ],
+    "education": [
+      {
+        "institution": "IIT Bombay",
+        "degree": "B.Tech",
+        "field": null,
+        "end_year": 2013
+      }
+    ],
+    "certifications": [
+      {
+        "name": "AWS Certified Solutions Architect \u2013 Professional",
+        "year": null
+      },
+      {
+        "name": "Certified Kubernetes Administrator (CKA)",
+        "year": null
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Karan Iyer",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Cloud-native architect and mentor",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "github",
+        "method": "direct",
+        "value": "Cloud architect | Mentor | Ex-IIT",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 14,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "DevForge",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Principal Engineer",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "karan.iyer@devforge.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+914445678901",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Chennai",
+          "region": "Tamil Nadu",
+          "country": "IN"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "github",
+        "method": "direct",
+        "value": {
+          "city": "Chennai",
+          "region": null,
+          "country": "IN"
+        },
+        "role": "conflicting_alternate"
+      }
+    ],
+    "overall_confidence": 0.877,
+    "match_confidence": 1.0,
+    "_meta": {
+      "sources_used": [
+        "csv",
+        "resume",
+        "github"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": []
+    }
+  },
+  {
+    "candidate_id": "cand_1f2a99c322f2",
+    "full_name": "Priyanka Desai",
+    "emails": [
+      "priyanka.desai@infotech.in"
+    ],
+    "phones": [
+      "+919765432109"
+    ],
+    "location": {
+      "city": "Hyderabad",
+      "region": "Telangana",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/priyankadesai",
+      "github": "https://github.com/priyades",
+      "portfolio": "https://priyankadesai.in",
+      "other": []
+    },
+    "headline": "Frontend specialist with React expertise",
+    "years_experience": 7,
+    "skills": [
+      {
+        "name": "javascript",
+        "confidence": 0.75,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "typescript",
+        "confidence": 0.75,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "react",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "css",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "html",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "redux",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "tailwind",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "jest",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "next.js",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "graphql",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "websocket",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "webpack",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "storybook",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "accessibility",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "performance optimisation",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "git",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "ci/cd",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "InfoTech Solutions",
+        "title": "Lead Frontend Engineer",
+        "start": "2022-04",
+        "end": null,
+        "summary": "Led UI team of 8 engineers through complete product redesign, shipping 6 weeks ahead of schedule Built shared React component library with 80+ components used across 4 product teams Improved Lighthouse performance scores from 54 to 96 and accessibility score from 61 to 98 Introduced visual regression testing with Percy reducing UI regressions by 80% Set up Storybook documentation improving designer-developer collaboration Implemented lazy loading, code splitting, and CDN strategy reducing initial bundle size by 52%"
+      },
+      {
+        "company": "PixelWorks",
+        "title": "Senior Frontend Developer",
+        "start": "2019-01",
+        "end": "2022-01",
+        "summary": "Developed responsive web applications for e-commerce platform serving 2M users Led migration from AngularJS to React, training a team of 6 engineers through the transition Built real-time notification system using WebSockets integrated with Kafka backend Contributed to design system and implemented WCAG 2.1 AA accessibility compliance"
+      },
+      {
+        "company": "QuickUI",
+        "title": "Frontend Developer",
+        "start": "2017-01",
+        "end": "2019-01",
+        "summary": "Built dashboards and data visualisation components using D3.js and Chart.js Implemented SSR with Next.js for an SEO-critical marketing site Integrated REST APIs and GraphQL endpoints using Apollo Client"
+      }
+    ],
+    "education": [
+      {
+        "institution": "NIT Warangal",
+        "degree": "B.Tech",
+        "field": "CSE",
+        "end_year": 2017
+      }
+    ],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Priyanka Desai",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Frontend specialist with React expertise",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "github",
+        "method": "direct",
+        "value": "Lead Frontend Engineer | React & TypeScript",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 7,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "InfoTech Solutions",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Lead Frontend Engineer",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "priyanka.desai@infotech.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+919765432109",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Hyderabad",
+          "region": "Telangana",
+          "country": "IN"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "github",
+        "method": "direct",
+        "value": {
+          "city": "Hyderabad",
+          "region": null,
+          "country": "IN"
+        },
+        "role": "conflicting_alternate"
+      }
+    ],
+    "overall_confidence": 0.876,
+    "match_confidence": 1.0,
+    "_meta": {
+      "sources_used": [
+        "csv",
+        "resume",
+        "github"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": []
+    }
+  },
+  {
+    "candidate_id": "cand_e22b91b7cd11",
+    "full_name": "Amitabh Rao",
+    "emails": [
+      "amitabh.rao@dyno.in"
+    ],
+    "phones": [
+      "+918123498765"
+    ],
+    "location": {
+      "city": "Delhi",
+      "region": "Delhi",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/amitabhrao",
+      "github": null,
+      "portfolio": "https://amitrao.dev",
+      "other": []
+    },
+    "headline": "Node.js developer",
+    "years_experience": 6,
+    "skills": [],
+    "experience": [],
+    "education": [],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": "Amitabh Rao",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "headline",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": "Node.js developer",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": 5,
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "current_company",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": "Dyno Systems",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "title",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": "Backend Developer",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "phone",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": "+918123498765",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "email",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": "amitabh.rao@dyno.in",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Amitabh Rao",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Node.js developer",
+        "role": "primary"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 6,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "Dyno Systems",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Senior Backend Engineer",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "amitabh.rao@dyno.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+918123498765",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Delhi",
+          "region": "Delhi",
+          "country": "IN"
+        },
+        "role": "primary"
+      }
+    ],
+    "overall_confidence": 0.81,
+    "match_confidence": null,
+    "_meta": {
+      "sources_used": [
+        "csv"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": [
+        "no_skills",
+        "no_experience",
+        "no_enrichment"
+      ]
+    }
+  },
+  {
+    "candidate_id": "cand_1f4eb702d88f",
+    "full_name": "Suresh Menon",
+    "emails": [
+      "suresh.menon@freelance.in"
+    ],
+    "phones": [
+      "+919876543211"
+    ],
+    "location": {
+      "city": "Pune",
+      "region": "Maharashtra",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/sureshmenon",
+      "github": "https://github.com/suresh404nonexistent",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Full Stack Freelancer",
+    "years_experience": 9,
+    "skills": [],
+    "experience": [],
+    "education": [],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Suresh Menon",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Full Stack Freelancer",
+        "role": "primary"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 9,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "Freelance",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "suresh.menon@freelance.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+919876543211",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Pune",
+          "region": "Maharashtra",
+          "country": "IN"
+        },
+        "role": "primary"
+      }
+    ],
+    "overall_confidence": 0.81,
+    "match_confidence": 0.5,
+    "_meta": {
+      "sources_used": [
+        "csv"
+      ],
+      "sources_failed": [
+        "github"
+      ],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": [
+        "no_skills",
+        "no_experience",
+        "no_enrichment"
+      ]
+    }
+  },
+  {
+    "candidate_id": "cand_7d9c33d3b7fb",
+    "full_name": "Lakshmi Venkatesh",
+    "emails": [
+      "lakshmi.v@novatech.co.in"
+    ],
+    "phones": [
+      "+917014567890"
+    ],
+    "location": {
+      "city": "Chennai",
+      "region": "Tamil Nadu",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/lakshmivenkatesh",
+      "github": "https://github.com/lakshmiv",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Technical Lead",
+    "years_experience": 8,
+    "skills": [
+      {
+        "name": "java",
+        "confidence": 0.5,
+        "sources": [
+          "github"
+        ]
+      },
+      {
+        "name": "python",
+        "confidence": 0.5,
+        "sources": [
+          "github"
+        ]
+      },
+      {
+        "name": "javascript",
+        "confidence": 0.5,
+        "sources": [
+          "github"
+        ]
+      }
+    ],
+    "experience": [],
+    "education": [],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Lakshmi Venkatesh",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Technical Lead",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "github",
+        "method": "direct",
+        "value": "Engineering Lead | Building reliable systems",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 8,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "NovaTech",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Engineering Lead",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "lakshmi.v@novatech.co.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+917014567890",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Chennai",
+          "region": "Tamil Nadu",
+          "country": "IN"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "github",
+        "method": "direct",
+        "value": {
+          "city": "Chennai",
+          "region": null,
+          "country": "IN"
+        },
+        "role": "conflicting_alternate"
+      }
+    ],
+    "overall_confidence": 0.86,
+    "match_confidence": 1.0,
+    "_meta": {
+      "sources_used": [
+        "csv",
+        "github"
+      ],
+      "sources_failed": [
+        "resume"
+      ],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": [
+        "no_experience"
+      ]
+    }
+  },
+  {
+    "candidate_id": "cand_c8217584d054",
+    "full_name": "Deepak Malhotra",
+    "emails": [
+      "deepak.malhotra@apex.in"
+    ],
+    "phones": [
+      "+919887654321"
+    ],
+    "location": {
+      "city": "Mumbai",
+      "region": "Maharashtra",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/deepakmalhotra",
+      "github": null,
+      "portfolio": "https://deepakfolio.in",
+      "other": []
+    },
+    "headline": "Cloud Architect & Mentor",
+    "years_experience": 11,
+    "skills": [
+      {
+        "name": "aws",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "kubernetes",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "java",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "spring",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "spring boot",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "docker",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "terraform",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "helm",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "argocd",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "prometheus",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "grafana",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "jenkins",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "python",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "bash",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "linux",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "ci/cd",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "microservices",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "git",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "hcl",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Apex Innovations",
+        "title": "Software Architect",
+        "start": "2020-03",
+        "end": null,
+        "summary": "Designed microservices architecture for enterprise supply chain platform handling 10M transactions per day Reduced cloud infrastructure spend by 42% through reserved instance planning and right-sizing Led Kubernetes migration for 35 services, establishing GitOps workflow with ArgoCD and Helm Built internal IaC library in Terraform reducing new environment provisioning from 2 weeks to 4 hours Defined security baseline using AWS IAM, VPC design, and WAF policies Mentored team of 7 engineers, introduced architecture review process"
+      },
+      {
+        "company": "Previous Firm",
+        "title": "Technical Lead",
+        "start": "2016-01",
+        "end": "2020-01",
+        "summary": "Led cloud migration of 12 legacy on-premises applications to AWS Designed CI/CD pipelines using Jenkins and Docker reducing release cycle from monthly to weekly Introduced Infrastructure as Code practices using Terraform across 3 engineering teams Built observability platform using Prometheus, Grafana, and PagerDuty"
+      },
+      {
+        "company": "CodeSoft",
+        "title": "Software Engineer",
+        "start": "2013-01",
+        "end": "2016-01",
+        "summary": "Developed backend services in Java Spring Boot for banking middleware platform Implemented message queue system using RabbitMQ for async payment processing Contributed to internal DevOps tooling using Python and Bash scripts"
+      }
+    ],
+    "education": [
+      {
+        "institution": "IIT Delhi",
+        "degree": "M.Tech",
+        "field": null,
+        "end_year": 2013
+      }
+    ],
+    "certifications": [
+      {
+        "name": "AWS Certified Solutions Architect \u2013 Professional",
+        "year": 2022
+      },
+      {
+        "name": "Certified Kubernetes Administrator (CKA)",
+        "year": 2021
+      },
+      {
+        "name": "HashiCorp Certified Terraform Associate",
+        "year": 2020
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Deepak Malhotra",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Cloud Architect & Mentor",
+        "role": "primary"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 11,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "Apex Innovations",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Software Architect",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "deepak.malhotra@apex.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+919887654321",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Mumbai",
+          "region": "Maharashtra",
+          "country": "IN"
+        },
+        "role": "primary"
+      }
+    ],
+    "overall_confidence": 0.875,
+    "match_confidence": 1.0,
+    "_meta": {
+      "sources_used": [
+        "csv",
+        "resume"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": []
+    }
+  },
+  {
+    "candidate_id": "cand_fef36dd83023",
+    "full_name": "Meera Iyer",
+    "emails": [
+      "meera.iyer@legacycorp.in"
+    ],
+    "phones": [
+      "+919445566778"
+    ],
+    "location": {
+      "city": "Bangalore",
+      "region": "Karnataka",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/meeraiyer",
+      "github": "https://github.com/meeraiyer",
+      "portfolio": "https://meera.dev",
+      "other": []
+    },
+    "headline": "Full Stack Developer",
+    "years_experience": 4,
+    "skills": [
+      {
+        "name": "javascript",
+        "confidence": 0.75,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "typescript",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "react",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "node.js",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "express",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "mongodb",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "html",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "css",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "redux",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "jest",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "cypress",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "git",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "github actions",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "ci/cd",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "rest api",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "jwt",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "docker",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "LegacyCorp",
+        "title": "Software Engineer",
+        "start": "2023-01",
+        "end": null,
+        "summary": "Built internal ticket management tool used by 400+ support agents, reducing average resolution time by 22% Developed customer-facing feature flags dashboard using React and Redux Migrated legacy Express codebase to TypeScript improving developer confidence and reducing runtime errors Wrote end-to-end tests using Cypress covering 45 critical user journeys Participated in weekly architecture discussions and contributed to technical roadmap"
+      },
+      {
+        "company": "StartUpX",
+        "title": "Developer",
+        "start": "2021-01",
+        "end": "2022-01",
+        "summary": "Full stack development with MERN stack for early-stage SaaS product Integrated Stripe payment gateway and built subscription management module Implemented JWT-based authentication with refresh token rotation Set up CI/CD pipeline on GitHub Actions with automated test runs and staging deployments"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Anna University",
+        "degree": "B.E.",
+        "field": "Computer Science",
+        "end_year": 2021
+      }
+    ],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Meera Iyer",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Full Stack Developer",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "github",
+        "method": "direct",
+        "value": "Full Stack Developer crafting beautiful web apps",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 4,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "LegacyCorp",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Software Engineer",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "meera.iyer@legacycorp.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+919445566778",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Bangalore",
+          "region": "Karnataka",
+          "country": "IN"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "github",
+        "method": "direct",
+        "value": {
+          "city": "Bangalore",
+          "region": null,
+          "country": "IN"
+        },
+        "role": "conflicting_alternate"
+      }
+    ],
+    "overall_confidence": 0.876,
+    "match_confidence": 1.0,
+    "_meta": {
+      "sources_used": [
+        "csv",
+        "resume",
+        "github"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": []
+    }
+  },
+  {
+    "candidate_id": "cand_8fb2b5feb274",
+    "full_name": "Vivek Singh",
+    "emails": [
+      "vivek.singh@techwave.in"
+    ],
+    "phones": [
+      "+917550123456"
+    ],
+    "location": {
+      "city": "Hyderabad",
+      "region": "Telangana",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/viveksingh",
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": 7,
+    "skills": [],
+    "experience": [],
+    "education": [],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Vivek Singh",
+        "role": "primary"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 7,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "TechWave Pvt Ltd",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "DevOps Engineer",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "vivek.singh@techwave.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+917550123456",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Hyderabad",
+          "region": "Telangana",
+          "country": "IN"
+        },
+        "role": "primary"
+      }
+    ],
+    "overall_confidence": 0.72,
+    "match_confidence": null,
+    "_meta": {
+      "sources_used": [
+        "csv"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": [
+        "no_skills",
+        "no_experience",
+        "no_enrichment"
+      ]
+    }
+  },
+  {
+    "candidate_id": "cand_b53a79d6c3ec",
+    "full_name": "Vivek S. Singh",
+    "emails": [
+      "vivekssingh@techwave.in"
+    ],
+    "phones": [
+      "+917550123457"
+    ],
+    "location": {
+      "city": "Hyderabad",
+      "region": null,
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/vivekssingh",
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": 8,
+    "skills": [],
+    "experience": [],
+    "education": [],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Vivek S. Singh",
+        "role": "primary"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 8,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "TechWave Pvt Ltd",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Senior DevOps Engineer",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "vivekssingh@techwave.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+917550123457",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Hyderabad",
+          "region": null,
+          "country": "IN"
+        },
+        "role": "primary"
+      }
+    ],
+    "overall_confidence": 0.72,
+    "match_confidence": null,
+    "_meta": {
+      "sources_used": [
+        "csv"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": [
+        "no_skills",
+        "no_experience",
+        "no_enrichment"
+      ]
+    }
+  },
+  {
+    "candidate_id": "cand_5ce35f3097ae",
+    "full_name": "Pooja Nair",
+    "emails": [
+      "pooja.nair@cold.in"
+    ],
+    "phones": [
+      "+919870011223"
+    ],
+    "location": {
+      "city": null,
+      "region": "Bangalore",
+      "country": null
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": null,
+    "skills": [],
+    "experience": [],
+    "education": [],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Pooja Nair",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "pooja.nair@cold.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+919870011223",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": null,
+          "region": "Bangalore",
+          "country": null
+        },
+        "role": "primary"
+      }
+    ],
+    "overall_confidence": 0.63,
+    "match_confidence": null,
+    "_meta": {
+      "sources_used": [
+        "csv"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": [
+        "no_skills",
+        "no_experience",
+        "no_enrichment"
+      ]
+    }
+  },
+  {
+    "candidate_id": "cand_3e46b59ab279",
+    "full_name": "Aditya Bose",
+    "emails": [
+      "aditya.bose@cloudify.in"
+    ],
+    "phones": [
+      "+914423456789"
+    ],
+    "location": {
+      "city": "Chennai",
+      "region": "Tamil Nadu",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/adityabose",
+      "github": "https://github.com/adityabose",
+      "portfolio": "https://adityabose.in",
+      "other": []
+    },
+    "headline": "Cloud & DevOps specialist",
+    "years_experience": 13,
+    "skills": [
+      {
+        "name": "hcl",
+        "confidence": 0.75,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "go",
+        "confidence": 0.75,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "python",
+        "confidence": 0.75,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "aws",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "kubernetes",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "docker",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "terraform",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "helm",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "argocd",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "ci/cd",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "devops",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "machine learning",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "github actions",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "prometheus",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "grafana",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "bash",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "linux",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "cloudformation",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "eks",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "lambda",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "microservices",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Cloudify Solutions",
+        "title": "Principal Cloud Architect",
+        "start": "2021-01",
+        "end": null,
+        "summary": "Led Kubernetes adoption programme across 6 business units, standardising on EKS with GitOps via ArgoCD Implemented platform engineering practice reducing developer toil by 60% through self-service tooling Designed multi-region active-active architecture achieving 99.999% availability for critical payments service Built CI/CD platform using GitHub Actions, Helm, and ArgoCD enabling 200+ deploys per week Established FinOps practice reducing cloud spend by $1.2M annually through rightsizing and Spot usage"
+      },
+      {
+        "company": "Earlier Company",
+        "title": "DevOps Engineer",
+        "start": "2018-01",
+        "end": "2021-01",
+        "summary": "Managed AWS infrastructure for e-commerce platform (Black Friday peak: 50k rps) Designed disaster recovery architecture with RTO < 15 minutes and RPO < 5 minutes Built monitoring stack using Prometheus, Grafana, and PagerDuty with zero missed SLA months Automated 85% of operational runbooks using Python and Bash scripts"
+      },
+      {
+        "company": "StartCloud",
+        "title": "Infrastructure Engineer",
+        "start": "2015-01",
+        "end": "2018-01",
+        "summary": "Provisioned and maintained EC2, RDS, S3, and CloudFront infrastructure Wrote Terraform modules standardising VPC and IAM patterns across 15 AWS accounts Implemented log aggregation pipeline using Elasticsearch, Logstash, and Kibana"
+      }
+    ],
+    "education": [
+      {
+        "institution": "IIT Madras",
+        "degree": "B.Tech",
+        "field": null,
+        "end_year": 2015
+      }
+    ],
+    "certifications": [
+      {
+        "name": "AWS Certified Solutions Architect \u2013 Professional",
+        "year": null
+      },
+      {
+        "name": "Certified Kubernetes Administrator (CKA)",
+        "year": null
+      },
+      {
+        "name": "HashiCorp Certified Terraform Associate",
+        "year": null
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Aditya Bose",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Cloud & DevOps specialist",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "github",
+        "method": "direct",
+        "value": "Cloud Architect | Kubernetes | Infrastructure as Code",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 13,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "Cloudify Solutions",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Principal Cloud Architect",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "aditya.bose@cloudify.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+914423456789",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Chennai",
+          "region": "Tamil Nadu",
+          "country": "IN"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "github",
+        "method": "direct",
+        "value": {
+          "city": "Chennai",
+          "region": null,
+          "country": "IN"
+        },
+        "role": "conflicting_alternate"
+      }
+    ],
+    "overall_confidence": 0.876,
+    "match_confidence": 1.0,
+    "_meta": {
+      "sources_used": [
+        "csv",
+        "resume",
+        "github"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": []
+    }
+  },
+  {
+    "candidate_id": "cand_769909203848",
+    "full_name": "Shreya Kapoor",
+    "emails": [
+      "shreya.kapoor@analytix.in"
+    ],
+    "phones": [
+      "+919812345678"
+    ],
+    "location": {
+      "city": "Bangalore",
+      "region": "Karnataka",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/shreyakapoor",
+      "github": "https://github.com/shreyakap",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "AI-driven data scientist building predictive models",
+    "years_experience": 6,
+    "skills": [
+      {
+        "name": "python",
+        "confidence": 0.75,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "r",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "machine learning",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "deep learning",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "nlp",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "scikit-learn",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "xgboost",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "tensorflow",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "pytorch",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "hugging face",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "llm",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "mlflow",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "airflow",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "spark",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "sql",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "pandas",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "numpy",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "matplotlib",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "tableau",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "power bi",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "aws",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "fastapi",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "docker",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "git",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Analytix AI",
+        "title": "Data Scientist",
+        "start": "2022-03",
+        "end": null,
+        "summary": "Built customer churn prediction model (XGBoost) deployed via FastAPI achieving 91% recall and $2.4M saved annually Designed NLP pipeline for support ticket classification using Hugging Face transformers, reducing manual triage by 70% Implemented feature store on AWS SageMaker reducing training pipeline iteration time by 45% Led migration from notebook-based workflows to MLflow experiment tracking and model registry Collaborated with product team to build A/B testing framework for ML model rollouts Mentored 2 junior data scientists on MLOps practices and code quality"
+      },
+      {
+        "company": "DataCore",
+        "title": "Data Scientist",
+        "start": "2020-01",
+        "end": "2022-01",
+        "summary": "Developed time-series forecasting models for inventory demand prediction (MAPE < 8%) Built automated data quality checks using Great Expectations integrated into Airflow DAGs Created interactive Tableau dashboards for C-suite consumption of business KPIs Designed ETL pipelines in Python and Spark processing 200GB of daily clickstream data"
+      },
+      {
+        "company": "QuanTech",
+        "title": "Data Analyst",
+        "start": "2018-01",
+        "end": "2020-01",
+        "summary": "Performed exploratory data analysis and statistical modelling in Python (Pyhton) and R Built Power BI reports automating 15 weekly manual reporting tasks Queried and manipulated large datasets using SQL and PySpark"
+      }
+    ],
+    "education": [
+      {
+        "institution": "IIT Bangalore",
+        "degree": "M.Tech",
+        "field": "Data Science",
+        "end_year": 2018
+      }
+    ],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Shreya Kapoor",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "AI-driven data scientist building predictive models",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "github",
+        "method": "direct",
+        "value": "Data Scientist | ML Engineer | NLP & LLM enthusiast",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 6,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "Analytix AI",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Data Scientist",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "shreya.kapoor@analytix.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+919812345678",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Bangalore",
+          "region": "Karnataka",
+          "country": "IN"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "github",
+        "method": "direct",
+        "value": {
+          "city": "Bangalore",
+          "region": null,
+          "country": "IN"
+        },
+        "role": "conflicting_alternate"
+      }
+    ],
+    "overall_confidence": 0.875,
+    "match_confidence": 1.0,
+    "_meta": {
+      "sources_used": [
+        "csv",
+        "resume",
+        "github"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": []
+    }
+  },
+  {
+    "candidate_id": "cand_e9e30f21149c",
+    "full_name": "Ankit Verma",
+    "emails": [
+      "ankit.verma@appworld.in"
+    ],
+    "phones": [
+      "+918765432109"
+    ],
+    "location": {
+      "city": "Pune",
+      "region": "Maharashtra",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/ankitverma",
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Cross-platform mobile developer Flutter & React Native",
+    "years_experience": 4,
+    "skills": [
+      {
+        "name": "flutter",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "dart",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "react native",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "javascript",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "typescript",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "ios",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "android",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "swift",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "kotlin",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "firebase",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "redux",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "rest api",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "graphql",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "git",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "ci/cd",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "sqlite",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "fastlane",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "AppWorld",
+        "title": "Mobile Developer",
+        "start": "2022-07",
+        "end": null,
+        "summary": "Built cross-platform fintech app in Flutter (Dart) serving 350,000 users with 4.7 App Store rating Implemented offline-first architecture using SQLite and sync engine reducing user-reported errors by 65% Integrated Stripe, Razorpay, and UPI payment SDKs with PCI-DSS compliant token handling Reduced app startup time from 3.2s to 0.9s through lazy loading and code splitting Set up Fastlane CI/CD pipeline automating iOS and Android builds and store submissions Wrote widget and integration tests achieving 82% code coverage"
+      },
+      {
+        "company": "MobileSoft",
+        "title": "React Native Developer",
+        "start": "2020-01",
+        "end": "2022-01",
+        "summary": "Developed e-commerce app in React Native (RN) with 200k downloads and 4.5 Play Store rating Built reusable component library shared across iOS and Android reducing development time by 35% Integrated Firebase push notifications, analytics, and crash reporting (Crashlytics) Optimised FlatList rendering for large product catalogs reducing scroll jank to zero Collaborated with UX team on accessibility compliance (WCAG 2.1 AA)"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Pune University",
+        "degree": "B.E.",
+        "field": "Computer Science",
+        "end_year": 2020
+      }
+    ],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Ankit Verma",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Cross-platform mobile developer Flutter & React Native",
+        "role": "primary"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 4,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "AppWorld",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Mobile Developer",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "ankit.verma@appworld.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+918765432109",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Pune",
+          "region": "Maharashtra",
+          "country": "IN"
+        },
+        "role": "primary"
+      }
+    ],
+    "overall_confidence": 0.875,
+    "match_confidence": 1.0,
+    "_meta": {
+      "sources_used": [
+        "csv",
+        "resume"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": []
+    }
+  },
+  {
+    "candidate_id": "cand_692f4f872cd8",
+    "full_name": "Pradeep Kumar",
+    "emails": [
+      "pradeep.kumar@cloudops.in"
+    ],
+    "phones": [
+      "+919011234567"
+    ],
+    "location": {
+      "city": "Hyderabad",
+      "region": "Telangana",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/pradeepkumar",
+      "github": "https://github.com/pradeepk",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Automating infrastructure at scale with k8s and Terraform",
+    "years_experience": 7,
+    "skills": [
+      {
+        "name": "hcl",
+        "confidence": 0.5,
+        "sources": [
+          "github"
+        ]
+      },
+      {
+        "name": "python",
+        "confidence": 0.5,
+        "sources": [
+          "github"
+        ]
+      },
+      {
+        "name": "groovy",
+        "confidence": 0.5,
+        "sources": [
+          "github"
+        ]
+      }
+    ],
+    "experience": [],
+    "education": [],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Pradeep Kumar",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Automating infrastructure at scale with k8s and Terraform",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "github",
+        "method": "direct",
+        "value": "DevOps Engineer | Kubernetes | Terraform | Automating everything",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 7,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "CloudOps",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "DevOps Engineer",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "pradeep.kumar@cloudops.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+919011234567",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Hyderabad",
+          "region": "Telangana",
+          "country": "IN"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "github",
+        "method": "direct",
+        "value": {
+          "city": "Hyderabad",
+          "region": null,
+          "country": "IN"
+        },
+        "role": "conflicting_alternate"
+      }
+    ],
+    "overall_confidence": 0.86,
+    "match_confidence": 1.0,
+    "_meta": {
+      "sources_used": [
+        "csv",
+        "github"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": [
+        "no_experience"
+      ]
+    }
+  },
+  {
+    "candidate_id": "cand_50babdb71d69",
+    "full_name": "Tanveer Ahmed",
+    "emails": [
+      "tanveer.ahmed@webtech.in"
+    ],
+    "phones": [
+      "+919823456789"
+    ],
+    "location": {
+      "city": "Mumbai",
+      "region": "Maharashtra",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/tanveerahmed",
+      "github": "https://github.com/tanveerahmed",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Full-stack developer shipping end-to-end features fast",
+    "years_experience": 5,
+    "skills": [
+      {
+        "name": "typescript",
+        "confidence": 0.75,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "javascript",
+        "confidence": 0.75,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "react",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "next.js",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "node.js",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "express",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "postgresql",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "mongodb",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "redis",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "docker",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "aws",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "graphql",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "rest api",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "websocket",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "git",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "ci/cd",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "jest",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "playwright",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "WebTech Solutions",
+        "title": "Full Stack Developer",
+        "start": "2022-01",
+        "end": null,
+        "summary": "Built customer-facing SaaS product in Next.js and Node.js serving 80,000 monthly active users Designed multi-tenant data architecture on PostgreSQL with row-level security Implemented real-time collaboration features using WebSockets (Socket.io) and Redis pub/sub Set up automated E2E tests in Playwright covering 60 critical user flows with zero flaky tests Improved API response time from 900ms to 140ms through query optimisation and connection pooling Led team of 3 developers, ran sprint ceremonies, and reported to CTO"
+      },
+      {
+        "company": "DevBridge",
+        "title": "Full Stack Developer",
+        "start": "2020-01",
+        "end": "2022-01",
+        "summary": "Built internal analytics platform using React and D3.js visualising operational KPIs Developed REST APIs in Express.js integrated with Stripe and SendGrid Migrated from MySQL to PostgreSQL and introduced Postgress (sic) query optimisation best practices Containerised application using Docker and deployed to AWS ECS"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Mumbai University",
+        "degree": "B.Tech",
+        "field": "Information Technology",
+        "end_year": 2019
+      }
+    ],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Tanveer Ahmed",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Full-stack developer shipping end-to-end features fast",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "github",
+        "method": "direct",
+        "value": "Full Stack Developer | React + Node.js | Building fast web products",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 5,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "WebTech Solutions",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Full Stack Developer",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "tanveer.ahmed@webtech.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+919823456789",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Mumbai",
+          "region": "Maharashtra",
+          "country": "IN"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "github",
+        "method": "direct",
+        "value": {
+          "city": "Mumbai",
+          "region": null,
+          "country": "IN"
+        },
+        "role": "conflicting_alternate"
+      }
+    ],
+    "overall_confidence": 0.876,
+    "match_confidence": 1.0,
+    "_meta": {
+      "sources_used": [
+        "csv",
+        "resume",
+        "github"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": []
+    }
+  },
+  {
+    "candidate_id": "cand_7e160ff26f89",
+    "full_name": "Ritu Mehta",
+    "emails": [
+      "ritu.mehta@ailabs.in"
+    ],
+    "phones": [
+      "+917654321098"
+    ],
+    "location": {
+      "city": "Bangalore",
+      "region": "Karnataka",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/ritumehta",
+      "github": "https://github.com/ritumehta",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Building LLM-powered products and fine-tuning transformers",
+    "years_experience": 3,
+    "skills": [
+      {
+        "name": "python",
+        "confidence": 0.75,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "pytorch",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "tensorflow",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "hugging face",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "llm",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "rag",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "langchain",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "nlp",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "fastapi",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "aws",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "docker",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "mlflow",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "airflow",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "scikit-learn",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "pandas",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "numpy",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "sql",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "git",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "faiss",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "sagemaker",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "AILabs",
+        "title": "ML Engineer",
+        "start": "2022-08",
+        "end": null,
+        "summary": "Fine-tuned Llama 2 and Mistral models for domain-specific question answering achieving 88% accuracy on internal benchmark Built RAG pipeline using LangChain, FAISS, and FastAPI serving 50,000 queries per day with p95 latency < 400ms Reduced LLM inference cost by 55% through prompt caching, quantisation (GGUF), and batching strategies Implemented model evaluation framework tracking hallucination rate, faithfulness, and relevance across 12 metrics Deployed models on AWS SageMaker with auto-scaling and canary rollouts via MLflow Contributed 3 open-source tools to the LangChain ecosystem (combined 1.2k GitHub stars)"
+      },
+      {
+        "company": "DataMinds",
+        "title": "Data Scientist",
+        "start": "2021-01",
+        "end": "2022-01",
+        "summary": "Built sentiment analysis pipeline using Hugging Face transformers for social media monitoring product Developed multi-label text classification model (BERT fine-tune) with 93% F1 score Designed Airflow DAG orchestrating weekly model retraining on fresh data"
+      }
+    ],
+    "education": [
+      {
+        "institution": "BITS Pilani",
+        "degree": "B.Tech",
+        "field": "Computer Science",
+        "end_year": 2021
+      }
+    ],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Ritu Mehta",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Building LLM-powered products and fine-tuning transformers",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "github",
+        "method": "direct",
+        "value": "ML Engineer | LLMs | RAG | Fine-tuning | Open source contributor",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 3,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "AILabs",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "ML Engineer",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "ritu.mehta@ailabs.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+917654321098",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Bangalore",
+          "region": "Karnataka",
+          "country": "IN"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "github",
+        "method": "direct",
+        "value": {
+          "city": "Bangalore",
+          "region": null,
+          "country": "IN"
+        },
+        "role": "conflicting_alternate"
+      }
+    ],
+    "overall_confidence": 0.875,
+    "match_confidence": 1.0,
+    "_meta": {
+      "sources_used": [
+        "csv",
+        "resume",
+        "github"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": []
+    }
+  },
+  {
+    "candidate_id": "cand_b2b900f20585",
+    "full_name": "Varun Gupta",
+    "emails": [
+      "varun.gupta@gosystems.in"
+    ],
+    "phones": [
+      "+919988765432"
+    ],
+    "location": {
+      "city": "Pune",
+      "region": "Maharashtra",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/varunguptain",
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "High-performance backend systems in Go and gRPC",
+    "years_experience": 6,
+    "skills": [
+      {
+        "name": "go",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "grpc",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "postgresql",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "redis",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "kafka",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "docker",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "kubernetes",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "microservices",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "rest api",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "git",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "linux",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "prometheus",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "grafana",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "aws",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "terraform",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "bash",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "tdd",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "GoSystems",
+        "title": "Backend Developer",
+        "start": "2021-04",
+        "end": null,
+        "summary": "Designed and built payment processing microservice in Go handling 12,000 rps at p99 < 20ms Implemented gRPC service mesh with protobuf contracts across 8 internal services Built distributed rate limiter using Redis Lua scripts handling 50M decisions per day Designed idempotency and retry layer eliminating double-charge incidents from network failures Set up distributed tracing with Jaeger and OpenTelemetry providing full request lineage Optimised Postgres query plan reducing reporting query time from 45s to 1.2s through index design"
+      },
+      {
+        "company": "NetScale",
+        "title": "Software Developer",
+        "start": "2018-01",
+        "end": "2021-01",
+        "summary": "Built REST APIs in Go for logistics platform integrating 15 third-party carrier APIs Designed async job processing system using Kafka reducing order confirmation latency by 80% Migrated batch processing jobs from cron scripts to reliable task queue (Temporal) Wrote property-based tests catching 12 edge cases missed by unit tests"
+      }
+    ],
+    "education": [
+      {
+        "institution": "COEP Pune",
+        "degree": "B.Tech",
+        "field": "Computer Science",
+        "end_year": 2018
+      }
+    ],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Varun Gupta",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "High-performance backend systems in Go and gRPC",
+        "role": "primary"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 6,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "GoSystems",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Backend Developer",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "varun.gupta@gosystems.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+919988765432",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Pune",
+          "region": "Maharashtra",
+          "country": "IN"
+        },
+        "role": "primary"
+      }
+    ],
+    "overall_confidence": 0.875,
+    "match_confidence": 1.0,
+    "_meta": {
+      "sources_used": [
+        "csv",
+        "resume"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": []
+    }
+  },
+  {
+    "candidate_id": "cand_f4642b0ed6f0",
+    "full_name": "Pallavi Joshi",
+    "emails": [
+      "pallavi.joshi@uxworks.in"
+    ],
+    "phones": [
+      "+918877654321"
+    ],
+    "location": {
+      "city": "Chennai",
+      "region": "Tamil Nadu",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/pallavijoshi",
+      "github": "https://github.com/pallavijoshi",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Vue.js specialist crafting component-driven UIs",
+    "years_experience": 5,
+    "skills": [
+      {
+        "name": "javascript",
+        "confidence": 0.5,
+        "sources": [
+          "github"
+        ]
+      },
+      {
+        "name": "css",
+        "confidence": 0.5,
+        "sources": [
+          "github"
+        ]
+      }
+    ],
+    "experience": [],
+    "education": [],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Pallavi Joshi",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Vue.js specialist crafting component-driven UIs",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "github",
+        "method": "direct",
+        "value": "Frontend Developer | Vue.js | Component-driven UI | Accessibility",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 5,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "UXWorks",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Frontend Developer",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "pallavi.joshi@uxworks.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+918877654321",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Chennai",
+          "region": "Tamil Nadu",
+          "country": "IN"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "github",
+        "method": "direct",
+        "value": {
+          "city": "Chennai",
+          "region": null,
+          "country": "IN"
+        },
+        "role": "conflicting_alternate"
+      }
+    ],
+    "overall_confidence": 0.86,
+    "match_confidence": 1.0,
+    "_meta": {
+      "sources_used": [
+        "csv",
+        "github"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": [
+        "no_experience"
+      ]
+    }
+  },
+  {
+    "candidate_id": "cand_2712d07184e7",
+    "full_name": "Naveen Reddy",
+    "emails": [
+      "naveen.reddy@cloudfirst.in"
+    ],
+    "phones": [
+      "+919765432109"
+    ],
+    "location": {
+      "city": "Hyderabad",
+      "region": "Telangana",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/naveenreddy",
+      "github": "https://github.com/naveenr",
+      "portfolio": "https://naveenreddy.dev",
+      "other": []
+    },
+    "headline": "Multi-cloud architect leading AWS and Azure migrations",
+    "years_experience": 10,
+    "skills": [
+      {
+        "name": "hcl",
+        "confidence": 0.75,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "python",
+        "confidence": 0.75,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "aws",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "azure",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "gcp",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "kubernetes",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "eks",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "terraform",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "cloudformation",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "cdk",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "lambda",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "serverless",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "docker",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "bash",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "ci/cd",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "helm",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "argocd",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "prometheus",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "grafana",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "linux",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "git",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "microservices",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "CloudFirst",
+        "title": "Cloud Architect",
+        "start": "2021-09",
+        "end": null,
+        "summary": "Designed multi-cloud strategy spanning AWS and Azure for 200-person engineering org with 99.95% uptime Led lift-and-shift and re-architect migration of 60 applications saving $3.1M annually Built self-service infrastructure portal using Terraform CDK and AWS Service Catalog Established cloud security baseline: IAM guardrails, AWS Config rules, Security Hub, and GuardDuty Reduced S3 storage costs by 68% through intelligent tiering and lifecycle policies Defined FinOps practice enabling per-team cost visibility and chargeback"
+      },
+      {
+        "company": "InfraStar",
+        "title": "Senior Cloud Engineer",
+        "start": "2018-01",
+        "end": "2021-01",
+        "summary": "Designed event-driven data processing pipeline on AWS Lambda, SQS, and S3 processing 4TB daily Built multi-account AWS landing zone using Control Tower and AWS Organizations Implemented EKS cluster with Karpenter node autoscaling handling 10x traffic spikes Automated DR runbooks reducing RTO from 4 hours to 22 minutes"
+      },
+      {
+        "company": "TechPath",
+        "title": "Cloud Engineer",
+        "start": "2014-01",
+        "end": "2018-01",
+        "summary": "Provisioned and managed EC2, RDS, and CloudFront infrastructure for SaaS product Wrote CloudFormation templates for network, compute, and database tiers Implemented VPN and Direct Connect for hybrid connectivity with on-premise datacenter"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Osmania University",
+        "degree": "B.Tech",
+        "field": "Electronics and Communication",
+        "end_year": 2014
+      }
+    ],
+    "certifications": [
+      {
+        "name": "AWS Certified Solutions Architect \u2013 Professional",
+        "year": null
+      },
+      {
+        "name": "AWS Certified Security Specialty",
+        "year": null
+      },
+      {
+        "name": "Microsoft Certified Azure Solutions Architect Expert",
+        "year": null
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Naveen Reddy",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Multi-cloud architect leading AWS and Azure migrations",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "github",
+        "method": "direct",
+        "value": "Cloud Architect | AWS | Azure | Terraform | Multi-cloud migrations",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 10,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "CloudFirst",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Cloud Architect",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "naveen.reddy@cloudfirst.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+919765432109",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Hyderabad",
+          "region": "Telangana",
+          "country": "IN"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "github",
+        "method": "direct",
+        "value": {
+          "city": "Hyderabad",
+          "region": null,
+          "country": "IN"
+        },
+        "role": "conflicting_alternate"
+      }
+    ],
+    "overall_confidence": 0.876,
+    "match_confidence": 1.0,
+    "_meta": {
+      "sources_used": [
+        "csv",
+        "resume",
+        "github"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": []
+    }
+  },
+  {
+    "candidate_id": "cand_3dc846c634b8",
+    "full_name": "Komal Singh",
+    "emails": [
+      "komal.singh@dataflow.in"
+    ],
+    "phones": [
+      "+918123456780"
+    ],
+    "location": {
+      "city": "Delhi",
+      "region": "Delhi",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/komalsingh",
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Data pipeline engineer Spark Airflow and dbt",
+    "years_experience": 4,
+    "skills": [
+      {
+        "name": "python",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "apache spark",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "kafka",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "airflow",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "dbt",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "snowflake",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "bigquery",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "sql",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "postgresql",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "aws",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "gcp",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "docker",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "git",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "tableau",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "pandas",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "linux",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "bash",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "DataFlow",
+        "title": "Data Engineer",
+        "start": "2022-06",
+        "end": null,
+        "summary": "Built batch and streaming data pipelines using Apache Spark and Kafka ingesting 500GB daily from 25 sources Designed dimensional data model on Snowflake reducing average analyst query time by 72% Implemented dbt transformation layer with 120+ models, automated tests, and documentation Set up data quality framework using Great Expectations catching schema drift within minutes of ingestion Built self-serve Airflow DAG scaffolding reducing time to create new pipelines from 2 days to 3 hours Reduced Snowflake compute costs by 35% through clustering optimisation and materialized views"
+      },
+      {
+        "company": "QuickData",
+        "title": "Junior Data Engineer",
+        "start": "2020-01",
+        "end": "2022-01",
+        "summary": "Wrote ETL pipelines in Python and PySpark migrating on-premises warehouse to Google BigQuery Built Airflow DAGs replacing 30 cron scripts improving reliability from 78% to 99.6% success rate Created Tableau dashboards delivering daily operations reports to 60 stakeholders Documented data lineage for 80+ datasets enabling GDPR compliance audit"
+      }
+    ],
+    "education": [
+      {
+        "institution": "DTU Delhi",
+        "degree": "B.Tech",
+        "field": "Computer Science",
+        "end_year": 2020
+      }
+    ],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Komal Singh",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Data pipeline engineer Spark Airflow and dbt",
+        "role": "primary"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 4,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "DataFlow",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Data Engineer",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "komal.singh@dataflow.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+918123456780",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Delhi",
+          "region": "Delhi",
+          "country": "IN"
+        },
+        "role": "primary"
+      }
+    ],
+    "overall_confidence": 0.875,
+    "match_confidence": 1.0,
+    "_meta": {
+      "sources_used": [
+        "csv",
+        "resume"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": []
+    }
+  },
+  {
+    "candidate_id": "cand_5848cc201f11",
+    "full_name": "Harish Krishnan",
+    "emails": [
+      "harish.krishnan@reliability.in"
+    ],
+    "phones": [
+      "+919445512345"
+    ],
+    "location": {
+      "city": "Chennai",
+      "region": "Tamil Nadu",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/harishkrishnan",
+      "github": "https://github.com/harishk",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "SRE focused on observability reliability and chaos engineering",
+    "years_experience": 9,
+    "skills": [
+      {
+        "name": "python",
+        "confidence": 0.75,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "go",
+        "confidence": 0.75,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "kubernetes",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "prometheus",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "grafana",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "terraform",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "helm",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "docker",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "linux",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "bash",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "aws",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "ci/cd",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "github actions",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "ansible",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "datadog",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "elasticsearch",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "git",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "sre",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "microservices",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "hcl",
+        "confidence": 0.5,
+        "sources": [
+          "github"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Reliability Corp",
+        "title": "Site Reliability Engineer",
+        "start": "2020-02",
+        "end": null,
+        "summary": "Own reliability posture for 120-service platform serving 4M daily active users with 99.99% uptime SLA Built observability platform (Prometheus, Grafana, Loki, Tempo) replacing legacy Nagios setup Implemented chaos engineering programme with LitmusChaos uncovering 23 latent failure modes in first 6 months Designed automated incident response runbooks using PagerDuty and Rundeck reducing MTTR from 45m to 8m Built Kubernetes admission controllers enforcing resource limits, security contexts, and label standards Led SRE guild of 7 engineers across 3 product teams"
+      },
+      {
+        "company": "NetReliable",
+        "title": "SRE",
+        "start": "2017-01",
+        "end": "2020-01",
+        "summary": "Maintained 99.9% availability for payment processing platform handling $2B annual transaction volume Designed on-call rotation and escalation policies reducing alert fatigue by 60% Built capacity planning models predicting infrastructure needs 3 months ahead with 92% accuracy Introduced SLI/SLO framework aligned with product team roadmaps"
+      },
+      {
+        "company": "PlatOps",
+        "title": "DevOps Engineer",
+        "start": "2015-01",
+        "end": "2017-01",
+        "summary": "Managed Jenkins CI/CD pipelines for 35 Java and Python services Migrated virtual machine deployments to Docker containers on AWS ECS Wrote Ansible playbooks automating OS patching across 200 servers"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Anna University",
+        "degree": "B.E.",
+        "field": "Information Technology",
+        "end_year": 2015
+      }
+    ],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Harish Krishnan",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "SRE focused on observability reliability and chaos engineering",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "github",
+        "method": "direct",
+        "value": "SRE | Kubernetes | Observability | Chaos Engineering | On-call veteran",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 9,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "Reliability Corp",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Site Reliability Engineer",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "harish.krishnan@reliability.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+919445512345",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Chennai",
+          "region": "Tamil Nadu",
+          "country": "IN"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "github",
+        "method": "direct",
+        "value": {
+          "city": "Chennai",
+          "region": null,
+          "country": "IN"
+        },
+        "role": "conflicting_alternate"
+      }
+    ],
+    "overall_confidence": 0.875,
+    "match_confidence": 1.0,
+    "_meta": {
+      "sources_used": [
+        "csv",
+        "resume",
+        "github"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": []
+    }
+  },
+  {
+    "candidate_id": "cand_e0816f384099",
+    "full_name": "Shruti R. Kapoor",
+    "emails": [
+      "shruti.kapoor@designco.in"
+    ],
+    "phones": [
+      "+918765409877"
+    ],
+    "location": {
+      "city": "Bangalore",
+      "region": null,
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/shrutikapoor",
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Designing intuitive products for consumer and enterprise",
+    "years_experience": 6,
+    "skills": [],
+    "experience": [],
+    "education": [],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": "Shruti Kapoor",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "headline",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": "Designing intuitive products for consumer and enterprise",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": 5,
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "current_company",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": "DesignCo",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "title",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": "UX Designer",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "phone",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": "+918765409876",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "email",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": "shruti.kapoor@designco.in",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Shruti R. Kapoor",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Designing intuitive products for consumer and enterprise",
+        "role": "primary"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 6,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "DesignCo",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Senior UX Designer",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "shruti.kapoor@designco.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+918765409877",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Bangalore",
+          "region": null,
+          "country": "IN"
+        },
+        "role": "primary"
+      }
+    ],
+    "overall_confidence": 0.81,
+    "match_confidence": null,
+    "_meta": {
+      "sources_used": [
+        "csv"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": [
+        "no_skills",
+        "no_experience",
+        "no_enrichment"
+      ]
+    }
+  },
+  {
+    "candidate_id": "cand_4e82ecb915e6",
+    "full_name": "Nikhil R. Verma",
+    "emails": [
+      "nikhil.verma@backendpro.in"
+    ],
+    "phones": [
+      "+919556677890"
+    ],
+    "location": {
+      "city": "Mumbai",
+      "region": null,
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/nikhilrverma",
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Principal engineer leading platform modernisation",
+    "years_experience": 9,
+    "skills": [],
+    "experience": [],
+    "education": [],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": "Nikhil Verma",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "headline",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": "Distributed systems engineer Java and Kafka",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": 8,
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "current_company",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": "BackendPro",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "title",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": "Senior Backend Engineer",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "phone",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": "+919556677889",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "email",
+        "source": "csv_duplicate",
+        "method": "direct",
+        "value": "nikhil.verma@backendpro.in",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Nikhil R. Verma",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Principal engineer leading platform modernisation",
+        "role": "primary"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 9,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "BackendPro",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Principal Engineer",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "nikhil.verma@backendpro.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+919556677890",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Mumbai",
+          "region": null,
+          "country": "IN"
+        },
+        "role": "primary"
+      }
+    ],
+    "overall_confidence": 0.81,
+    "match_confidence": null,
+    "_meta": {
+      "sources_used": [
+        "csv"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": [
+        "no_skills",
+        "no_experience",
+        "no_enrichment"
+      ]
+    }
+  },
+  {
+    "candidate_id": "cand_c9b695c54fc0",
+    "full_name": "Ravi Shankar",
+    "emails": [
+      "ravi.shankar@techbridge.in"
+    ],
+    "phones": [
+      "+919800011223"
+    ],
+    "location": {
+      "city": "Chennai",
+      "region": "Tamil Nadu",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/ravishankar",
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Enterprise architect driving digital transformation",
+    "years_experience": 11,
+    "skills": [],
+    "experience": [],
+    "education": [],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Ravi Shankar",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Enterprise architect driving digital transformation",
+        "role": "primary"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 11,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "TechBridge",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Senior Architect",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "ravi.shankar@techbridge.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+919800011223",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Chennai",
+          "region": "Tamil Nadu",
+          "country": "IN"
+        },
+        "role": "primary"
+      }
+    ],
+    "overall_confidence": 0.81,
+    "match_confidence": 0.5,
+    "_meta": {
+      "sources_used": [
+        "csv"
+      ],
+      "sources_failed": [
+        "resume"
+      ],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": [
+        "no_skills",
+        "no_experience",
+        "no_enrichment"
+      ]
+    }
+  },
+  {
+    "candidate_id": "cand_0047e723fa89",
+    "full_name": "Preeta Subramaniam",
+    "emails": [
+      "preeta.subramaniam@dataviz.in"
+    ],
+    "phones": [
+      "+919711234567"
+    ],
+    "location": {
+      "city": "Hyderabad",
+      "region": "Telangana",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/preetasubramaniam",
+      "github": "https://github.com/preetasub",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Data analyst turning raw data into actionable dashboards",
+    "years_experience": 7,
+    "skills": [
+      {
+        "name": "sql",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "python",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "power bi",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "tableau",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "snowflake",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "redshift",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "aws",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "excel",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "pandas",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "numpy",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "git",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "data warehouse",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "etl",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "bigquery",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "DataViz",
+        "title": "Data Analyst",
+        "start": "2021-05",
+        "end": null,
+        "summary": "Built 45-dashboard Power BI portfolio for C-suite and operational teams used by 300+ stakeholders daily Designed star-schema data model on Snowflake reducing average dashboard load time from 18s to 2s Automated weekly sales and retention reports replacing 12 hours of manual work per analyst per week Built Python (Pyhton) scripts for data cleaning and anomaly detection feeding into Tableau dashboards Defined company OKR metric framework and built tracking dashboards reviewed in all-hands meetings"
+      },
+      {
+        "company": "Insights Inc",
+        "title": "Business Analyst",
+        "start": "2018-01",
+        "end": "2021-01",
+        "summary": "Produced weekly executive dashboards in Tableau for supply chain and inventory operations Wrote complex SQL queries on Redshift joining 25+ tables for revenue attribution analysis Built cohort analysis models in Python identifying customer segments with 3x higher LTV Trained 20 non-technical stakeholders to use self-serve Tableau reports"
+      },
+      {
+        "company": "CoreData",
+        "title": "Junior Analyst",
+        "start": "2017-01",
+        "end": "2018-01",
+        "summary": "Compiled and cleaned data from multiple sources into Excel and Google Sheets models Created ad hoc SQL reports for marketing and product teams"
+      }
+    ],
+    "education": [
+      {
+        "institution": "JNTU Hyderabad",
+        "degree": "B.Tech",
+        "field": "Information Technology",
+        "end_year": 2017
+      }
+    ],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Preeta Subramaniam",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Data analyst turning raw data into actionable dashboards",
+        "role": "primary"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 7,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "DataViz",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Data Analyst",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "preeta.subramaniam@dataviz.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+919711234567",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Hyderabad",
+          "region": "Telangana",
+          "country": "IN"
+        },
+        "role": "primary"
+      }
+    ],
+    "overall_confidence": 0.875,
+    "match_confidence": 1.0,
+    "_meta": {
+      "sources_used": [
+        "csv",
+        "resume"
+      ],
+      "sources_failed": [
+        "github"
+      ],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": []
+    }
+  },
+  {
+    "candidate_id": "cand_4203bb21031a",
+    "full_name": "Farhan Ali",
+    "emails": [
+      "farhan.ali@freelancer.in"
+    ],
+    "phones": [
+      "+918800122334"
+    ],
+    "location": {
+      "city": null,
+      "region": null,
+      "country": null
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": null,
+    "skills": [],
+    "experience": [],
+    "education": [],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Farhan Ali",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "farhan.ali@freelancer.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+918800122334",
+        "role": "primary"
+      }
+    ],
+    "overall_confidence": 0.54,
+    "match_confidence": null,
+    "_meta": {
+      "sources_used": [
+        "csv"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": [
+        "no_skills",
+        "no_experience",
+        "no_enrichment"
+      ]
+    }
+  },
+  {
+    "candidate_id": "cand_3337b476162d",
+    "full_name": "Sanjay Malhotra",
+    "emails": [
+      "sanjay.malhotra@datainsights.in"
+    ],
+    "phones": [
+      "+919123456780"
+    ],
+    "location": {
+      "city": "Delhi",
+      "region": "Delhi",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/sanjaymalhotra",
+      "github": "https://github.com/sanjaymalhotra",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Analytics professional SQL Tableau and Power BI",
+    "years_experience": 5,
+    "skills": [
+      {
+        "name": "python",
+        "confidence": 0.5,
+        "sources": [
+          "github"
+        ]
+      }
+    ],
+    "experience": [],
+    "education": [],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Sanjay Malhotra",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Analytics professional SQL Tableau and Power BI",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "github",
+        "method": "direct",
+        "value": "Data Analyst | SQL | Tableau | Power BI | Turning data into decisions",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 5,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "DataInsights",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Data Analyst",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "sanjay.malhotra@datainsights.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+919123456780",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Delhi",
+          "region": "Delhi",
+          "country": "IN"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "github",
+        "method": "direct",
+        "value": {
+          "city": "Delhi",
+          "region": null,
+          "country": "IN"
+        },
+        "role": "conflicting_alternate"
+      }
+    ],
+    "overall_confidence": 0.86,
+    "match_confidence": 1.0,
+    "_meta": {
+      "sources_used": [
+        "csv",
+        "github"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": [
+        "no_experience"
+      ]
+    }
+  },
+  {
+    "candidate_id": "cand_93544377ab87",
+    "full_name": "Kavitha Pillai",
+    "emails": [
+      "kavitha.pillai@infratech.in"
+    ],
+    "phones": [
+      "+919445598765"
+    ],
+    "location": {
+      "city": "Trivandrum",
+      "region": "Kerala",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/kavithapillai",
+      "github": "https://github.com/kavithap",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "DevOps engineer automating CI/CD and cloud infra",
+    "years_experience": 6,
+    "skills": [
+      {
+        "name": "hcl",
+        "confidence": 0.75,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "python",
+        "confidence": 0.75,
+        "sources": [
+          "github",
+          "resume"
+        ]
+      },
+      {
+        "name": "terraform",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "aws",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "docker",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "kubernetes",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "helm",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "argocd",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "github actions",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "ansible",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "bash",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "linux",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "ci/cd",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "prometheus",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "grafana",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "sonarqube",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "git",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "cloudformation",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "eks",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "go",
+        "confidence": 0.5,
+        "sources": [
+          "github"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "InfraTech",
+        "title": "DevOps Engineer",
+        "start": "2022-01",
+        "end": null,
+        "summary": "Designed and implemented GitOps deployment workflow using GitHub Actions, ArgoCD, and Helm for 30-service platform Built Terraform module library standardising AWS infrastructure across 8 product teams Reduced deployment lead time from 3 days to 45 minutes through CI/CD pipeline overhaul Implemented SonarQube and Trivy security scanning gates blocking 94% of critical vulnerabilities before production Built developer self-service environment provisioning tool reducing team blocking time by 75% Maintained 99.95% deployment success rate with zero-downtime rolling updates"
+      },
+      {
+        "company": "CloudWorks",
+        "title": "DevOps Engineer",
+        "start": "2020-01",
+        "end": "2022-01",
+        "summary": "Managed Kubernetes clusters (EKS) for microservices platform handling 500k daily requests Wrote Ansible playbooks automating OS configuration and application deployment across 150 servers Set up monitoring with Prometheus, Grafana, and PagerDuty with on-call SLA of < 5 min response Built Docker multi-stage build pipelines reducing image sizes by 60%"
+      },
+      {
+        "company": "NetDev",
+        "title": "Junior DevOps",
+        "start": "2018-01",
+        "end": "2020-01",
+        "summary": "Maintained Jenkins CI pipelines for Java and Python services Provisioned EC2 and RDS instances using CloudFormation Wrote Bash and Python scripts automating routine operational tasks"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Kerala University",
+        "degree": "B.Tech",
+        "field": "Computer Science",
+        "end_year": 2018
+      }
+    ],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Kavitha Pillai",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "DevOps engineer automating CI/CD and cloud infra",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "github",
+        "method": "direct",
+        "value": "DevOps Engineer | Terraform | ArgoCD | GitOps | Making deployments boring",
+        "role": "conflicting_alternate"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 6,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "InfraTech",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "DevOps Engineer",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "kavitha.pillai@infratech.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+919445598765",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Trivandrum",
+          "region": "Kerala",
+          "country": "IN"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "github",
+        "method": "direct",
+        "value": {
+          "city": "Trivandrum",
+          "region": null,
+          "country": "IN"
+        },
+        "role": "conflicting_alternate"
+      }
+    ],
+    "overall_confidence": 0.875,
+    "match_confidence": 1.0,
+    "_meta": {
+      "sources_used": [
+        "csv",
+        "resume",
+        "github"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": []
+    }
+  },
+  {
+    "candidate_id": "cand_5a1606ea9ba6",
+    "full_name": "Arjun Singh",
+    "emails": [
+      "arjun.singh@codebase.in"
+    ],
+    "phones": [
+      "+918766543210"
+    ],
+    "location": {
+      "city": "Gurgaon",
+      "region": "Haryana",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/arjunsingh",
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Java Spring Boot backend developer building REST APIs",
+    "years_experience": 4,
+    "skills": [
+      {
+        "name": "java",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "spring boot",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "spring",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "rest api",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "sql",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "postgresql",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "mysql",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "kafka",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "docker",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "git",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "linux",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "aws",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "microservices",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "jwt",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "oauth",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "tdd",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "ci/cd",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "maven",
+        "confidence": 0.65,
+        "sources": [
+          "resume"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Codebase",
+        "title": "Backend Developer",
+        "start": "2022-03",
+        "end": null,
+        "summary": "Developed REST APIs in Java Spring Boot for e-commerce order management platform serving 120k daily orders Built asynchronous notification service using Kafka reducing checkout latency by 35ms Implemented OAuth 2.0 and JWT-based authentication for B2B partner API Wrote unit and integration tests with JUnit 5 and Mockito reaching 85% branch coverage Participated in code reviews, architecture discussions, and sprint retrospectives"
+      },
+      {
+        "company": "TechNova",
+        "title": "Junior Backend Developer",
+        "start": "2020-01",
+        "end": "2022-01",
+        "summary": "Built CRUD APIs for internal HR and leave management system used by 1,500 employees Integrated third-party email and SMS providers using adapter pattern Optimised Hibernate queries reducing N+1 issues on core reporting endpoints Wrote API documentation using Swagger/OpenAPI"
+      }
+    ],
+    "education": [
+      {
+        "institution": "NIT Kurukshetra",
+        "degree": "B.Tech",
+        "field": "Computer Science",
+        "end_year": 2020
+      }
+    ],
+    "certifications": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct",
+        "value": "Arjun Singh",
+        "role": "primary"
+      },
+      {
+        "field": "headline",
+        "source": "csv",
+        "method": "direct",
+        "value": "Java Spring Boot backend developer building REST APIs",
+        "role": "primary"
+      },
+      {
+        "field": "years_experience",
+        "source": "csv",
+        "method": "direct",
+        "value": 4,
+        "role": "primary"
+      },
+      {
+        "field": "current_company",
+        "source": "csv",
+        "method": "direct",
+        "value": "Codebase",
+        "role": "primary"
+      },
+      {
+        "field": "title",
+        "source": "csv",
+        "method": "direct",
+        "value": "Backend Developer",
+        "role": "primary"
+      },
+      {
+        "field": "email",
+        "source": "csv",
+        "method": "direct",
+        "value": "arjun.singh@codebase.in",
+        "role": "primary"
+      },
+      {
+        "field": "phone",
+        "source": "csv",
+        "method": "direct",
+        "value": "+918766543210",
+        "role": "primary"
+      },
+      {
+        "field": "location",
+        "source": "csv",
+        "method": "direct",
+        "value": {
+          "city": "Gurgaon",
+          "region": "Haryana",
+          "country": "IN"
+        },
+        "role": "primary"
+      }
+    ],
+    "overall_confidence": 0.875,
+    "match_confidence": 1.0,
+    "_meta": {
+      "sources_used": [
+        "csv",
+        "resume"
+      ],
+      "sources_failed": [],
+      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "data_quality": []
+    }
+  }
+]

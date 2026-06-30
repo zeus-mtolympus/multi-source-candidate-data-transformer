@@ -1,0 +1,32 @@
+Ananya Sharma
+ananya.sharma@globaltech.co | +91 98867 12345 | Bangalore, India
+
+Summary
+Backend engineer with 5 years building reliable distributed systems in Python and Go. Strong focus on API design, service reliability, and data-intensive workloads. Experienced in high-throughput architectures and asynchronous processing patterns.
+
+Experience
+
+GlobalTech - Software Engineer
+2021 – Present
+• Designed and built high-throughput REST APIs in Python (FastAPI) handling 3M+ requests per day
+• Built async task processing pipeline using Celery and Redis reducing job queue latency by 70%
+• Migrated PostgreSQL read replicas to read-optimised cluster improving query p99 from 800ms to 120ms
+• Implemented structured logging and distributed tracing using OpenTelemetry and Datadog
+• Led backend guild meetings and documented architectural decision records
+
+TechStart - Junior Developer
+2019 – 2021
+• Implemented ML pipelines using Pyhton and TensorFlow for churn prediction model
+• Wrote data ingestion scripts pulling from third-party APIs into PostgreSQL
+• Participated in on-call rotations and created runbooks for common failure modes
+• Contributed to internal Python library reducing boilerplate across 6 microservices
+
+Education
+B.E. Information Technology, NIT Trichy, 2019
+
+Skills
+Python, Go, FastAPI, Django, Celery, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, Kafka, Git, Linux, Datadog, GraphQL, SQL, TensorFlow, ML
+
+Projects
+• open-pg-migrator: zero-downtime PostgreSQL schema migration tool (Go), 320 GitHub stars
+• fastapi-starter: production-ready FastAPI template with auth, logging, and testing (Python)

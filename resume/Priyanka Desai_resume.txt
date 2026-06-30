@@ -1,0 +1,35 @@
+Priyanka Desai
+priyanka.desai@infotech.in | +91 97654 32109 | Hyderabad, Telangana, India
+
+Summary
+Lead Frontend Engineer with 7 years building performant, accessible user interfaces. Expert in React and TypeScript. Led three major product redesigns and established component library standards adopted across 4 product teams.
+
+Experience
+
+InfoTech Solutions - Lead Frontend Engineer
+April 2022 – Present
+• Led UI team of 8 engineers through complete product redesign, shipping 6 weeks ahead of schedule
+• Built shared React component library with 80+ components used across 4 product teams
+• Improved Lighthouse performance scores from 54 to 96 and accessibility score from 61 to 98
+• Introduced visual regression testing with Percy reducing UI regressions by 80%
+• Set up Storybook documentation improving designer-developer collaboration
+• Implemented lazy loading, code splitting, and CDN strategy reducing initial bundle size by 52%
+
+PixelWorks - Senior Frontend Developer
+2019 – 2022
+• Developed responsive web applications for e-commerce platform serving 2M users
+• Led migration from AngularJS to React, training a team of 6 engineers through the transition
+• Built real-time notification system using WebSockets integrated with Kafka backend
+• Contributed to design system and implemented WCAG 2.1 AA accessibility compliance
+
+QuickUI - Frontend Developer
+2017 – 2019
+• Built dashboards and data visualisation components using D3.js and Chart.js
+• Implemented SSR with Next.js for an SEO-critical marketing site
+• Integrated REST APIs and GraphQL endpoints using Apollo Client
+
+Education
+B.Tech CSE, NIT Warangal, 2017
+
+Skills
+React, TypeScript, JavaScript, CSS, HTML, Redux, Tailwind, Jest, Next.js, GraphQL, WebSocket, Webpack, Storybook, Accessibility, Performance Optimisation, Git, CI/CD

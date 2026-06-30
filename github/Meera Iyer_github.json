@@ -1,0 +1,16 @@
+{
+"login": "meeraiyer",
+"name": "Meera Iyer",
+"bio": "Full Stack Developer crafting beautiful web apps",
+"company": "LegacyCorp",
+"blog": "https://meera.dev",
+"location": "Bangalore, India",
+"email": null,
+"html_url": "https://github.com/meeraiyer",
+"public_repos": 19,
+"repos": [
+{"name": "mern-boilerplate", "language": "JavaScript"},
+{"name": "node-auth-service", "language": "JavaScript"},
+{"name": "react-portfolio", "language": "JavaScript"}
+]
+}

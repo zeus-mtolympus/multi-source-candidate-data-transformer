@@ -1,0 +1,42 @@
+Deepak Malhotra
+deepak.malhotra@apex.in | +91 98876 54321 | Mumbai, Maharashtra, India
+
+Summary
+Cloud Architect with 11 years of experience designing and delivering enterprise-grade cloud solutions. Deep expertise in AWS, container orchestration, and infrastructure as code. Trusted advisor to CTO and VP Engineering at multiple Fortune 500 clients.
+
+Experience
+
+Apex Innovations - Software Architect
+March 2020 – Present
+• Designed microservices architecture for enterprise supply chain platform handling 10M transactions per day
+• Reduced cloud infrastructure spend by 42% through reserved instance planning and right-sizing
+• Led Kubernetes migration for 35 services, establishing GitOps workflow with ArgoCD and Helm
+• Built internal IaC library in Terraform reducing new environment provisioning from 2 weeks to 4 hours
+• Defined security baseline using AWS IAM, VPC design, and WAF policies
+• Mentored team of 7 engineers, introduced architecture review process
+
+Previous Firm - Technical Lead
+2016 – 2020
+• Led cloud migration of 12 legacy on-premises applications to AWS
+• Designed CI/CD pipelines using Jenkins and Docker reducing release cycle from monthly to weekly
+• Introduced Infrastructure as Code practices using Terraform across 3 engineering teams
+• Built observability platform using Prometheus, Grafana, and PagerDuty
+
+CodeSoft - Software Engineer
+2013 – 2016
+• Developed backend services in Java Spring Boot for banking middleware platform
+• Implemented message queue system using RabbitMQ for async payment processing
+• Contributed to internal DevOps tooling using Python and Bash scripts
+
+Education
+M.Tech, IIT Delhi, 2013
+
+Certifications
+• AWS Certified Solutions Architect – Professional (2022)
+• Certified Kubernetes Administrator (CKA) (2021)
+• HashiCorp Certified Terraform Associate (2020)
+
+Skills
+AWS, Kubernetes, Java, Spring, Spring Boot, Docker, Terraform, Helm, ArgoCD, Prometheus, Grafana, Jenkins, Python, Bash, Linux, CI/CD, Microservices, Git, HCL
+
+References: Contact Priya at priya.hr@oldfirm.com or +91 99988 77665 for more details.

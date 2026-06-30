@@ -1,0 +1,29 @@
+Tanveer Ahmed
+tanveer.ahmed@webtech.in | +91 98234 56789 | Mumbai, Maharashtra, India
+
+Summary
+Full Stack Developer with 5 years building and scaling web applications. Equally comfortable on frontend (React, Next.js) and backend (Node.js, PostgreSQL). Strong believer in automated testing and progressive delivery.
+
+Experience
+
+WebTech Solutions - Full Stack Developer
+January 2022 – Present
+• Built customer-facing SaaS product in Next.js and Node.js serving 80,000 monthly active users
+• Designed multi-tenant data architecture on PostgreSQL with row-level security
+• Implemented real-time collaboration features using WebSockets (Socket.io) and Redis pub/sub
+• Set up automated E2E tests in Playwright covering 60 critical user flows with zero flaky tests
+• Improved API response time from 900ms to 140ms through query optimisation and connection pooling
+• Led team of 3 developers, ran sprint ceremonies, and reported to CTO
+
+DevBridge - Full Stack Developer
+2020 – 2022
+• Built internal analytics platform using React and D3.js visualising operational KPIs
+• Developed REST APIs in Express.js integrated with Stripe and SendGrid
+• Migrated from MySQL to PostgreSQL and introduced Postgress (sic) query optimisation best practices
+• Containerised application using Docker and deployed to AWS ECS
+
+Education
+B.Tech Information Technology, Mumbai University, 2019
+
+Skills
+JavaScript, TS, TypeScript, React, Next.js, Node.js, Express, PostgreSQL, Postgress, MongoDB, Redis, Docker, AWS, GraphQL, REST API, WebSocket, Git, CI/CD, Jest, Playwright

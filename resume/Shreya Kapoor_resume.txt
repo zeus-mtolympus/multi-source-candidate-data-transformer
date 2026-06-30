@@ -1,0 +1,35 @@
+Shreya Kapoor
+shreya.kapoor@analytix.in | +91 98123 45678 | Bangalore, Karnataka, India
+
+Summary
+Data Scientist with 6 years building end-to-end ML solutions from experimentation to production. Specialised in predictive modelling, NLP, and MLOps. Strong communicator bridging data science and business teams.
+
+Experience
+
+Analytix AI - Data Scientist
+March 2022 – Present
+• Built customer churn prediction model (XGBoost) deployed via FastAPI achieving 91% recall and $2.4M saved annually
+• Designed NLP pipeline for support ticket classification using Hugging Face transformers, reducing manual triage by 70%
+• Implemented feature store on AWS SageMaker reducing training pipeline iteration time by 45%
+• Led migration from notebook-based workflows to MLflow experiment tracking and model registry
+• Collaborated with product team to build A/B testing framework for ML model rollouts
+• Mentored 2 junior data scientists on MLOps practices and code quality
+
+DataCore - Data Scientist
+2020 – 2022
+• Developed time-series forecasting models for inventory demand prediction (MAPE < 8%)
+• Built automated data quality checks using Great Expectations integrated into Airflow DAGs
+• Created interactive Tableau dashboards for C-suite consumption of business KPIs
+• Designed ETL pipelines in Python and Spark processing 200GB of daily clickstream data
+
+QuanTech - Data Analyst
+2018 – 2020
+• Performed exploratory data analysis and statistical modelling in Python (Pyhton) and R
+• Built Power BI reports automating 15 weekly manual reporting tasks
+• Queried and manipulated large datasets using SQL and PySpark
+
+Education
+M.Tech Data Science, IIT Bangalore, 2018
+
+Skills
+Python, Pyhton, R, Machine Learning, Deep Learning, NLP, scikit-learn, sklearn, XGBoost, TensorFlow, PyTorch, Hugging Face, LLM, MLflow, Airflow, Spark, SQL, pandas, numpy, Matplotlib, Tableau, PowerBI, AWS, FastAPI, Docker, Git

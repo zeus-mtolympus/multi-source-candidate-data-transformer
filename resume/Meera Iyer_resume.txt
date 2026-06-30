@@ -1,0 +1,32 @@
+Meera Iyer
+meera.iyer@legacycorp.in | +91 94455 66778 | Bangalore, India
+
+Summary
+Full stack developer with 4 years building customer-facing web applications and internal tools. Comfortable across the stack from React frontends to Node.js APIs and MongoDB. Interested in developer tooling, testing automation, and engineering processes.
+
+Experience
+
+LegacyCorp - Software Engineer
+January 2023 – Present
+• Built internal ticket management tool used by 400+ support agents, reducing average resolution time by 22%
+• Developed customer-facing feature flags dashboard using React and Redux
+• Migrated legacy Express codebase to TypeScript improving developer confidence and reducing runtime errors
+• Wrote end-to-end tests using Cypress covering 45 critical user journeys
+• Participated in weekly architecture discussions and contributed to technical roadmap
+
+StartUpX - Developer
+2021 – 2022
+• Full stack development with MERN stack for early-stage SaaS product
+• Integrated Stripe payment gateway and built subscription management module
+• Implemented JWT-based authentication with refresh token rotation
+• Set up CI/CD pipeline on GitHub Actions with automated test runs and staging deployments
+
+Education
+B.E. Computer Science, Anna University, 2021
+
+Skills
+JavaScript, TypeScript, React, Node.js, Express, MongoDB, HTML, CSS, Redux, Jest, Cypress, Git, GitHub Actions, CI/CD, REST API, JWT, Docker
+
+Projects
+• dev-timer: Pomodoro-style focus app built with React and local storage (open source, 180 stars)
+• express-starter: Express.js boilerplate with TypeScript, auth, and Jest setup

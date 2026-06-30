@@ -1,0 +1,203 @@
+{
+  "results": [
+    {
+      "full_name": "Arjun Mehta",
+      "email": "arjun.mehta@techcorp.in",
+      "portfolio": "https://arjunmehta.dev"
+    },
+    {
+      "full_name": "Priya Singh",
+      "email": "priya.singh@innovate.co.in",
+      "portfolio": "https://priya.design"
+    },
+    {
+      "full_name": "Rohan Kapoor",
+      "email": "rohan.kapoor@consult.in",
+      "portfolio": "https://rohanfolio.in"
+    },
+    {
+      "full_name": "Ananya Sharma",
+      "email": "ananya.sharma@globaltech.co",
+      "portfolio": "https://ananyasharma.in"
+    },
+    {
+      "full_name": "Karan Iyer",
+      "email": "karan.iyer@devforge.in",
+      "portfolio": "https://karaniyer.in"
+    },
+    {
+      "full_name": "Priyanka Desai",
+      "email": "priyanka.desai@infotech.in",
+      "portfolio": "https://priyankadesai.in"
+    },
+    {
+      "full_name": "Amitabh Rao",
+      "email": "amitabh.rao@dyno.in",
+      "portfolio": "https://amitrao.dev"
+    },
+    {
+      "full_name": "Deepak Malhotra",
+      "email": "deepak.malhotra@apex.in",
+      "portfolio": "https://deepakfolio.in"
+    },
+    {
+      "full_name": "Meera Iyer",
+      "email": "meera.iyer@legacycorp.in",
+      "portfolio": "https://meera.dev"
+    },
+    {
+      "full_name": "Aditya Bose",
+      "email": "aditya.bose@cloudify.in",
+      "portfolio": "https://adityabose.in"
+    },
+    {
+      "full_name": "Naveen Reddy",
+      "email": "naveen.reddy@cloudfirst.in",
+      "portfolio": "https://naveenreddy.dev"
+    }
+  ],
+  "failures": [
+    {
+      "candidate_id": "cand_48775735ab75",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_5c92ac99e349",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_e6a3575874d3",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_2f7e83fa5edc",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_36b03b610e89",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_1f4eb702d88f",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_7d9c33d3b7fb",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_8fb2b5feb274",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_b53a79d6c3ec",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_5ce35f3097ae",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_769909203848",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_e9e30f21149c",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_692f4f872cd8",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_50babdb71d69",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_7e160ff26f89",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_b2b900f20585",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_f4642b0ed6f0",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_3dc846c634b8",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_5848cc201f11",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_e0816f384099",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_4e82ecb915e6",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_c9b695c54fc0",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_0047e723fa89",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_4203bb21031a",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_3337b476162d",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_93544377ab87",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    },
+    {
+      "candidate_id": "cand_5a1606ea9ba6",
+      "field": "portfolio",
+      "reason": "missing optional field 'portfolio' (on_missing=error)"
+    }
+  ],
+  "_meta": {
+    "config_used": "configs\\optional_strict_on_missing_error.json",
+    "generated_at": "2026-06-30T17:01:07.181618+00:00",
+    "total": 38,
+    "succeeded": 11,
+    "failed": 27
+  }
+}

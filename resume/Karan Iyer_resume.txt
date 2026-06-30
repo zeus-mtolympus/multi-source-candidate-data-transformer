@@ -1,0 +1,38 @@
+Karan Iyer
+karan.iyer@devforge.in | +91-44-4567-8901 | Chennai, Tamil Nadu, India
+
+Professional Summary
+Principal Engineer with 14 years of experience in cloud-native architecture, platform engineering, and engineering leadership. Track record of designing systems that scale to tens of millions of users. Frequent conference speaker and open source contributor.
+
+Experience
+
+DevForge - Principal Engineer
+February 2020 – Present
+• Architected multi-tenant SaaS platform serving 8M users across 3 regions on AWS with 99.99% uptime SLA
+• Led migration from EC2-based deployments to Kubernetes (EKS) reducing infrastructure costs by 38%
+• Designed event sourcing and CQRS architecture for high-write financial transaction service
+• Built internal developer platform using Backstage enabling 50+ engineers to self-service environments
+• Defined engineering standards, led architecture review board, and drove adoption of TDD practices
+• Recruited and grew platform team from 3 to 12 engineers over 3 years
+
+Earlier Startup - Tech Lead
+2017 – 2020
+• Built core services using JS and PostgreSQL for B2B SaaS analytics product (Series A, 200 enterprise clients)
+• Introduced microservices split reducing average release cycle from 2 weeks to 1 day
+• Set up observability stack: Prometheus, Grafana, and PagerDuty alerting
+
+ThoughtEdge - Senior Software Engineer
+2013 – 2017
+• Delivered full-stack features in Java Spring Boot and AngularJS
+• Designed RESTful API gateway handling authentication and rate limiting for 15 downstream services
+• Introduced automated regression testing reducing production incidents by 42%
+
+Education
+B.Tech, IIT Bombay, 2013
+
+Certifications
+• AWS Certified Solutions Architect – Professional
+• Certified Kubernetes Administrator (CKA)
+
+Skills
+JS, JavaScript, TypeScript, PostgreSQL, Postgres, Machine Learning, ML, Pyhton, Python, Docker, Kubernetes, AWS, Terraform, HCL, Helm, ArgoCD, Go, Kafka, Prometheus, Grafana, CI/CD, Spring Boot, Java, Microservices, TDD, Git

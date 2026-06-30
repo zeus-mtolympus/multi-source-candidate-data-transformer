@@ -1,0 +1,21 @@
+{
+"login": "shreyakap",
+"name": "Shreya Kapoor",
+"bio": "Data Scientist | ML Engineer | NLP & LLM enthusiast",
+"company": "Analytix AI",
+"blog": "",
+"location": "Bangalore, India",
+"email": null,
+"html_url": "https://github.com/shreyakap",
+"public_repos": 21,
+"repos": [
+  {"name": "churn-prediction", "language": "Python"},
+  {"name": "nlp-ticket-classifier", "language": "Python"},
+  {"name": "llm-rag-demo", "language": "Python"},
+  {"name": "feature-store-utils", "language": "Python"},
+  {"name": "data-quality-checks", "language": "Python"},
+  {"name": "mlflow-experiments", "language": "Python"},
+  {"name": "airflow-dags", "language": "Python"},
+  {"name": "spark-etl-pipeline", "language": "Python"}
+]
+}

@@ -1,0 +1,29 @@
+Varun Gupta
+varun.gupta@gosystems.in | +91 99887 65432 | Pune, Maharashtra, India
+
+Summary
+Backend Developer with 6 years building high-performance, low-latency services primarily in Go. Experienced in distributed system design, gRPC APIs, and event-driven architectures. Strong focus on correctness, observability, and operational simplicity.
+
+Experience
+
+GoSystems - Backend Developer
+April 2021 – Present
+• Designed and built payment processing microservice in Go handling 12,000 rps at p99 < 20ms
+• Implemented gRPC service mesh with protobuf contracts across 8 internal services
+• Built distributed rate limiter using Redis Lua scripts handling 50M decisions per day
+• Designed idempotency and retry layer eliminating double-charge incidents from network failures
+• Set up distributed tracing with Jaeger and OpenTelemetry providing full request lineage
+• Optimised Postgres query plan reducing reporting query time from 45s to 1.2s through index design
+
+NetScale - Software Developer
+2018 – 2021
+• Built REST APIs in Go for logistics platform integrating 15 third-party carrier APIs
+• Designed async job processing system using Kafka reducing order confirmation latency by 80%
+• Migrated batch processing jobs from cron scripts to reliable task queue (Temporal)
+• Wrote property-based tests catching 12 edge cases missed by unit tests
+
+Education
+B.Tech Computer Science, COEP Pune, 2018
+
+Skills
+Go, Golang, gRPC, PostgreSQL, Redis, Kafka, Docker, k8s, Kubernetes, Microservices, REST API, Git, Linux, Prometheus, Grafana, AWS, Terraform, Bash, TDD

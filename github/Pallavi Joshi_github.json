@@ -1,0 +1,17 @@
+{
+"login": "pallavijoshi",
+"name": "Pallavi Joshi",
+"bio": "Frontend Developer | Vue.js | Component-driven UI | Accessibility",
+"company": "UXWorks",
+"blog": "",
+"location": "Chennai, India",
+"email": null,
+"html_url": "https://github.com/pallavijoshi",
+"public_repos": 11,
+"repos": [
+  {"name": "vue-component-library", "language": "JavaScript"},
+  {"name": "nuxt-starter-kit", "language": "JavaScript"},
+  {"name": "css-animation-demos", "language": "CSS"},
+  {"name": "jest-vue-utils", "language": "JavaScript"}
+]
+}

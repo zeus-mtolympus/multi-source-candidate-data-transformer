@@ -1,0 +1,16 @@
+{
+"login": "sanjaymalhotra",
+"name": "Sanjay Malhotra",
+"bio": "Data Analyst | SQL | Tableau | Power BI | Turning data into decisions",
+"company": "DataInsights",
+"blog": "",
+"location": "Delhi, India",
+"email": null,
+"html_url": "https://github.com/sanjaymalhotra",
+"public_repos": 8,
+"repos": [
+  {"name": "sql-query-library", "language": "Python"},
+  {"name": "data-cleaning-utils", "language": "Python"},
+  {"name": "excel-automation", "language": "Python"}
+]
+}

@@ -1,0 +1,35 @@
+Kavitha Pillai
+kavitha.pillai@infratech.in | +91 94455 98765 | Trivandrum, Kerala, India
+
+Summary
+DevOps Engineer with 6 years automating infrastructure, CI/CD pipelines, and cloud deployments. Strong in Terraform, GitHub Actions, and Kubernetes. Passionate about developer experience and reducing toil through automation.
+
+Experience
+
+InfraTech - DevOps Engineer
+January 2022 – Present
+• Designed and implemented GitOps deployment workflow using GitHub Actions, ArgoCD, and Helm for 30-service platform
+• Built Terraform module library standardising AWS infrastructure across 8 product teams
+• Reduced deployment lead time from 3 days to 45 minutes through CI/CD pipeline overhaul
+• Implemented SonarQube and Trivy security scanning gates blocking 94% of critical vulnerabilities before production
+• Built developer self-service environment provisioning tool reducing team blocking time by 75%
+• Maintained 99.95% deployment success rate with zero-downtime rolling updates
+
+CloudWorks - DevOps Engineer
+2020 – 2022
+• Managed Kubernetes clusters (EKS) for microservices platform handling 500k daily requests
+• Wrote Ansible playbooks automating OS configuration and application deployment across 150 servers
+• Set up monitoring with Prometheus, Grafana, and PagerDuty with on-call SLA of < 5 min response
+• Built Docker multi-stage build pipelines reducing image sizes by 60%
+
+NetDev - Junior DevOps
+2018 – 2020
+• Maintained Jenkins CI pipelines for Java and Python services
+• Provisioned EC2 and RDS instances using CloudFormation
+• Wrote Bash and Python scripts automating routine operational tasks
+
+Education
+B.Tech Computer Science, Kerala University, 2018
+
+Skills
+Terraform, HCL, AWS, Docker, Kubernetes, k8s, Helm, ArgoCD, GitHub Actions, GH Actions, Ansible, Python, Bash, Linux, CI/CD, Prometheus, Grafana, SonarQube, Git, CloudFormation, EKS

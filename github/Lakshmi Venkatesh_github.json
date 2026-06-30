@@ -1,0 +1,16 @@
+{
+"login": "lakshmiv",
+"name": "Lakshmi Venkatesh",
+"bio": "Engineering Lead | Building reliable systems",
+"company": "NovaTech",
+"blog": "",
+"location": "Chennai, India",
+"email": null,
+"html_url": "https://github.com/lakshmiv",
+"public_repos": 15,
+"repos": [
+{"name": "api-platform", "language": "Java"},
+{"name": "monitoring-tools", "language": "Python"},
+{"name": "team-dashboard", "language": "JavaScript"}
+]
+}

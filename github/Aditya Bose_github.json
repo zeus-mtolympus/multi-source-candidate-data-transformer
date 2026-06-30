@@ -1,0 +1,18 @@
+{
+"login": "adityabose",
+"name": "Aditya Bose",
+"bio": "Cloud Architect | Kubernetes | Infrastructure as Code",
+"company": "Cloudify Solutions",
+"blog": "https://adityabose.in",
+"location": "Chennai, India",
+"email": "aditya.bose@cloudify.in",
+"html_url": "https://github.com/adityabose",
+"public_repos": 28,
+"repos": [
+{"name": "terraform-aws-modules", "language": "HCL"},
+{"name": "k8s-operators", "language": "Go"},
+{"name": "ci-cd-pipelines", "language": "Python"},
+{"name": "monitoring-stack", "language": "Python"},
+{"name": "ml-deployment", "language": "Python"}
+]
+}
