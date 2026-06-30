@@ -575,6 +575,51 @@ candidate_data/
 
 ---
 
+## Scale and Performance
+
+> **Note:** Everything below is calculated from benchmarks on our 38-profile sample and extrapolated mathematically. Only real-world testing on actual hardware with actual data volumes will tell you what the true numbers are. Treat these as rough ballpark figures, not guarantees.
+
+### Time complexity
+
+| Stage | Complexity | Dominant cost |
+|-------|-----------|---------------|
+| Source loading | O(n) I/O | Reading n resume + GitHub files from disk |
+| Field extraction | O(n · R) | Iterating resume lines + regex per line. R ≈ 150 lines for a 1-page resume. |
+| Skill normalisation | O(n · s) | rapidfuzz scan over 140-item vocabulary per unrecognised skill. s ≈ 15 skills/candidate. |
+| Entity resolution | O(n) | Single pass, dict keyed by email. |
+| Merge + confidence | O(n · s) | Skill scoring and provenance iteration. |
+| Stage 2 projection | O(n · F) | F fields per config (21 for `default_full.json`). Each field is a dict walk. |
+
+Overall: **O(n · R)** for Stage 1 and **O(n)** for Stage 2. Both are linear in the number of candidates. There are no nested loops across candidates — entity resolution is a hash dict, not pairwise comparison.
+
+### Measured per-candidate times (on this machine, 38-profile run)
+
+| Step | Time per candidate |
+|------|--------------------|
+| Source loading (file I/O) | ~0.10 ms |
+| Parsing + field extraction | ~0.21 ms |
+| Entity resolution + merge | ~0.02 ms |
+| Confidence scoring | ~0.03 ms |
+| **Stage 1 total** | **~0.4 ms** |
+| Stage 2 (default_full.json, 21 fields) | **~0.13 ms** |
+| **End-to-end total** | **~0.53 ms per candidate** |
+
+### Projected time for 10,000 profiles
+
+Assuming the same enrichment ratio as our sample (~63% of candidates have resume files, ~45% have GitHub files — so roughly 10,800 enrichment files total):
+
+| Phase | Projected time | Notes |
+|-------|---------------|-------|
+| Stage 1 — CPU work | ~4 seconds | Linear extrapolation from benchmark |
+| Stage 1 — file I/O | 5–15 seconds | The big variable. Warm SSD: ~5s. Cold reads: ~15s. HDD: significantly longer. |
+| Stage 1 — write `canonical_profiles.json` (~26 MB) | ~1–2 seconds | |
+| Stage 2 — projection | ~1–2 seconds | |
+| **Total** | **~10–25 seconds** | Warm SSD, typical dev machine |
+
+The algorithm itself is fast — the bottleneck at scale is reading thousands of individual enrichment files off disk, not the Python code. If this ever needed to be faster, batching file reads or parallelising I/O with `asyncio` or a thread pool would be the first thing to try, not rewriting the extraction logic.
+
+---
+
 ## What We Didn't Build
 
 | Item | Reason |
