@@ -586,7 +586,6 @@ candidate_data/
 | LLM-based extraction | Deterministic regex is testable, reproducible, and doesn't need an API key |
 | Retroactive un-merging | Once merged in a run, it stays merged — no undo |
 | Portfolio URL extraction from resume body | Too many false positives (company pages, docs links, etc.) |
-| Seniority level inference | Leaving this to the consumer — a label derived from `years_experience` belongs in the system that knows what "senior" means for that role |
 
 ---
 
