@@ -77,13 +77,13 @@ Every module below is deterministic and independently unit-tested. For each one:
 
 ### Stage 1
 
-**`source_loader.py`** — reads `recruiter_data.csv`, attaches resume/GitHub file content by the `{name}_resume.txt` / `{name}_github.json` naming convention. Never raises on a missing file.
+**`source_loader.py`** — reads `recruiter_data.csv`, attaches resume/GitHub file content by the `{name}_resume.txt` / `{name}_github.json` naming convention, built from the CSV `name` column. `resume_file`/`github_url` are only checked for truthiness (does this candidate have enrichment to attempt?) — the actual path always comes from `name`, so `resume_file`'s value should match the real filename on disk (e.g. `"Arjun Mehta_resume.txt"`) to avoid confusion, even though the loader itself doesn't read that string.
 
 ```
-✓ correct   row: {name: "Alice Smith", resume_file: "alice_resume.txt"}, resume/Alice Smith_resume.txt exists
+✓ correct   row: {name: "Alice Smith", resume_file: "Alice Smith_resume.txt"}, resume/Alice Smith_resume.txt exists
             → resume_raw: "<file contents>", load_failed: []
 
-✗ missing   row: {name: "Bob Jones", resume_file: "bob_resume.txt"}, but the .txt file isn't on disk
+✗ missing   row: {name: "Bob Jones", resume_file: "Bob Jones_resume.txt"}, but the .txt file isn't on disk
             → resume_raw: None, load_failed: ["resume"]   (pipeline continues to the next row)
 ```
 

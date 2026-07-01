@@ -262,7 +262,7 @@
   "failures": [],
   "_meta": {
     "config_used": "configs\\minimal_ats.json",
-    "generated_at": "2026-07-01T01:54:07Z",
+    "generated_at": "2026-07-01T02:19:01Z",
     "total": 38,
     "succeeded": 38,
     "failed": 0

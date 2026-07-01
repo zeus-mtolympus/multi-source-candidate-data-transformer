@@ -25,7 +25,7 @@ def _make_data(tmp_path: Path, rows: list[dict], resumes: dict[str, str] = {}, g
 def test_loads_resume_when_file_exists(tmp_path: Path) -> None:
     root = _make_data(
         tmp_path,
-        [{"name": "Alice Smith", "email": "alice@example.com", "resume_file": "alice_resume.txt"}],
+        [{"name": "Alice Smith", "email": "alice@example.com", "resume_file": "Alice Smith_resume.txt"}],
         resumes={"Alice Smith": "Alice Smith\nalice@example.com"},
     )
     records = source_loader.load(root)
@@ -36,7 +36,7 @@ def test_loads_resume_when_file_exists(tmp_path: Path) -> None:
 def test_load_failed_when_resume_missing(tmp_path: Path) -> None:
     root = _make_data(
         tmp_path,
-        [{"name": "Bob Jones", "email": "bob@example.com", "resume_file": "bob_resume.txt"}],
+        [{"name": "Bob Jones", "email": "bob@example.com", "resume_file": "Bob Jones_resume.txt"}],
     )
     records = source_loader.load(root)
     assert records[0]["resume_raw"] is None
