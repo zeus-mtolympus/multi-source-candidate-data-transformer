@@ -101,10 +101,17 @@ def run(data_root: Path) -> list[dict[str, Any]]:
     profiles = confidence_calculator.score(profiles)
 
     generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    kept: list[dict[str, Any]] = []
+    skipped = 0
     for p in profiles:
-        p["candidate_id"] = _candidate_id(p)
+        try:
+            p["candidate_id"] = _candidate_id(p)
+        except ValueError:
+            skipped += 1
+            continue
         p["_meta"]["generated_at"] = generated_at
-    profiles = [_ensure_schema(p) for p in profiles]
+        kept.append(p)
+    profiles = [_ensure_schema(p) for p in kept]
 
     # Data quality warnings — surfaced in _meta for downstream consumers
     for p in profiles:
@@ -132,5 +139,7 @@ def run(data_root: Path) -> list[dict[str, Any]]:
     print(f"  Certs      : {with_certs} profiles have certifications")
     if source_failures:
         print(f"  Failures   : {source_failures} source load failures (see sources_failed in _meta)")
+    if skipped:
+        print(f"  Skipped    : {skipped} candidate(s) dropped - no email or phone to build a candidate_id from")
 
     return profiles

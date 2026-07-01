@@ -13,7 +13,7 @@ def score(profiles: list[dict[str, Any]]) -> list[dict[str, Any]]:
         skill_map: dict[str, list[tuple[str, str]]] = p.pop("_skill_map", {})
         skills: list[dict] = []
         for name, source_methods in skill_map.items():
-            unique_sources = list({sm[0] for sm in source_methods})
+            unique_sources = list(dict.fromkeys(sm[0] for sm in source_methods))
             base = max(_base_score(s, m) for s, m in source_methods)
             # ponytail: additive corroboration, documented simplification — not proportional
             conf = min(base + (len(unique_sources) - 1) * _cfg.CORROBORATION_BONUS, 1.0)

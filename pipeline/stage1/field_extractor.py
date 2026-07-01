@@ -104,8 +104,16 @@ def _extract_name_from_resume(sections: dict[str, list[str]]) -> str | None:
 def _extract_contacts(text: str) -> tuple[list[str], list[str]]:
     emails: list[str] = []
     phones: list[str] = []
+    current = "header"
     for line in text.splitlines():
-        if "refer" in line.lower():
+        s = line.strip()
+        matched = _match_section_header(s)
+        if matched:
+            current = _section_key(matched)
+        # Skip the whole References section (not just lines that happen to
+        # contain "refer") so a multi-line block doesn't leak a third
+        # party's contact info into the candidate's profile.
+        if current == "references" or "refer" in line.lower():
             continue
         for m in _EMAIL_RE.finditer(line):
             emails.append(m.group())

@@ -133,6 +133,27 @@ def test_github_loaded_candidate_has_match_confidence_1(by_name) -> None:
     assert by_name["Neha Gupta"]["match_confidence"] == 1.0
 
 
+def test_candidate_with_no_email_or_phone_is_skipped_not_crashed(tmp_path) -> None:
+    from pipeline.stage1 import stage1
+
+    fields = ["name", "email", "phone", "current_company", "title", "location_city",
+              "location_region", "location_country", "linkedin_url", "github_url",
+              "portfolio_url", "headline", "years_experience", "resume_file"]
+    (tmp_path / "resume").mkdir()
+    (tmp_path / "github").mkdir()
+    import csv
+    with open(tmp_path / "recruiter_data.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=fields)
+        w.writeheader()
+        w.writerow({k: "" for k in fields} | {"name": "No Contact"})
+        w.writerow({k: "" for k in fields} | {"name": "Has Email", "email": "has@test.com"})
+
+    profiles = stage1.run(tmp_path)
+    names = {p["full_name"] for p in profiles}
+    assert "No Contact" not in names
+    assert "Has Email" in names
+
+
 def test_meta_generated_at_present(profiles) -> None:
     for p in profiles:
         assert p["_meta"]["generated_at"]

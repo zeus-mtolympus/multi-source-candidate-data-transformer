@@ -56,6 +56,27 @@ def test_reference_contacts_rejected() -> None:
     assert "alice@test.com" in emails
 
 
+def test_reference_contacts_rejected_multiline_section() -> None:
+    # Unlike the single-line "References: Contact ..." case above, this puts the
+    # References header on its own line with the contact details on the next
+    # line - the old "refer" keyword-per-line check would have missed this.
+    resume = (
+        "Alice Smith\nalice@test.com\n\nSkills\nPython\n\n"
+        "References\nBob Old, bob.ref@oldco.com, +91 99999 11111\n"
+    )
+    rec = _rec({"name": "Alice Smith", "email": "", "phone": "", "headline": "", "years_experience": "",
+                "current_company": "", "title": "", "location_city": "", "location_region": "",
+                "location_country": "", "linkedin_url": "", "github_url": "", "portfolio_url": "",
+                "resume_file": "x"}, resume_raw=resume)
+    result = field_extractor.extract([rec])[0]
+    ext = result["extracted"]
+    emails = [t["value"] for t in ext["emails"]]
+    phones = [t["value"] for t in ext["phones"]]
+    assert "bob.ref@oldco.com" not in emails
+    assert not any("99999" in p for p in phones)
+    assert "alice@test.com" in emails
+
+
 def test_github_language_inferred_skills() -> None:
     gh = {"name": "Alice", "repos": [{"name": "r1", "language": "Python"}, {"name": "r2", "language": "Go"}]}
     rec = _rec({"name": "Alice", "email": "", "phone": "", "headline": "", "years_experience": "",

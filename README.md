@@ -52,6 +52,7 @@ python orchestrator.py --stage stage2 --config configs/optional_strict_on_missin
 8. The CSV `name` column is always populated.
 9. This is a full batch pipeline — it processes all candidates in the CSV in one go. There is no incremental or delta mode.
 10. The GitHub API's `blog` field is treated as the candidate's portfolio URL.
+11. `candidate_id` is derived from the primary email (falling back to phone if there's no email). A candidate with neither is dropped from the output rather than crashing the run — logged as `Skipped` in the Stage 1 run summary.
 
 ---
 
@@ -193,7 +194,7 @@ Stage 1 and Stage 2 solve different problems and separating them makes the whole
 
 ### No LLMs or ML
 
-All extraction is deterministic: regex patterns for emails, phones, and URLs; section heuristics for Experience, Education, Skills, Certifications blocks; direct column reads for the CSV. The reason for this is reproducibility — given the same input files, the output is always identical. It also means you can write unit tests for every extraction path, which we did (151 tests).
+All extraction is deterministic: regex patterns for emails, phones, and URLs; section heuristics for Experience, Education, Skills, Certifications blocks; direct column reads for the CSV. The reason for this is reproducibility — given the same input files, the output is always identical. It also means you can write unit tests for every extraction path, which we did (153 tests).
 
 ### Email as the only identity key
 
@@ -419,7 +420,7 @@ Below is a real output profile (Arjun Mehta) with comments explaining every fiel
     { "field": "education",       "source": "resume", "method": "section_heuristic", "value": { "institution": "IIT Madras", "degree": "B.Tech", "field": "Computer Science", "end_year": 2016 }, "role": "primary" },
     { "field": "certifications",  "source": "resume", "method": "section_heuristic", "value": { "name": "AWS Certified Solutions Architect – Associate", "year": 2023 }, "role": "primary" },
     { "field": "experience",      "source": "resume", "method": "section_heuristic", "value": { "company": "TechCorp India", "title": "Senior Software Engineer", "start": "2022-01", "end": null, "summary": "..." }, "role": "primary" }
-    // ... one more "certifications" entry and two more "experience" entries follow (21 total for this candidate)
+    // ... one more "certifications" entry and two more "experience" entries follow (19 total for this candidate)
   ],
 
   // Weighted confidence score across all 9 key fields (0.0 – 1.0).
@@ -668,7 +669,7 @@ python orchestrator.py --stage stage2 --config configs/optional_strict_on_missin
 python -m pytest tests/ -v
 ```
 
-151 tests across 10 test files. Unit tests cover each module individually; integration tests run the full pipeline end-to-end on the actual sample data and assert on real output values.
+153 tests across 11 test files. Unit tests cover each module individually; integration tests run the full pipeline end-to-end on the actual sample data and assert on real output values.
 
 ---
 

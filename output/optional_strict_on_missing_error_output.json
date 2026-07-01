@@ -195,7 +195,7 @@
   ],
   "_meta": {
     "config_used": "configs\\optional_strict_on_missing_error.json",
-    "generated_at": "2026-07-01T02:19:01Z",
+    "generated_at": "2026-07-01T02:48:45Z",
     "total": 38,
     "succeeded": 11,
     "failed": 27
