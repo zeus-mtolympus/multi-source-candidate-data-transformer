@@ -11,5 +11,5 @@ def parse(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
             try:
                 rec["github_parsed"] = json.loads(raw)
             except (json.JSONDecodeError, ValueError):
-                rec["load_failed"].append("github_parse_failed")
+                rec["load_failed"].append("github")
     return records

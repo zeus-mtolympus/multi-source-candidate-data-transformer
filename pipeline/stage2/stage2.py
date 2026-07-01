@@ -45,7 +45,7 @@ def run(data_root: Path, config_path: Path, input_path: Path) -> dict[str, Any]:
         "failures": failures,
         "_meta": {
             "config_used": str(config_path),
-            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             "total": len(profiles),
             "succeeded": len(results),
             "failed": len(failed_ids),

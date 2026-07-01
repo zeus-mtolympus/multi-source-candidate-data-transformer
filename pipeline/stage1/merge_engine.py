@@ -82,8 +82,14 @@ def merge(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
         for t in sorted(ext["links"], key=_priority):
             lv = t["value"]
             for k in ("linkedin", "github", "portfolio"):
-                if lv.get(k) and not links[k]:
-                    links[k] = lv[k]
+                val = lv.get(k)
+                if not val:
+                    continue
+                if not links[k]:
+                    links[k] = val
+                    provenance.append({"field": "links", "source": t["source"], "method": t["method"], "value": val, "role": "primary"})
+                elif val != links[k]:
+                    provenance.append({"field": "links", "source": t["source"], "method": t["method"], "value": val, "role": "conflicting_alternate"})
         profile["links"] = links
 
         skill_map: dict[str, list[tuple[str, str]]] = {}
@@ -101,6 +107,7 @@ def merge(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
             if key not in edu_seen:
                 edu_seen.add(key)
                 profile["education"].append(t["value"])
+                provenance.append({"field": "education", "source": t["source"], "method": t["method"], "value": t["value"], "role": "primary"})
 
         cert_seen: set[str] = set()
         profile["certifications"] = []
@@ -109,6 +116,10 @@ def merge(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
             if key not in cert_seen:
                 cert_seen.add(key)
                 profile["certifications"].append(t["value"])
+                provenance.append({"field": "certifications", "source": t["source"], "method": t["method"], "value": t["value"], "role": "primary"})
+
+        for t in ext["experience"]:
+            provenance.append({"field": "experience", "source": t["source"], "method": t["method"], "value": t["value"], "role": "primary"})
 
         profile["experience"] = sorted(
             [t["value"] for t in ext["experience"]],

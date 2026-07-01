@@ -162,6 +162,12 @@ def normalize_country(s: str | None) -> str | None:
         return None
 
 
+def normalize_name(s: str | None) -> str | None:
+    if not s:
+        return None
+    return s.strip().title()
+
+
 def normalize_url(s: str | None) -> str | None:
     if not s:
         return None

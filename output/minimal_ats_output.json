@@ -10,23 +10,28 @@
     {
       "full_name": "Priya Singh",
       "email": "priya.singh@innovate.co.in",
-      "phone": "+919876543210"
+      "phone": "+919876543210",
+      "current_title": "Lead Product Manager",
+      "current_company": "Innovate Solutions"
     },
     {
       "full_name": "Vikram Patel",
       "email": "vikram.patel@freelance.dev",
-      "phone": "+442079460958"
+      "phone": "+442079460958",
+      "current_title": "Software Developer"
     },
     {
       "full_name": "Neha Gupta",
       "email": "neha.gupta@startuplabs.in",
-      "phone": "+917012345678"
+      "phone": "+917012345678",
+      "current_title": "Engineering Manager",
+      "current_company": "StartupLabs"
     },
     {
       "full_name": "Rohan Kapoor",
       "email": "rohan.kapoor@consult.in",
       "phone": "+919820345678",
-      "current_title": "Senior Consultant",
+      "current_title": "Consultant",
       "current_company": "Consultify"
     },
     {
@@ -39,12 +44,16 @@
     {
       "full_name": "Rahul Nair",
       "email": "rahul.nair@legacy.in",
-      "phone": "+919445678901"
+      "phone": "+919445678901",
+      "current_title": "Senior Developer",
+      "current_company": "Legacy Systems Pvt Ltd"
     },
     {
       "full_name": "Rahul K Nair",
       "email": "rahulknair@protonmail.com",
-      "phone": "+919445678902"
+      "phone": "+919445678902",
+      "current_title": "Software Architect",
+      "current_company": "Legacy Systems Pvt Ltd"
     },
     {
       "full_name": "Sneha Reddy",
@@ -68,17 +77,22 @@
     {
       "full_name": "Amitabh Rao",
       "email": "amitabh.rao@dyno.in",
-      "phone": "+918123498765"
+      "phone": "+918123498765",
+      "current_title": "Senior Backend Engineer",
+      "current_company": "Dyno Systems"
     },
     {
       "full_name": "Suresh Menon",
       "email": "suresh.menon@freelance.in",
-      "phone": "+919876543211"
+      "phone": "+919876543211",
+      "current_company": "Freelance"
     },
     {
       "full_name": "Lakshmi Venkatesh",
       "email": "lakshmi.v@novatech.co.in",
-      "phone": "+917014567890"
+      "phone": "+917014567890",
+      "current_title": "Engineering Lead",
+      "current_company": "NovaTech"
     },
     {
       "full_name": "Deepak Malhotra",
@@ -97,12 +111,16 @@
     {
       "full_name": "Vivek Singh",
       "email": "vivek.singh@techwave.in",
-      "phone": "+917550123456"
+      "phone": "+917550123456",
+      "current_title": "DevOps Engineer",
+      "current_company": "TechWave Pvt Ltd"
     },
     {
       "full_name": "Vivek S. Singh",
       "email": "vivekssingh@techwave.in",
-      "phone": "+917550123457"
+      "phone": "+917550123457",
+      "current_title": "Senior DevOps Engineer",
+      "current_company": "TechWave Pvt Ltd"
     },
     {
       "full_name": "Pooja Nair",
@@ -133,7 +151,9 @@
     {
       "full_name": "Pradeep Kumar",
       "email": "pradeep.kumar@cloudops.in",
-      "phone": "+919011234567"
+      "phone": "+919011234567",
+      "current_title": "DevOps Engineer",
+      "current_company": "CloudOps"
     },
     {
       "full_name": "Tanveer Ahmed",
@@ -159,7 +179,9 @@
     {
       "full_name": "Pallavi Joshi",
       "email": "pallavi.joshi@uxworks.in",
-      "phone": "+918877654321"
+      "phone": "+918877654321",
+      "current_title": "Frontend Developer",
+      "current_company": "UXWorks"
     },
     {
       "full_name": "Naveen Reddy",
@@ -185,17 +207,23 @@
     {
       "full_name": "Shruti R. Kapoor",
       "email": "shruti.kapoor@designco.in",
-      "phone": "+918765409877"
+      "phone": "+918765409877",
+      "current_title": "Senior UX Designer",
+      "current_company": "DesignCo"
     },
     {
       "full_name": "Nikhil R. Verma",
       "email": "nikhil.verma@backendpro.in",
-      "phone": "+919556677890"
+      "phone": "+919556677890",
+      "current_title": "Principal Engineer",
+      "current_company": "BackendPro"
     },
     {
       "full_name": "Ravi Shankar",
       "email": "ravi.shankar@techbridge.in",
-      "phone": "+919800011223"
+      "phone": "+919800011223",
+      "current_title": "Senior Architect",
+      "current_company": "TechBridge"
     },
     {
       "full_name": "Preeta Subramaniam",
@@ -212,7 +240,9 @@
     {
       "full_name": "Sanjay Malhotra",
       "email": "sanjay.malhotra@datainsights.in",
-      "phone": "+919123456780"
+      "phone": "+919123456780",
+      "current_title": "Data Analyst",
+      "current_company": "DataInsights"
     },
     {
       "full_name": "Kavitha Pillai",
@@ -232,7 +262,7 @@
   "failures": [],
   "_meta": {
     "config_used": "configs\\minimal_ats.json",
-    "generated_at": "2026-06-30T17:01:06.834513+00:00",
+    "generated_at": "2026-07-01T01:54:07Z",
     "total": 38,
     "succeeded": 38,
     "failed": 0

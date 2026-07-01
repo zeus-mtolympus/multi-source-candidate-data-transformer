@@ -138,6 +138,34 @@ def test_meta_generated_at_present(profiles) -> None:
         assert p["_meta"]["generated_at"]
 
 
+def test_meta_generated_at_is_utc_z_format(profiles) -> None:
+    import re
+    for p in profiles:
+        assert re.match(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$", p["_meta"]["generated_at"])
+
+
+def test_csv_only_candidate_keeps_current_role(by_name) -> None:
+    # Priya Singh has no resume, but the CSV directly reports current_company/title —
+    # that data must survive into the canonical profile, not just live in experience[].
+    priya = by_name["Priya Singh"]
+    assert priya["current_company"] == "Innovate Solutions"
+    assert priya["title"] == "Lead Product Manager"
+
+
+def test_links_have_provenance(by_name) -> None:
+    arjun = by_name["Arjun Mehta"]
+    links_prov = [e for e in arjun["provenance"] if e["field"] == "links"]
+    assert links_prov, "links must be traceable to a source, like every other field"
+
+
+def test_experience_and_education_have_provenance(by_name) -> None:
+    arjun = by_name["Arjun Mehta"]
+    prov_fields = {e["field"] for e in arjun["provenance"]}
+    assert "experience" in prov_fields
+    assert "education" in prov_fields
+    assert "certifications" in prov_fields
+
+
 def test_new_duplicate_pair_collapses(by_name) -> None:
     # Shruti Kapoor and Shruti R. Kapoor share same email → only winner survives
     assert "Shruti R. Kapoor" in by_name

@@ -30,3 +30,7 @@ build/
 # OS
 .DS_Store
 Thumbs.db
+
+# Design doc deliverables (submitted separately, not pushed)
+*.pdf
+*.docx

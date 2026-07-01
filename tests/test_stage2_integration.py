@@ -42,6 +42,16 @@ def test_minimal_ats_on_missing_omit_removes_keys() -> None:
     assert "current_company" not in sneha
 
 
+def test_minimal_ats_csv_only_current_role_not_dropped() -> None:
+    # Priya Singh is CSV-only (no resume/experience[]) but the CSV directly gives
+    # current_company/title — that must not be silently dropped from the output.
+    out = _load("minimal_ats")
+    by_name = {r["full_name"]: r for r in out["results"]}
+    priya = by_name["Priya Singh"]
+    assert priya["current_title"] == "Lead Product Manager"
+    assert priya["current_company"] == "Innovate Solutions"
+
+
 def test_minimal_ats_has_required_fields() -> None:
     out = _load("minimal_ats")
     for r in out["results"]:

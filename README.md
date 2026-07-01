@@ -59,7 +59,7 @@ python orchestrator.py --stage stage2 --config configs/optional_strict_on_missin
 
 No data was provided for this project, so we created our own. The dataset has 42 rows in `recruiter_data.csv` covering fictional Indian software professionals. Out of 42 rows, 4 are intentional duplicates (same email, slightly different names or field values) to test entity resolution — so Stage 1 produces 38 unique profiles.
 
-- **24 resumes** are included in `resume/` as `.txt` files
+- **20 resumes** are included in `resume/` as `.txt` files
 - **17 GitHub snapshots** are included in `github/` as `.json` files (mimicking the GitHub API response format)
 - The rest are CSV-only candidates with no enrichment
 
@@ -79,7 +79,7 @@ Stage 1 and Stage 2 solve different problems and separating them makes the whole
 
 ### No LLMs or ML
 
-All extraction is deterministic: regex patterns for emails, phones, and URLs; section heuristics for Experience, Education, Skills, Certifications blocks; direct column reads for the CSV. The reason for this is reproducibility — given the same input files, the output is always identical. It also means you can write unit tests for every extraction path, which we did (143 tests).
+All extraction is deterministic: regex patterns for emails, phones, and URLs; section heuristics for Experience, Education, Skills, Certifications blocks; direct column reads for the CSV. The reason for this is reproducibility — given the same input files, the output is always identical. It also means you can write unit tests for every extraction path, which we did (151 tests).
 
 ### Email as the only identity key
 
@@ -87,7 +87,7 @@ The first thing you'd think of for deduplication is fuzzy name matching — "Pri
 
 ### Confidence scoring that actually makes sense
 
-The confidence score is a weighted average across all 9 key fields, and every field is always included in the calculation. If a field is missing, it contributes 0.0 to the score — it doesn't get excluded from the denominator. This means a profile with rich data (skills, experience, education, certifications) naturally scores higher than one with just a name and email from the CSV. A CSV-only stub typically scores between 0.54 and 0.81. A fully enriched profile with resume and GitHub data scores between 0.86 and 0.89.
+The confidence score is a weighted average across all 9 key fields, and every field is always included in the calculation. If a field is missing, it contributes 0.0 to the score — it doesn't get excluded from the denominator. This means a profile with rich data (skills, experience, education, certifications) naturally scores higher than one with just a name and email from the CSV. A CSV-only stub typically scores between 0.43 and 0.63. A fully enriched profile with resume and/or GitHub data scores between 0.68 and 0.81.
 
 ### Provenance on everything
 
@@ -103,7 +103,9 @@ The obvious fields (name, email, phone, skills, experience, education) are strai
 
 - **Certifications** — pulled from the `Certifications` section of resumes. The standard profile schema tends to lump these with education, but certifications are different: they expire, they have specific issuing bodies, and they're increasingly how technical skills get validated. We pull them out as a separate array with `name` and `year` so downstream systems can act on them independently.
 
-- **Provenance array** — every field write is logged with source, method, value, and role. This exists so that if a candidate disputes what's in their profile, or if a recruiter wants to audit why a particular value is there, you can trace it back exactly. Most profile schemas don't include this but it's essential for trust in a merged-data system.
+- **`current_company` / `title`** — the CSV's directly-reported current employer and job title, kept separate from `experience[]`. `experience[]` only exists for candidates with a parseable resume; a CSV-only candidate still has a current employer, so this field carries it without needing a resume to derive it from.
+
+- **Provenance array** — every field write is logged with source, method, value, and role, for every field in the schema (scalars, `location`, `links`, `experience`, `education`, `certifications` — nothing is skipped). This exists so that if a candidate disputes what's in their profile, or if a recruiter wants to audit why a particular value is there, you can trace it back exactly. Most profile schemas don't include this but it's essential for trust in a merged-data system.
 
 - **`match_confidence`** — separate from `overall_confidence`. This one tells you whether the enrichment sources (resume/GitHub) were actually available and loaded. `1.0` means at least one enrichment source loaded fine. `0.5` means the CSV referenced an enrichment source but the file wasn't there (something to investigate). `null` means this was a CSV-only candidate from the start — no enrichment was even attempted. This is useful because a `0.5` is a different kind of problem than a `null`.
 
@@ -118,12 +120,14 @@ Every candidate ends up as a single JSON object in `canonical_profiles.json`. He
 | Field | Type | Description |
 |-------|------|-------------|
 | `candidate_id` | `string` | `cand_` + first 12 characters of SHA-256 of the primary email. Deterministic — running Stage 1 twice on the same data gives the same IDs. |
-| `full_name` | `string \| null` | Candidate's full name. If CSV and resume disagree, CSV wins. Null if no source had a name. |
+| `full_name` | `string \| null` | Candidate's full name, trimmed and title-cased. If CSV and resume disagree, CSV wins. Null if no source had a name. |
 | `emails` | `string[]` | All email addresses found across sources, lowercased and deduped. The CSV email is always first if present. |
 | `phones` | `string[]` | All phone numbers found, normalised to E.164 format (e.g. `+919876543210`). Numbers without a country code get +91 prepended. |
 | `location` | `{city, region, country}` | City and region are free text. Country is an ISO 3166-1 alpha-2 code (e.g. `IN`, `US`, `SG`). GitHub's free-text location string like "Bangalore, India" gets split and normalised automatically. |
 | `links` | `{linkedin, github, portfolio, other[]}` | All URLs found across sources. URLs missing the `https://` scheme get it prepended. GitHub `blog` field becomes `portfolio`. |
 | `headline` | `string \| null` | Professional headline from CSV. If missing, derived as `"Title at Company"` from the most recent experience entry. |
+| `current_company` | `string \| null` | Current employer. From the CSV `current_company` column, or GitHub's `company` field if CSV has none (CSV wins on conflict). Kept separate from `experience[]` so a CSV-only candidate's current employer survives even with no resume to parse. |
+| `title` | `string \| null` | Current job title, from the CSV `title` column. CSV is the only source for this field. |
 | `years_experience` | `number \| null` | From CSV if present. If missing, computed from the earliest start date in parsed experience entries. |
 | `skills` | `[{name, confidence, sources[]}]` | Canonicalised skill names, sorted by confidence score descending. Each skill records which sources it came from. |
 | `experience` | `[{company, title, start, end, summary}]` | Parsed from resume Experience section. Dates are in `YYYY-MM` format. `end: null` means current role. Sorted most-recent-first. |
@@ -145,7 +149,7 @@ Below is a real output profile (Arjun Mehta) with comments explaining every fiel
   // Deterministic: same CSV + files always produces the same ID.
   "candidate_id": "cand_78fd73b88469",
 
-  // Full name from the CSV (highest-priority source).
+  // Full name from the CSV (highest-priority source), trimmed and title-cased.
   // If the CSV had no name, this would fall back to resume, then GitHub, then null.
   "full_name": "Arjun Mehta",
 
@@ -168,7 +172,9 @@ Below is a real output profile (Arjun Mehta) with comments explaining every fiel
 
   // All profile links found across sources, normalised to https://.
   // GitHub's "blog" field becomes "portfolio".
-  // Any URL found in resume text that doesn't match linkedin/github/portfolio goes in "other".
+  // "other" is reserved for non-standard profile URLs but nothing currently writes to
+  // it — extracting arbitrary unmatched links from resume text has the same false-positive
+  // risk as portfolio-from-resume-body (see "What We Didn't Build"), so it's always [].
   "links": {
     "linkedin": "https://linkedin.com/in/arjunmehta",
     "github": "https://github.com/arjunm",
@@ -181,6 +187,13 @@ Below is a real output profile (Arjun Mehta) with comments explaining every fiel
   // from the most recent experience entry and marked as method: "derived" in provenance.
   "headline": "Full-stack engineer with passion for scalable systems",
 
+  // Current employer / title, read directly from the CSV (current_company falls back to
+  // GitHub's "company" field if the CSV has none). Kept separate from experience[] on purpose:
+  // a CSV-only candidate with no resume still has a current employer, even though their
+  // experience[] array is empty.
+  "current_company": "TechCorp India",
+  "title": "Senior Software Engineer",
+
   // Years of experience from the CSV.
   // If missing from CSV, computed from the earliest start date in parsed experience.
   "years_experience": 8,
@@ -191,16 +204,27 @@ Below is a real output profile (Arjun Mehta) with comments explaining every fiel
   //   python: resume (0.65) + github repos (0.50) → max(0.65, 0.50) + 0.10 = 0.75
   //   typescript: resume only (0.65)
   // Sorted highest confidence first so the most reliable skills are at the top.
+  // 19 total for this candidate (resume lists a long stack) — full list shown.
   "skills": [
-    { "name": "javascript", "confidence": 0.75, "sources": ["github", "resume"] },
-    { "name": "python",     "confidence": 0.75, "sources": ["github", "resume"] },
-    { "name": "typescript", "confidence": 0.65, "sources": ["resume"] },
-    { "name": "react",      "confidence": 0.65, "sources": ["resume"] },
-    { "name": "node.js",    "confidence": 0.65, "sources": ["resume"] },
-    { "name": "aws",        "confidence": 0.65, "sources": ["resume"] },
-    { "name": "docker",     "confidence": 0.65, "sources": ["resume"] },
-    { "name": "kubernetes", "confidence": 0.65, "sources": ["resume"] },
-    { "name": "postgresql", "confidence": 0.65, "sources": ["resume"] }
+    { "name": "javascript",  "confidence": 0.75, "sources": ["github", "resume"] },
+    { "name": "python",      "confidence": 0.75, "sources": ["github", "resume"] },
+    { "name": "typescript",  "confidence": 0.65, "sources": ["resume"] },
+    { "name": "react",       "confidence": 0.65, "sources": ["resume"] },
+    { "name": "node.js",     "confidence": 0.65, "sources": ["resume"] },
+    { "name": "aws",         "confidence": 0.65, "sources": ["resume"] },
+    { "name": "docker",      "confidence": 0.65, "sources": ["resume"] },
+    { "name": "kubernetes",  "confidence": 0.65, "sources": ["resume"] },
+    { "name": "postgresql",  "confidence": 0.65, "sources": ["resume"] },
+    { "name": "redis",       "confidence": 0.65, "sources": ["resume"] },
+    { "name": "kafka",       "confidence": 0.65, "sources": ["resume"] },
+    { "name": "mongodb",     "confidence": 0.65, "sources": ["resume"] },
+    { "name": "git",         "confidence": 0.65, "sources": ["resume"] },
+    { "name": "ci/cd",       "confidence": 0.65, "sources": ["resume"] },
+    { "name": "terraform",   "confidence": 0.65, "sources": ["resume"] },
+    { "name": "graphql",     "confidence": 0.65, "sources": ["resume"] },
+    { "name": "sql",         "confidence": 0.65, "sources": ["resume"] },
+    { "name": "bash",        "confidence": 0.65, "sources": ["resume"] },
+    { "name": "linux",       "confidence": 0.65, "sources": ["resume"] }
   ],
 
   // Parsed from the Experience section of the resume.
@@ -251,35 +275,54 @@ Below is a real output profile (Arjun Mehta) with comments explaining every fiel
     { "name": "MongoDB Developer Certification", "year": 2021 }
   ],
 
-  // Full audit trail — one entry for every field value that was written.
+  // Full audit trail — one entry for every field value that was written, for every
+  // top-level field in the schema (scalars, location, links, experience, education,
+  // certifications — nothing is exempt).
   // "source": which source this came from (csv / resume / github)
   // "method": how it was extracted (direct / regex_extracted / section_heuristic / language_inferred / derived)
   // "value": the actual value from that source
   // "role": "primary" = this value won and is in the profile
   //         "conflicting_alternate" = a different source gave a different value; it lost, but it's recorded here
   // Nothing is silently overwritten — every conflict is visible.
+  // List fields (links, experience, education, certifications) get one "primary" entry per
+  // item written — there's no "loser" for a union of items, only for scalars that compete.
+  // Note: if two sources report the exact same value (e.g. the resume repeats the CSV email),
+  // only the first (highest-priority) occurrence is logged — identical values aren't a conflict.
   "provenance": [
-    { "field": "full_name",  "source": "csv",    "method": "direct",            "value": "Arjun Mehta",                                          "role": "primary" },
-    { "field": "headline",   "source": "csv",    "method": "direct",            "value": "Full-stack engineer with passion for scalable systems",  "role": "primary" },
-    { "field": "email",      "source": "csv",    "method": "direct",            "value": "arjun.mehta@techcorp.in",                               "role": "primary" },
-    { "field": "email",      "source": "resume", "method": "regex_extracted",   "value": "arjun.mehta@techcorp.in",                               "role": "primary" },
-    { "field": "experience", "source": "resume", "method": "section_heuristic", "value": { "company": "TechCorp India", "title": "Senior Software Engineer", "start": "2022-01", "end": null }, "role": "primary" }
-    // ... continues for every field from every source
+    { "field": "full_name",       "source": "csv",    "method": "direct",            "value": "Arjun Mehta",                                            "role": "primary" },
+    { "field": "headline",        "source": "csv",    "method": "direct",            "value": "Full-stack engineer with passion for scalable systems",   "role": "primary" },
+    { "field": "headline",        "source": "github", "method": "direct",            "value": "Full-stack engineer @TechCorp | Building scalable systems with React & Node", "role": "conflicting_alternate" },
+    { "field": "years_experience","source": "csv",    "method": "direct",            "value": 8,                                                        "role": "primary" },
+    { "field": "current_company", "source": "csv",    "method": "direct",            "value": "TechCorp India",                                         "role": "primary" },
+    { "field": "title",           "source": "csv",    "method": "direct",            "value": "Senior Software Engineer",                               "role": "primary" },
+    { "field": "email",           "source": "csv",    "method": "direct",            "value": "arjun.mehta@techcorp.in",                                "role": "primary" },
+    { "field": "phone",           "source": "csv",    "method": "direct",            "value": "+919876543210",                                          "role": "primary" },
+    { "field": "location",        "source": "csv",    "method": "direct",            "value": { "city": "Bangalore", "region": "Karnataka", "country": "IN" }, "role": "primary" },
+    { "field": "location",        "source": "github", "method": "direct",            "value": { "city": "Bangalore", "region": null, "country": "IN" },   "role": "conflicting_alternate" },
+    { "field": "links",           "source": "csv",    "method": "direct",            "value": "https://linkedin.com/in/arjunmehta",                     "role": "primary" },
+    { "field": "links",           "source": "csv",    "method": "direct",            "value": "https://github.com/arjunm",                              "role": "primary" },
+    { "field": "links",           "source": "csv",    "method": "direct",            "value": "https://arjunmehta.dev",                                 "role": "primary" },
+    { "field": "education",       "source": "resume", "method": "section_heuristic", "value": { "institution": "IIT Madras", "degree": "B.Tech", "field": "Computer Science", "end_year": 2016 }, "role": "primary" },
+    { "field": "certifications",  "source": "resume", "method": "section_heuristic", "value": { "name": "AWS Certified Solutions Architect – Associate", "year": 2023 }, "role": "primary" },
+    { "field": "experience",      "source": "resume", "method": "section_heuristic", "value": { "company": "TechCorp India", "title": "Senior Software Engineer", "start": "2022-01", "end": null, "summary": "..." }, "role": "primary" }
+    // ... one more "certifications" entry and two more "experience" entries follow (21 total for this candidate)
   ],
 
   // Weighted confidence score across all 9 key fields (0.0 – 1.0).
   // Formula: sum(field_confidence * field_weight) for all fields.
   // IMPORTANT: missing fields contribute 0.0, they are NOT excluded from the denominator.
-  // This is why a fully enriched candidate (0.876) always scores higher than a CSV-only stub (0.540).
+  // This is why a fully enriched candidate (0.806) always scores higher than a CSV-only stub (0.432).
   // The weights are: full_name 0.20, emails 0.20, experience 0.12, skills 0.10,
   //                  phones 0.08, years_experience 0.08, education 0.08, location 0.07, headline 0.07
-  "overall_confidence": 0.876,
+  "overall_confidence": 0.806,
 
   // Tells you whether enrichment sources (resume / GitHub) were available and loaded.
   // 1.0  → at least one enrichment source loaded successfully (this candidate)
   // 0.5  → enrichment was referenced in the CSV but all files were missing (something to investigate)
   // null → no enrichment was referenced at all — this is a pure CSV candidate, not a failure
-  // Also reduced by 0.10 if duplicate CSV rows were found for this candidate (identity uncertainty).
+  // Also reduced by 0.10 if duplicate CSV rows were found for this candidate (identity uncertainty)
+  // — but only when match_confidence is non-null to begin with. A CSV-only candidate with a
+  // duplicate row has nothing to discount and stays null (see Edge Case #1).
   // This is separate from overall_confidence on purpose: a 1.0 here means you can trust the enrichment;
   // a 0.5 here means you should go find the missing file.
   "match_confidence": 1.0,
@@ -297,31 +340,33 @@ Below is a real output profile (Arjun Mehta) with comments explaining every fiel
     "sources_used": ["csv", "resume", "github"],
     "sources_failed": [],
     "data_quality": [],
-    "generated_at": "2026-06-30T17:00:55Z"
+    "generated_at": "2026-07-01T01:46:48Z"
   }
 }
 ```
 
-**What a CSV-only candidate looks like** — same schema, most arrays empty, lower confidence:
+**What a CSV-only candidate looks like** — same schema, most arrays empty, lower confidence. This is the real output for Farhan Ali, who has no `resume_file` or `github_url` in the CSV at all:
 
 ```jsonc
 {
-  "candidate_id": "cand_3c7f2ad19e...",
+  "candidate_id": "cand_4203bb21031a",
   "full_name": "Farhan Ali",
-  "emails": ["farhan.ali@example.com"],
-  "phones": ["+919812345678"],
-  "location": { "city": "Hyderabad", "region": null, "country": "IN" },
+  "emails": ["farhan.ali@freelancer.in"],
+  "phones": ["+918800122334"],
+  "location": { "city": null, "region": null, "country": null },
   "links": { "linkedin": null, "github": null, "portfolio": null, "other": [] },
-  "headline": "Product Manager",
-  "years_experience": 4,
+  "headline": null,
+  "current_company": null, // CSV had no current_company column value for this row either
+  "title": null,
+  "years_experience": null,
   "skills": [],        // empty — no resume or GitHub to extract from
   "experience": [],    // empty — no resume
   "education": [],     // empty — no resume
   "certifications": [], // empty — no resume
 
-  // 0.540 vs Arjun's 0.876 — the empty arrays pull the score down
+  // 0.432 vs Arjun's 0.806 — the empty arrays pull the score down
   // because they contribute 0.0 to the weighted average, not "excluded"
-  "overall_confidence": 0.540,
+  "overall_confidence": 0.432,
 
   // null — no enrichment was even attempted for this candidate (CSV had no resume_file or github_url)
   // This is different from 0.5, which would mean enrichment was tried but files were missing
@@ -332,7 +377,7 @@ Below is a real output profile (Arjun Mehta) with comments explaining every fiel
     "sources_failed": [],
     // Three warnings — downstream systems can use these to deprioritise or flag for manual review
     "data_quality": ["no_skills", "no_experience", "no_enrichment"],
-    "generated_at": "2026-06-30T17:00:55Z"
+    "generated_at": "2026-07-01T01:46:48Z"
   }
 }
 ```
@@ -389,9 +434,9 @@ The losing value is not thrown away. It goes into the `provenance` array with `r
 
 Deduplication runs on the CSV email column (lowercased, exact match). If two CSV rows share an email address:
 - They collapse into a single profile
-- The first row's values win for any conflicting fields
-- The second row's differing values go into provenance as `conflicting_alternate`
-- `match_confidence` drops by 0.10 to flag that there was identity uncertainty
+- The **last** row (in CSV file order) wins for any conflicting fields — treated as the most recently submitted record
+- The earlier row(s)' differing values go into provenance as `conflicting_alternate`
+- `match_confidence` drops by 0.10 to flag identity uncertainty, but only if it wasn't already null — a CSV-only duplicate has no enrichment to discount, so it stays `null`
 
 Two candidates with similar names but different email addresses are always kept as separate profiles. Name similarity is never used for merging — our own dataset has two "Vivek Singh"s and two "Rahul Nair"s who are completely different people.
 
@@ -411,14 +456,16 @@ The `_meta.data_quality` array makes weak profiles visible without forcing consu
 
 A fully enriched candidate has `data_quality: []`. These warnings don't block the profile from being output — they're signals for downstream ranking or data ops workflows.
 
+Note: `"no_enrichment"` doesn't distinguish *never referenced* (`match_confidence: null`) from *referenced but failed to load* (`match_confidence: 0.5`) — both end up with `sources_used: ["csv"]` and get the same flag. `match_confidence` is the field that carries that distinction; `data_quality` only flags "this profile is thin."
+
 ---
 
 ## Edge Cases (from the sample data)
 
 ### 1. Duplicate CSV rows — Priya Singh
-Two rows share email `priya.singh@innovate.co.in` with different `years_experience` values (7 and 5).
+Two rows share email `priya.singh@innovate.co.in` with different `years_experience` values (6 and 7).
 
-**Handled:** Collapsed into one profile. The losing value is in provenance as `conflicting_alternate`. `match_confidence` reduced to 0.9. Same pattern for Shruti Kapoor / Shruti R. Kapoor and Nikhil Verma / Nikhil R. Verma.
+**Handled:** Collapsed into one profile. The **last** row in the CSV wins (`years_experience: 7`); the first row's value (6) is in provenance as `conflicting_alternate`. Both rows are CSV-only with no enrichment, so `match_confidence` stays `null` — the duplicate-row penalty only subtracts from a non-null value. Same pattern for Amitabh Rao (5/6), Shruti Kapoor / Shruti R. Kapoor (5/6, last row's name "Shruti R. Kapoor" also wins), and Nikhil Verma / Nikhil R. Verma (8/9).
 
 ### 2. Same name, different person — Vivek Singh & Vivek S. Singh
 `vivek.singh@techwave.in` and `vivekssingh@techwave.in` are two completely different people.
@@ -507,7 +554,7 @@ python orchestrator.py --stage stage2 --config configs/optional_strict_on_missin
 python -m pytest tests/ -v
 ```
 
-143 tests across 10 test files. Unit tests cover each module individually; integration tests run the full pipeline end-to-end on the actual sample data and assert on real output values.
+151 tests across 10 test files. Unit tests cover each module individually; integration tests run the full pipeline end-to-end on the actual sample data and assert on real output values.
 
 ---
 
@@ -518,7 +565,7 @@ Stage 2 takes the canonical profile and reshapes it according to a JSON config. 
 | Config | What it produces | Pass / Total |
 |--------|-----------------|-------------|
 | `default_full.json` | All 21 canonical fields, with confidence and provenance | 38 / 38 |
-| `minimal_ats.json` | 5 fields (name, email, phone, skills, title), missing fields omitted | 38 / 38 |
+| `minimal_ats.json` | 5 fields (name, email, phone, current title, current company), missing fields omitted | 38 / 38 |
 | `display_export.json` | Human-readable format — title-cased skills, national phone numbers, "Jan 2022"-style dates | 38 / 38 |
 | `strict_required_linkedin.json` | 3 fields, LinkedIn URL required — candidates without one are excluded | 35 / 38 |
 | `optional_strict_on_missing_error.json` | Portfolio URL is optional but errors out if missing — only candidates with a portfolio URL pass | 11 / 38 |
@@ -536,7 +583,7 @@ candidate_data/
 │   │   ├── source_loader.py          read CSV, attach resume and GitHub file content
 │   │   ├── parser.py                 parse GitHub JSON into structured dict
 │   │   ├── field_extractor.py        extract tagged values from each source
-│   │   ├── normalizer.py             E.164 phones, ISO-3166 countries, canonical skills, https:// URLs
+│   │   ├── normalizer.py             E.164 phones, ISO-3166 countries, canonical skills, https:// URLs, title-cased names
 │   │   ├── entity_resolver.py        deduplicate on email
 │   │   ├── merge_engine.py           source-priority merge, provenance tracking, conflict detection
 │   │   ├── confidence_calculator.py  per-field and overall confidence, match_confidence
@@ -571,6 +618,120 @@ candidate_data/
 │   └── image3.png                    source priority hierarchy
 ├── requirements.txt
 └── README.md
+```
+
+---
+
+## Pipeline Modules — Inputs & Outputs
+
+Every module below is deterministic and independently unit-tested. For each one: what it does, a correct/expected case, and a wrong/garbage/edge case — pulled directly from the test suite, not hypothetical.
+
+### Stage 1
+
+**`source_loader.py`** — reads `recruiter_data.csv`, attaches resume/GitHub file content by the `{name}_resume.txt` / `{name}_github.json` naming convention. Never raises on a missing file.
+
+```
+✓ correct   row: {name: "Alice Smith", resume_file: "alice_resume.txt"}, resume/Alice Smith_resume.txt exists
+            → resume_raw: "<file contents>", load_failed: []
+
+✗ missing   row: {name: "Bob Jones", resume_file: "bob_resume.txt"}, but the .txt file isn't on disk
+            → resume_raw: None, load_failed: ["resume"]   (pipeline continues to the next row)
+```
+
+**`parser.py`** — parses each GitHub JSON snapshot string into a dict.
+
+```
+✓ correct   github_raw: '{"name": "Alice", "repos": []}'
+            → github_parsed: {"name": "Alice", "repos": []}
+
+✗ garbage   github_raw: "NOT JSON {{{"
+            → github_parsed: None, load_failed: ["github"]   (no exception raised)
+```
+
+**`field_extractor.py`** — pulls tagged `(value, method, source)` triples out of each raw source. Nothing is normalized or merged yet.
+
+```
+✓ correct   CSV row: {email: "alice@test.com"}
+            → extracted["emails"] = [{"value": "alice@test.com", "method": "direct", "source": "csv"}]
+
+✗ rejected  resume text: "...References: Contact Bob at bob.ref@oldco.com or +91 99999 11111"
+            → bob.ref@oldco.com never appears in extracted["emails"] — any line containing
+              "refer" is skipped so a former employer's recruiter contact isn't attributed
+              to the candidate (Deepak Malhotra in the sample data, see Edge Case #9)
+```
+
+**`normalizer.py`** — pure format functions (phone, date, country, skill, URL, name). Called once from `stage1.py`; never invents a value it can't confidently produce.
+
+```
+✓ correct   normalize_phone("+91 98765 43210")  → "+919876543210"
+            normalize_skill("Pyhton")            → "python"   (typo, caught by rapidfuzz)
+            normalize_country("India")           → "IN"
+
+✗ garbage   normalize_phone("not a phone")       → None   (dropped, not invented)
+            normalize_date("garbage")            → None
+            normalize_country("Nowhere Land")    → None
+```
+
+**`entity_resolver.py`** — groups records by the CSV `email` column (lowercased, exact match). Last row for a given email wins.
+
+```
+✓ correct   two CSV rows, both email "priya.singh@innovate.co.in" (years_experience 6 then 7)
+            → 1 profile, years_experience: 7 (last row wins), 6 goes to provenance as
+              conflicting_alternate
+
+✗ NOT merged  "Vivek Singh" <vivek.singh@techwave.in> and "Vivek S. Singh" <vivekssingh@techwave.in>
+              → stay as 2 separate profiles — name similarity is never used as a match key,
+                only the email column is
+```
+
+**`merge_engine.py`** — applies CSV > Resume > GitHub priority per field and writes `provenance` for every field (scalars, location, links, experience, education, certifications).
+
+```
+✓ correct   Arjun Mehta — CSV headline: "Full-stack engineer with passion for scalable systems",
+            GitHub bio: "Full-stack engineer @TechCorp | Building scalable systems with React & Node"
+            → profile.headline = the CSV value (CSV wins); GitHub's bio is still recorded in
+              provenance with role: "conflicting_alternate" — the loser is never silently dropped
+
+✗ edge case   Priya Singh (CSV-only, no resume) — CSV directly reports current_company:
+              "Innovate Solutions", title: "Lead Product Manager"
+              → those survive as their own profile fields even though experience[] is empty,
+                so Stage 2's current_title/current_company don't silently go null just
+                because there's no resume to parse an experience section out of
+```
+
+**`confidence_calculator.py`** — turns provenance + the skill map into `overall_confidence` and `match_confidence`.
+
+```
+✓ correct   "python" seen in both resume (0.65) and github (0.50)
+            → confidence = max(0.65, 0.50) + 0.10 corroboration bonus = 0.75
+
+✗ sparse    profile with only full_name populated (weight 0.20, base score 0.90)
+            → overall_confidence = 0.90 * 0.20 = 0.18 — the other 8 fields count as 0.0
+              in the denominator, they are not excluded from the average
+```
+
+### Stage 2
+
+**`projection_engine.py`** — walks the canonical profile per config field (dot-path / array index / `[]` wildcard `from` expression), applies `normalize`, builds the output object.
+
+```
+✓ correct   config field: {"path": "city", "from": "location.city"}, profile.location.city = "Mumbai"
+            → output.city = "Mumbai"
+
+✗ missing   config field: {"path": "second_email", "from": "emails[1]"}, profile has only 1 email
+            → output.second_email = None   (index out of range is treated as "missing",
+              not an error, unless the field is marked required or on_missing: "error")
+```
+
+**`schema_validator.py`** — validates config *shape* before Stage 2 touches any candidate data, and validates output *types* after projecting each profile.
+
+```
+✓ correct config   {"path": "skills", "from": "skills[].name", "type": "string[]"}  → passes
+
+✗ rejected config  {"path": "skills", "from": "skills[].name", "type": "string"}
+                    → ValueError: "... wildcard from (...) but declares scalar type 'string' ..."
+                      raised immediately — this is exactly what configs/broken_type_mismatch.json
+                      tests; zero candidates are ever loaded for a config that fails this check
 ```
 
 ---
@@ -631,6 +792,7 @@ The algorithm itself is fast — the bottleneck at scale is reading thousands of
 | LLM-based extraction | Deterministic regex is testable, reproducible, and doesn't need an API key |
 | Retroactive un-merging | Once merged in a run, it stays merged — no undo |
 | Portfolio URL extraction from resume body | Too many false positives (company pages, docs links, etc.) |
+| Generic "other" link extraction from resume body | Same false-positive risk as portfolio extraction above — `links.other[]` exists in the schema but nothing currently writes to it |
 
 ---
 

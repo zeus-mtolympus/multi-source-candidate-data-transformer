@@ -52,14 +52,23 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/arjunmehta",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": "https://github.com/arjunm",
-        "github_confidence": null,
-        "github_provenance": null,
+        "github_confidence": 0.9,
+        "github_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "portfolio": "https://arjunmehta.dev",
-        "portfolio_confidence": null,
-        "portfolio_provenance": null
+        "portfolio_confidence": 0.9,
+        "portfolio_provenance": {
+          "source": "csv",
+          "method": "direct"
+        }
       },
       "headline": "Full-stack engineer with passion for scalable systems",
       "headline_confidence": 0.9,
@@ -249,11 +258,17 @@
         }
       ],
       "current_title": "Senior Software Engineer",
-      "current_title_confidence": null,
-      "current_title_provenance": null,
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "current_company": "TechCorp India",
-      "current_company_confidence": null,
-      "current_company_provenance": null,
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [
         {
           "company": "TechCorp India",
@@ -277,8 +292,11 @@
           "summary": "Developed RESTful services in Node.js for internal HR and payroll tools Built data pipeline scripts in Python to automate report generation Participated in on-call rotation and resolved production incidents"
         }
       ],
-      "experience_confidence": null,
-      "experience_provenance": null,
+      "experience_confidence": 0.55,
+      "experience_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "education": [
         {
           "institution": "IIT Madras",
@@ -287,8 +305,11 @@
           "end_year": 2016
         }
       ],
-      "education_confidence": null,
-      "education_provenance": null,
+      "education_confidence": 0.55,
+      "education_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "certifications": [
         {
           "name": "AWS Certified Solutions Architect \u2013 Associate",
@@ -299,9 +320,12 @@
           "year": 2021
         }
       ],
-      "certifications_confidence": null,
-      "certifications_provenance": null,
-      "overall_confidence": 0.876,
+      "certifications_confidence": 0.55,
+      "certifications_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
+      "overall_confidence": 0.806,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 1.0,
@@ -355,12 +379,18 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/priyasingh",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": null,
         "portfolio": "https://priya.design",
-        "portfolio_confidence": null,
-        "portfolio_provenance": null
+        "portfolio_confidence": 0.9,
+        "portfolio_provenance": {
+          "source": "csv",
+          "method": "direct"
+        }
       },
       "headline": "Product leader driving B2B SaaS growth",
       "headline_confidence": 0.9,
@@ -375,8 +405,18 @@
         "method": "direct"
       },
       "skills": [],
-      "current_title": null,
-      "current_company": null,
+      "current_title": "Lead Product Manager",
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
+      "current_company": "Innovate Solutions",
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [],
       "experience_confidence": null,
       "experience_provenance": null,
@@ -386,7 +426,7 @@
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.81,
+      "overall_confidence": 0.63,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": null
@@ -438,11 +478,17 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/vikrampatel",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": "https://github.com/vikrampatelnx",
-        "github_confidence": null,
-        "github_provenance": null,
+        "github_confidence": 0.9,
+        "github_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "portfolio": null
       },
       "headline": "Backend developer specializing in cloud",
@@ -453,7 +499,12 @@
       },
       "years_experience": null,
       "skills": [],
-      "current_title": null,
+      "current_title": "Software Developer",
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "current_company": null,
       "experience": [],
       "experience_confidence": null,
@@ -464,7 +515,7 @@
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.72,
+      "overall_confidence": 0.558,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 0.5,
@@ -523,11 +574,17 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/nehagupta",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": "https://github.com/nehagupta",
-        "github_confidence": null,
-        "github_provenance": null,
+        "github_confidence": 0.9,
+        "github_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "portfolio": null
       },
       "headline": "Full Stack Engineering Manager",
@@ -571,8 +628,18 @@
           }
         }
       ],
-      "current_title": null,
-      "current_company": null,
+      "current_title": "Engineering Manager",
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
+      "current_company": "StartupLabs",
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [],
       "experience_confidence": null,
       "experience_provenance": null,
@@ -582,7 +649,7 @@
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.86,
+      "overall_confidence": 0.68,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 1.0,
@@ -641,12 +708,18 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/rohankapoor",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": null,
         "portfolio": "https://rohanfolio.in",
-        "portfolio_confidence": null,
-        "portfolio_provenance": null
+        "portfolio_confidence": 0.9,
+        "portfolio_provenance": {
+          "source": "csv",
+          "method": "direct"
+        }
       },
       "headline": "Senior Solutions Architect",
       "headline_confidence": 0.9,
@@ -797,12 +870,18 @@
           }
         }
       ],
-      "current_title": "Senior Consultant",
-      "current_title_confidence": null,
-      "current_title_provenance": null,
+      "current_title": "Consultant",
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "current_company": "Consultify",
-      "current_company_confidence": null,
-      "current_company_provenance": null,
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [
         {
           "company": "Consultify",
@@ -826,8 +905,11 @@
           "summary": "Developed backend services in Java Spring Boot for supply chain management platform Built RESTful APIs integrating with 12 third-party logistics providers Designed caching strategy using Redis reducing database load by 60%"
         }
       ],
-      "experience_confidence": null,
-      "experience_provenance": null,
+      "experience_confidence": 0.55,
+      "experience_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "education": [
         {
           "institution": "Anna University",
@@ -836,8 +918,11 @@
           "end_year": 2012
         }
       ],
-      "education_confidence": null,
-      "education_provenance": null,
+      "education_confidence": 0.55,
+      "education_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "certifications": [
         {
           "name": "AWS Certified Solutions Architect \u2013 Professional",
@@ -848,9 +933,12 @@
           "year": null
         }
       ],
-      "certifications_confidence": null,
-      "certifications_provenance": null,
-      "overall_confidence": 0.875,
+      "certifications_confidence": 0.55,
+      "certifications_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
+      "overall_confidence": 0.805,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 1.0,
@@ -909,14 +997,23 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/ananyasharma",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": "https://github.com/ananyash",
-        "github_confidence": null,
-        "github_provenance": null,
+        "github_confidence": 0.9,
+        "github_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "portfolio": "https://ananyasharma.in",
-        "portfolio_confidence": null,
-        "portfolio_provenance": null
+        "portfolio_confidence": 0.9,
+        "portfolio_provenance": {
+          "source": "csv",
+          "method": "direct"
+        }
       },
       "headline": "Backend Engineer building distributed systems",
       "headline_confidence": 0.9,
@@ -1115,11 +1212,17 @@
         }
       ],
       "current_title": "Software Engineer",
-      "current_title_confidence": null,
-      "current_title_provenance": null,
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "current_company": "GlobalTech",
-      "current_company_confidence": null,
-      "current_company_provenance": null,
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [
         {
           "company": "GlobalTech",
@@ -1136,8 +1239,11 @@
           "summary": "Implemented ML pipelines using Pyhton and TensorFlow for churn prediction model Wrote data ingestion scripts pulling from third-party APIs into PostgreSQL Participated in on-call rotations and created runbooks for common failure modes Contributed to internal Python library reducing boilerplate across 6 microservices"
         }
       ],
-      "experience_confidence": null,
-      "experience_provenance": null,
+      "experience_confidence": 0.55,
+      "experience_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "education": [
         {
           "institution": "NIT Trichy",
@@ -1146,12 +1252,15 @@
           "end_year": 2019
         }
       ],
-      "education_confidence": null,
-      "education_provenance": null,
+      "education_confidence": 0.55,
+      "education_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.875,
+      "overall_confidence": 0.805,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 1.0,
@@ -1210,8 +1319,11 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/rahulnair",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": null,
         "portfolio": null
       },
@@ -1223,8 +1335,18 @@
         "method": "direct"
       },
       "skills": [],
-      "current_title": null,
-      "current_company": null,
+      "current_title": "Senior Developer",
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
+      "current_company": "Legacy Systems Pvt Ltd",
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [],
       "experience_confidence": null,
       "experience_provenance": null,
@@ -1234,7 +1356,7 @@
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.72,
+      "overall_confidence": 0.567,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": null
@@ -1291,8 +1413,11 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/rahulknair",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": null,
         "portfolio": null
       },
@@ -1304,8 +1429,18 @@
         "method": "direct"
       },
       "skills": [],
-      "current_title": null,
-      "current_company": null,
+      "current_title": "Software Architect",
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
+      "current_company": "Legacy Systems Pvt Ltd",
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [],
       "experience_confidence": null,
       "experience_provenance": null,
@@ -1315,7 +1450,7 @@
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.72,
+      "overall_confidence": 0.567,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": null
@@ -1374,7 +1509,7 @@
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.54,
+      "overall_confidence": 0.432,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": null
@@ -1431,14 +1566,23 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/karaniyer",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": "https://github.com/karaniyer",
-        "github_confidence": null,
-        "github_provenance": null,
+        "github_confidence": 0.9,
+        "github_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "portfolio": "https://karaniyer.in",
-        "portfolio_confidence": null,
-        "portfolio_provenance": null
+        "portfolio_confidence": 0.9,
+        "portfolio_provenance": {
+          "source": "csv",
+          "method": "direct"
+        }
       },
       "headline": "Cloud-native architect and mentor",
       "headline_confidence": 0.9,
@@ -1657,11 +1801,17 @@
         }
       ],
       "current_title": "Principal Engineer",
-      "current_title_confidence": null,
-      "current_title_provenance": null,
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "current_company": "DevForge",
-      "current_company_confidence": null,
-      "current_company_provenance": null,
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [
         {
           "company": "DevForge",
@@ -1685,8 +1835,11 @@
           "summary": "Delivered full-stack features in Java Spring Boot and AngularJS Designed RESTful API gateway handling authentication and rate limiting for 15 downstream services Introduced automated regression testing reducing production incidents by 42%"
         }
       ],
-      "experience_confidence": null,
-      "experience_provenance": null,
+      "experience_confidence": 0.55,
+      "experience_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "education": [
         {
           "institution": "IIT Bombay",
@@ -1695,8 +1848,11 @@
           "end_year": 2013
         }
       ],
-      "education_confidence": null,
-      "education_provenance": null,
+      "education_confidence": 0.55,
+      "education_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "certifications": [
         {
           "name": "AWS Certified Solutions Architect \u2013 Professional",
@@ -1707,9 +1863,12 @@
           "year": null
         }
       ],
-      "certifications_confidence": null,
-      "certifications_provenance": null,
-      "overall_confidence": 0.877,
+      "certifications_confidence": 0.55,
+      "certifications_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
+      "overall_confidence": 0.807,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 1.0,
@@ -1768,14 +1927,23 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/priyankadesai",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": "https://github.com/priyades",
-        "github_confidence": null,
-        "github_provenance": null,
+        "github_confidence": 0.9,
+        "github_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "portfolio": "https://priyankadesai.in",
-        "portfolio_confidence": null,
-        "portfolio_provenance": null
+        "portfolio_confidence": 0.9,
+        "portfolio_provenance": {
+          "source": "csv",
+          "method": "direct"
+        }
       },
       "headline": "Frontend specialist with React expertise",
       "headline_confidence": 0.9,
@@ -1947,11 +2115,17 @@
         }
       ],
       "current_title": "Lead Frontend Engineer",
-      "current_title_confidence": null,
-      "current_title_provenance": null,
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "current_company": "InfoTech Solutions",
-      "current_company_confidence": null,
-      "current_company_provenance": null,
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [
         {
           "company": "InfoTech Solutions",
@@ -1975,8 +2149,11 @@
           "summary": "Built dashboards and data visualisation components using D3.js and Chart.js Implemented SSR with Next.js for an SEO-critical marketing site Integrated REST APIs and GraphQL endpoints using Apollo Client"
         }
       ],
-      "experience_confidence": null,
-      "experience_provenance": null,
+      "experience_confidence": 0.55,
+      "experience_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "education": [
         {
           "institution": "NIT Warangal",
@@ -1985,12 +2162,15 @@
           "end_year": 2017
         }
       ],
-      "education_confidence": null,
-      "education_provenance": null,
+      "education_confidence": 0.55,
+      "education_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.876,
+      "overall_confidence": 0.806,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 1.0,
@@ -2049,12 +2229,18 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/amitabhrao",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": null,
         "portfolio": "https://amitrao.dev",
-        "portfolio_confidence": null,
-        "portfolio_provenance": null
+        "portfolio_confidence": 0.9,
+        "portfolio_provenance": {
+          "source": "csv",
+          "method": "direct"
+        }
       },
       "headline": "Node.js developer",
       "headline_confidence": 0.9,
@@ -2069,8 +2255,18 @@
         "method": "direct"
       },
       "skills": [],
-      "current_title": null,
-      "current_company": null,
+      "current_title": "Senior Backend Engineer",
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
+      "current_company": "Dyno Systems",
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [],
       "experience_confidence": null,
       "experience_provenance": null,
@@ -2080,7 +2276,7 @@
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.81,
+      "overall_confidence": 0.63,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": null
@@ -2137,11 +2333,17 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/sureshmenon",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": "https://github.com/suresh404nonexistent",
-        "github_confidence": null,
-        "github_provenance": null,
+        "github_confidence": 0.9,
+        "github_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "portfolio": null
       },
       "headline": "Full Stack Freelancer",
@@ -2158,7 +2360,12 @@
       },
       "skills": [],
       "current_title": null,
-      "current_company": null,
+      "current_company": "Freelance",
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [],
       "experience_confidence": null,
       "experience_provenance": null,
@@ -2168,7 +2375,7 @@
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.81,
+      "overall_confidence": 0.63,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 0.5,
@@ -2227,11 +2434,17 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/lakshmivenkatesh",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": "https://github.com/lakshmiv",
-        "github_confidence": null,
-        "github_provenance": null,
+        "github_confidence": 0.9,
+        "github_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "portfolio": null
       },
       "headline": "Technical Lead",
@@ -2275,8 +2488,18 @@
           }
         }
       ],
-      "current_title": null,
-      "current_company": null,
+      "current_title": "Engineering Lead",
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
+      "current_company": "NovaTech",
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [],
       "experience_confidence": null,
       "experience_provenance": null,
@@ -2286,7 +2509,7 @@
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.86,
+      "overall_confidence": 0.68,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 1.0,
@@ -2345,12 +2568,18 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/deepakmalhotra",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": null,
         "portfolio": "https://deepakfolio.in",
-        "portfolio_confidence": null,
-        "portfolio_provenance": null
+        "portfolio_confidence": 0.9,
+        "portfolio_provenance": {
+          "source": "csv",
+          "method": "direct"
+        }
       },
       "headline": "Cloud Architect & Mentor",
       "headline_confidence": 0.9,
@@ -2538,11 +2767,17 @@
         }
       ],
       "current_title": "Software Architect",
-      "current_title_confidence": null,
-      "current_title_provenance": null,
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "current_company": "Apex Innovations",
-      "current_company_confidence": null,
-      "current_company_provenance": null,
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [
         {
           "company": "Apex Innovations",
@@ -2566,8 +2801,11 @@
           "summary": "Developed backend services in Java Spring Boot for banking middleware platform Implemented message queue system using RabbitMQ for async payment processing Contributed to internal DevOps tooling using Python and Bash scripts"
         }
       ],
-      "experience_confidence": null,
-      "experience_provenance": null,
+      "experience_confidence": 0.55,
+      "experience_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "education": [
         {
           "institution": "IIT Delhi",
@@ -2576,8 +2814,11 @@
           "end_year": 2013
         }
       ],
-      "education_confidence": null,
-      "education_provenance": null,
+      "education_confidence": 0.55,
+      "education_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "certifications": [
         {
           "name": "AWS Certified Solutions Architect \u2013 Professional",
@@ -2592,9 +2833,12 @@
           "year": 2020
         }
       ],
-      "certifications_confidence": null,
-      "certifications_provenance": null,
-      "overall_confidence": 0.875,
+      "certifications_confidence": 0.55,
+      "certifications_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
+      "overall_confidence": 0.805,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 1.0,
@@ -2653,14 +2897,23 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/meeraiyer",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": "https://github.com/meeraiyer",
-        "github_confidence": null,
-        "github_provenance": null,
+        "github_confidence": 0.9,
+        "github_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "portfolio": "https://meera.dev",
-        "portfolio_confidence": null,
-        "portfolio_provenance": null
+        "portfolio_confidence": 0.9,
+        "portfolio_provenance": {
+          "source": "csv",
+          "method": "direct"
+        }
       },
       "headline": "Full Stack Developer",
       "headline_confidence": 0.9,
@@ -2831,11 +3084,17 @@
         }
       ],
       "current_title": "Software Engineer",
-      "current_title_confidence": null,
-      "current_title_provenance": null,
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "current_company": "LegacyCorp",
-      "current_company_confidence": null,
-      "current_company_provenance": null,
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [
         {
           "company": "LegacyCorp",
@@ -2852,8 +3111,11 @@
           "summary": "Full stack development with MERN stack for early-stage SaaS product Integrated Stripe payment gateway and built subscription management module Implemented JWT-based authentication with refresh token rotation Set up CI/CD pipeline on GitHub Actions with automated test runs and staging deployments"
         }
       ],
-      "experience_confidence": null,
-      "experience_provenance": null,
+      "experience_confidence": 0.55,
+      "experience_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "education": [
         {
           "institution": "Anna University",
@@ -2862,12 +3124,15 @@
           "end_year": 2021
         }
       ],
-      "education_confidence": null,
-      "education_provenance": null,
+      "education_confidence": 0.55,
+      "education_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.876,
+      "overall_confidence": 0.806,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 1.0,
@@ -2926,8 +3191,11 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/viveksingh",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": null,
         "portfolio": null
       },
@@ -2939,8 +3207,18 @@
         "method": "direct"
       },
       "skills": [],
-      "current_title": null,
-      "current_company": null,
+      "current_title": "DevOps Engineer",
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
+      "current_company": "TechWave Pvt Ltd",
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [],
       "experience_confidence": null,
       "experience_provenance": null,
@@ -2950,7 +3228,7 @@
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.72,
+      "overall_confidence": 0.567,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": null
@@ -3002,8 +3280,11 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/vivekssingh",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": null,
         "portfolio": null
       },
@@ -3015,8 +3296,18 @@
         "method": "direct"
       },
       "skills": [],
-      "current_title": null,
-      "current_company": null,
+      "current_title": "Senior DevOps Engineer",
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
+      "current_company": "TechWave Pvt Ltd",
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [],
       "experience_confidence": null,
       "experience_provenance": null,
@@ -3026,7 +3317,7 @@
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.72,
+      "overall_confidence": 0.567,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": null
@@ -3090,7 +3381,7 @@
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.63,
+      "overall_confidence": 0.495,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": null
@@ -3147,14 +3438,23 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/adityabose",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": "https://github.com/adityabose",
-        "github_confidence": null,
-        "github_provenance": null,
+        "github_confidence": 0.9,
+        "github_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "portfolio": "https://adityabose.in",
-        "portfolio_confidence": null,
-        "portfolio_provenance": null
+        "portfolio_confidence": 0.9,
+        "portfolio_provenance": {
+          "source": "csv",
+          "method": "direct"
+        }
       },
       "headline": "Cloud & DevOps specialist",
       "headline_confidence": 0.9,
@@ -3363,11 +3663,17 @@
         }
       ],
       "current_title": "Principal Cloud Architect",
-      "current_title_confidence": null,
-      "current_title_provenance": null,
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "current_company": "Cloudify Solutions",
-      "current_company_confidence": null,
-      "current_company_provenance": null,
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [
         {
           "company": "Cloudify Solutions",
@@ -3391,8 +3697,11 @@
           "summary": "Provisioned and maintained EC2, RDS, S3, and CloudFront infrastructure Wrote Terraform modules standardising VPC and IAM patterns across 15 AWS accounts Implemented log aggregation pipeline using Elasticsearch, Logstash, and Kibana"
         }
       ],
-      "experience_confidence": null,
-      "experience_provenance": null,
+      "experience_confidence": 0.55,
+      "experience_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "education": [
         {
           "institution": "IIT Madras",
@@ -3401,8 +3710,11 @@
           "end_year": 2015
         }
       ],
-      "education_confidence": null,
-      "education_provenance": null,
+      "education_confidence": 0.55,
+      "education_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "certifications": [
         {
           "name": "AWS Certified Solutions Architect \u2013 Professional",
@@ -3417,9 +3729,12 @@
           "year": null
         }
       ],
-      "certifications_confidence": null,
-      "certifications_provenance": null,
-      "overall_confidence": 0.876,
+      "certifications_confidence": 0.55,
+      "certifications_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
+      "overall_confidence": 0.806,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 1.0,
@@ -3478,11 +3793,17 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/shreyakapoor",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": "https://github.com/shreyakap",
-        "github_confidence": null,
-        "github_provenance": null,
+        "github_confidence": 0.9,
+        "github_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "portfolio": null
       },
       "headline": "AI-driven data scientist building predictive models",
@@ -3717,11 +4038,17 @@
         }
       ],
       "current_title": "Data Scientist",
-      "current_title_confidence": null,
-      "current_title_provenance": null,
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "current_company": "Analytix AI",
-      "current_company_confidence": null,
-      "current_company_provenance": null,
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [
         {
           "company": "Analytix AI",
@@ -3745,8 +4072,11 @@
           "summary": "Performed exploratory data analysis and statistical modelling in Python (Pyhton) and R Built Power BI reports automating 15 weekly manual reporting tasks Queried and manipulated large datasets using SQL and PySpark"
         }
       ],
-      "experience_confidence": null,
-      "experience_provenance": null,
+      "experience_confidence": 0.55,
+      "experience_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "education": [
         {
           "institution": "IIT Bangalore",
@@ -3755,12 +4085,15 @@
           "end_year": 2018
         }
       ],
-      "education_confidence": null,
-      "education_provenance": null,
+      "education_confidence": 0.55,
+      "education_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.875,
+      "overall_confidence": 0.805,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 1.0,
@@ -3819,8 +4152,11 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/ankitverma",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": null,
         "portfolio": null
       },
@@ -3992,11 +4328,17 @@
         }
       ],
       "current_title": "Mobile Developer",
-      "current_title_confidence": null,
-      "current_title_provenance": null,
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "current_company": "AppWorld",
-      "current_company_confidence": null,
-      "current_company_provenance": null,
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [
         {
           "company": "AppWorld",
@@ -4013,8 +4355,11 @@
           "summary": "Developed e-commerce app in React Native (RN) with 200k downloads and 4.5 Play Store rating Built reusable component library shared across iOS and Android reducing development time by 35% Integrated Firebase push notifications, analytics, and crash reporting (Crashlytics) Optimised FlatList rendering for large product catalogs reducing scroll jank to zero Collaborated with UX team on accessibility compliance (WCAG 2.1 AA)"
         }
       ],
-      "experience_confidence": null,
-      "experience_provenance": null,
+      "experience_confidence": 0.55,
+      "experience_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "education": [
         {
           "institution": "Pune University",
@@ -4023,12 +4368,15 @@
           "end_year": 2020
         }
       ],
-      "education_confidence": null,
-      "education_provenance": null,
+      "education_confidence": 0.55,
+      "education_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.875,
+      "overall_confidence": 0.805,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 1.0,
@@ -4087,11 +4435,17 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/pradeepkumar",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": "https://github.com/pradeepk",
-        "github_confidence": null,
-        "github_provenance": null,
+        "github_confidence": 0.9,
+        "github_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "portfolio": null
       },
       "headline": "Automating infrastructure at scale with k8s and Terraform",
@@ -4135,8 +4489,18 @@
           }
         }
       ],
-      "current_title": null,
-      "current_company": null,
+      "current_title": "DevOps Engineer",
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
+      "current_company": "CloudOps",
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [],
       "experience_confidence": null,
       "experience_provenance": null,
@@ -4146,7 +4510,7 @@
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.86,
+      "overall_confidence": 0.68,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 1.0,
@@ -4205,11 +4569,17 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/tanveerahmed",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": "https://github.com/tanveerahmed",
-        "github_confidence": null,
-        "github_provenance": null,
+        "github_confidence": 0.9,
+        "github_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "portfolio": null
       },
       "headline": "Full-stack developer shipping end-to-end features fast",
@@ -4391,11 +4761,17 @@
         }
       ],
       "current_title": "Full Stack Developer",
-      "current_title_confidence": null,
-      "current_title_provenance": null,
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "current_company": "WebTech Solutions",
-      "current_company_confidence": null,
-      "current_company_provenance": null,
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [
         {
           "company": "WebTech Solutions",
@@ -4412,8 +4788,11 @@
           "summary": "Built internal analytics platform using React and D3.js visualising operational KPIs Developed REST APIs in Express.js integrated with Stripe and SendGrid Migrated from MySQL to PostgreSQL and introduced Postgress (sic) query optimisation best practices Containerised application using Docker and deployed to AWS ECS"
         }
       ],
-      "experience_confidence": null,
-      "experience_provenance": null,
+      "experience_confidence": 0.55,
+      "experience_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "education": [
         {
           "institution": "Mumbai University",
@@ -4422,12 +4801,15 @@
           "end_year": 2019
         }
       ],
-      "education_confidence": null,
-      "education_provenance": null,
+      "education_confidence": 0.55,
+      "education_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.876,
+      "overall_confidence": 0.806,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 1.0,
@@ -4486,11 +4868,17 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/ritumehta",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": "https://github.com/ritumehta",
-        "github_confidence": null,
-        "github_provenance": null,
+        "github_confidence": 0.9,
+        "github_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "portfolio": null
       },
       "headline": "Building LLM-powered products and fine-tuning transformers",
@@ -4689,11 +5077,17 @@
         }
       ],
       "current_title": "ML Engineer",
-      "current_title_confidence": null,
-      "current_title_provenance": null,
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "current_company": "AILabs",
-      "current_company_confidence": null,
-      "current_company_provenance": null,
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [
         {
           "company": "AILabs",
@@ -4710,8 +5104,11 @@
           "summary": "Built sentiment analysis pipeline using Hugging Face transformers for social media monitoring product Developed multi-label text classification model (BERT fine-tune) with 93% F1 score Designed Airflow DAG orchestrating weekly model retraining on fresh data"
         }
       ],
-      "experience_confidence": null,
-      "experience_provenance": null,
+      "experience_confidence": 0.55,
+      "experience_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "education": [
         {
           "institution": "BITS Pilani",
@@ -4720,12 +5117,15 @@
           "end_year": 2021
         }
       ],
-      "education_confidence": null,
-      "education_provenance": null,
+      "education_confidence": 0.55,
+      "education_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.875,
+      "overall_confidence": 0.806,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 1.0,
@@ -4784,8 +5184,11 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/varunguptain",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": null,
         "portfolio": null
       },
@@ -4957,11 +5360,17 @@
         }
       ],
       "current_title": "Backend Developer",
-      "current_title_confidence": null,
-      "current_title_provenance": null,
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "current_company": "GoSystems",
-      "current_company_confidence": null,
-      "current_company_provenance": null,
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [
         {
           "company": "GoSystems",
@@ -4978,8 +5387,11 @@
           "summary": "Built REST APIs in Go for logistics platform integrating 15 third-party carrier APIs Designed async job processing system using Kafka reducing order confirmation latency by 80% Migrated batch processing jobs from cron scripts to reliable task queue (Temporal) Wrote property-based tests catching 12 edge cases missed by unit tests"
         }
       ],
-      "experience_confidence": null,
-      "experience_provenance": null,
+      "experience_confidence": 0.55,
+      "experience_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "education": [
         {
           "institution": "COEP Pune",
@@ -4988,12 +5400,15 @@
           "end_year": 2018
         }
       ],
-      "education_confidence": null,
-      "education_provenance": null,
+      "education_confidence": 0.55,
+      "education_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.875,
+      "overall_confidence": 0.805,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 1.0,
@@ -5052,11 +5467,17 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/pallavijoshi",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": "https://github.com/pallavijoshi",
-        "github_confidence": null,
-        "github_provenance": null,
+        "github_confidence": 0.9,
+        "github_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "portfolio": null
       },
       "headline": "Vue.js specialist crafting component-driven UIs",
@@ -5091,8 +5512,18 @@
           }
         }
       ],
-      "current_title": null,
-      "current_company": null,
+      "current_title": "Frontend Developer",
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
+      "current_company": "UXWorks",
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [],
       "experience_confidence": null,
       "experience_provenance": null,
@@ -5102,7 +5533,7 @@
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.86,
+      "overall_confidence": 0.68,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 1.0,
@@ -5161,14 +5592,23 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/naveenreddy",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": "https://github.com/naveenr",
-        "github_confidence": null,
-        "github_provenance": null,
+        "github_confidence": 0.9,
+        "github_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "portfolio": "https://naveenreddy.dev",
-        "portfolio_confidence": null,
-        "portfolio_provenance": null
+        "portfolio_confidence": 0.9,
+        "portfolio_provenance": {
+          "source": "csv",
+          "method": "direct"
+        }
       },
       "headline": "Multi-cloud architect leading AWS and Azure migrations",
       "headline_confidence": 0.9,
@@ -5385,11 +5825,17 @@
         }
       ],
       "current_title": "Cloud Architect",
-      "current_title_confidence": null,
-      "current_title_provenance": null,
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "current_company": "CloudFirst",
-      "current_company_confidence": null,
-      "current_company_provenance": null,
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [
         {
           "company": "CloudFirst",
@@ -5413,8 +5859,11 @@
           "summary": "Provisioned and managed EC2, RDS, and CloudFront infrastructure for SaaS product Wrote CloudFormation templates for network, compute, and database tiers Implemented VPN and Direct Connect for hybrid connectivity with on-premise datacenter"
         }
       ],
-      "experience_confidence": null,
-      "experience_provenance": null,
+      "experience_confidence": 0.55,
+      "experience_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "education": [
         {
           "institution": "Osmania University",
@@ -5423,8 +5872,11 @@
           "end_year": 2014
         }
       ],
-      "education_confidence": null,
-      "education_provenance": null,
+      "education_confidence": 0.55,
+      "education_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "certifications": [
         {
           "name": "AWS Certified Solutions Architect \u2013 Professional",
@@ -5439,9 +5891,12 @@
           "year": null
         }
       ],
-      "certifications_confidence": null,
-      "certifications_provenance": null,
-      "overall_confidence": 0.876,
+      "certifications_confidence": 0.55,
+      "certifications_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
+      "overall_confidence": 0.806,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 1.0,
@@ -5500,8 +5955,11 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/komalsingh",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": null,
         "portfolio": null
       },
@@ -5673,11 +6131,17 @@
         }
       ],
       "current_title": "Data Engineer",
-      "current_title_confidence": null,
-      "current_title_provenance": null,
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "current_company": "DataFlow",
-      "current_company_confidence": null,
-      "current_company_provenance": null,
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [
         {
           "company": "DataFlow",
@@ -5694,8 +6158,11 @@
           "summary": "Wrote ETL pipelines in Python and PySpark migrating on-premises warehouse to Google BigQuery Built Airflow DAGs replacing 30 cron scripts improving reliability from 78% to 99.6% success rate Created Tableau dashboards delivering daily operations reports to 60 stakeholders Documented data lineage for 80+ datasets enabling GDPR compliance audit"
         }
       ],
-      "experience_confidence": null,
-      "experience_provenance": null,
+      "experience_confidence": 0.55,
+      "experience_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "education": [
         {
           "institution": "DTU Delhi",
@@ -5704,12 +6171,15 @@
           "end_year": 2020
         }
       ],
-      "education_confidence": null,
-      "education_provenance": null,
+      "education_confidence": 0.55,
+      "education_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.875,
+      "overall_confidence": 0.805,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 1.0,
@@ -5768,11 +6238,17 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/harishkrishnan",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": "https://github.com/harishk",
-        "github_confidence": null,
-        "github_provenance": null,
+        "github_confidence": 0.9,
+        "github_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "portfolio": null
       },
       "headline": "SRE focused on observability reliability and chaos engineering",
@@ -5972,11 +6448,17 @@
         }
       ],
       "current_title": "Site Reliability Engineer",
-      "current_title_confidence": null,
-      "current_title_provenance": null,
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "current_company": "Reliability Corp",
-      "current_company_confidence": null,
-      "current_company_provenance": null,
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [
         {
           "company": "Reliability Corp",
@@ -6000,8 +6482,11 @@
           "summary": "Managed Jenkins CI/CD pipelines for 35 Java and Python services Migrated virtual machine deployments to Docker containers on AWS ECS Wrote Ansible playbooks automating OS patching across 200 servers"
         }
       ],
-      "experience_confidence": null,
-      "experience_provenance": null,
+      "experience_confidence": 0.55,
+      "experience_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "education": [
         {
           "institution": "Anna University",
@@ -6010,12 +6495,15 @@
           "end_year": 2015
         }
       ],
-      "education_confidence": null,
-      "education_provenance": null,
+      "education_confidence": 0.55,
+      "education_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.875,
+      "overall_confidence": 0.805,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 1.0,
@@ -6069,8 +6557,11 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/shrutikapoor",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": null,
         "portfolio": null
       },
@@ -6087,8 +6578,18 @@
         "method": "direct"
       },
       "skills": [],
-      "current_title": null,
-      "current_company": null,
+      "current_title": "Senior UX Designer",
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
+      "current_company": "DesignCo",
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [],
       "experience_confidence": null,
       "experience_provenance": null,
@@ -6098,7 +6599,7 @@
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.81,
+      "overall_confidence": 0.63,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": null
@@ -6150,8 +6651,11 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/nikhilrverma",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": null,
         "portfolio": null
       },
@@ -6168,8 +6672,18 @@
         "method": "direct"
       },
       "skills": [],
-      "current_title": null,
-      "current_company": null,
+      "current_title": "Principal Engineer",
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
+      "current_company": "BackendPro",
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [],
       "experience_confidence": null,
       "experience_provenance": null,
@@ -6179,7 +6693,7 @@
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.81,
+      "overall_confidence": 0.63,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": null
@@ -6236,8 +6750,11 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/ravishankar",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": null,
         "portfolio": null
       },
@@ -6254,8 +6771,18 @@
         "method": "direct"
       },
       "skills": [],
-      "current_title": null,
-      "current_company": null,
+      "current_title": "Senior Architect",
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
+      "current_company": "TechBridge",
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [],
       "experience_confidence": null,
       "experience_provenance": null,
@@ -6265,7 +6792,7 @@
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.81,
+      "overall_confidence": 0.63,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 0.5,
@@ -6324,11 +6851,17 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/preetasubramaniam",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": "https://github.com/preetasub",
-        "github_confidence": null,
-        "github_provenance": null,
+        "github_confidence": 0.9,
+        "github_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "portfolio": null
       },
       "headline": "Data analyst turning raw data into actionable dashboards",
@@ -6472,11 +7005,17 @@
         }
       ],
       "current_title": "Data Analyst",
-      "current_title_confidence": null,
-      "current_title_provenance": null,
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "current_company": "DataViz",
-      "current_company_confidence": null,
-      "current_company_provenance": null,
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [
         {
           "company": "DataViz",
@@ -6500,8 +7039,11 @@
           "summary": "Compiled and cleaned data from multiple sources into Excel and Google Sheets models Created ad hoc SQL reports for marketing and product teams"
         }
       ],
-      "experience_confidence": null,
-      "experience_provenance": null,
+      "experience_confidence": 0.55,
+      "experience_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "education": [
         {
           "institution": "JNTU Hyderabad",
@@ -6510,12 +7052,15 @@
           "end_year": 2017
         }
       ],
-      "education_confidence": null,
-      "education_provenance": null,
+      "education_confidence": 0.55,
+      "education_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.875,
+      "overall_confidence": 0.805,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 1.0,
@@ -6576,7 +7121,7 @@
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.54,
+      "overall_confidence": 0.432,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": null
@@ -6633,11 +7178,17 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/sanjaymalhotra",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": "https://github.com/sanjaymalhotra",
-        "github_confidence": null,
-        "github_provenance": null,
+        "github_confidence": 0.9,
+        "github_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "portfolio": null
       },
       "headline": "Analytics professional SQL Tableau and Power BI",
@@ -6663,8 +7214,18 @@
           }
         }
       ],
-      "current_title": null,
-      "current_company": null,
+      "current_title": "Data Analyst",
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
+      "current_company": "DataInsights",
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [],
       "experience_confidence": null,
       "experience_provenance": null,
@@ -6674,7 +7235,7 @@
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.86,
+      "overall_confidence": 0.68,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 1.0,
@@ -6733,11 +7294,17 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/kavithapillai",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": "https://github.com/kavithap",
-        "github_confidence": null,
-        "github_provenance": null,
+        "github_confidence": 0.9,
+        "github_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "portfolio": null
       },
       "headline": "DevOps engineer automating CI/CD and cloud infra",
@@ -6937,11 +7504,17 @@
         }
       ],
       "current_title": "DevOps Engineer",
-      "current_title_confidence": null,
-      "current_title_provenance": null,
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "current_company": "InfraTech",
-      "current_company_confidence": null,
-      "current_company_provenance": null,
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [
         {
           "company": "InfraTech",
@@ -6965,8 +7538,11 @@
           "summary": "Maintained Jenkins CI pipelines for Java and Python services Provisioned EC2 and RDS instances using CloudFormation Wrote Bash and Python scripts automating routine operational tasks"
         }
       ],
-      "experience_confidence": null,
-      "experience_provenance": null,
+      "experience_confidence": 0.55,
+      "experience_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "education": [
         {
           "institution": "Kerala University",
@@ -6975,12 +7551,15 @@
           "end_year": 2018
         }
       ],
-      "education_confidence": null,
-      "education_provenance": null,
+      "education_confidence": 0.55,
+      "education_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.875,
+      "overall_confidence": 0.805,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 1.0,
@@ -7039,8 +7618,11 @@
       },
       "links": {
         "linkedin": "https://linkedin.com/in/arjunsingh",
-        "linkedin_confidence": null,
-        "linkedin_provenance": null,
+        "linkedin_confidence": 0.9,
+        "linkedin_provenance": {
+          "source": "csv",
+          "method": "direct"
+        },
         "github": null,
         "portfolio": null
       },
@@ -7221,11 +7803,17 @@
         }
       ],
       "current_title": "Backend Developer",
-      "current_title_confidence": null,
-      "current_title_provenance": null,
+      "current_title_confidence": 0.9,
+      "current_title_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "current_company": "Codebase",
-      "current_company_confidence": null,
-      "current_company_provenance": null,
+      "current_company_confidence": 0.9,
+      "current_company_provenance": {
+        "source": "csv",
+        "method": "direct"
+      },
       "experience": [
         {
           "company": "Codebase",
@@ -7242,8 +7830,11 @@
           "summary": "Built CRUD APIs for internal HR and leave management system used by 1,500 employees Integrated third-party email and SMS providers using adapter pattern Optimised Hibernate queries reducing N+1 issues on core reporting endpoints Wrote API documentation using Swagger/OpenAPI"
         }
       ],
-      "experience_confidence": null,
-      "experience_provenance": null,
+      "experience_confidence": 0.55,
+      "experience_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "education": [
         {
           "institution": "NIT Kurukshetra",
@@ -7252,12 +7843,15 @@
           "end_year": 2020
         }
       ],
-      "education_confidence": null,
-      "education_provenance": null,
+      "education_confidence": 0.55,
+      "education_provenance": {
+        "source": "resume",
+        "method": "section_heuristic"
+      },
       "certifications": [],
       "certifications_confidence": null,
       "certifications_provenance": null,
-      "overall_confidence": 0.875,
+      "overall_confidence": 0.805,
       "overall_confidence_confidence": null,
       "overall_confidence_provenance": null,
       "match_confidence": 1.0,
@@ -7268,7 +7862,7 @@
   "failures": [],
   "_meta": {
     "config_used": "configs\\default_full.json",
-    "generated_at": "2026-06-30T17:01:06.720544+00:00",
+    "generated_at": "2026-07-01T01:54:07Z",
     "total": 38,
     "succeeded": 38,
     "failed": 0

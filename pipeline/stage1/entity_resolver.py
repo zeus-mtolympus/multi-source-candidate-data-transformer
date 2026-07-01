@@ -16,6 +16,8 @@ def resolve(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
     result: list[dict] = []
     for recs in by_email.values():
+        # Last row for a given email wins — treated as the most recently
+        # submitted record. Earlier rows are kept as conflicting_alternate.
         winner = recs[-1]
         if len(recs) > 1:
             winner["_earlier_rows"] = recs[:-1]

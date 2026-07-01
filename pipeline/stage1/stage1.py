@@ -12,6 +12,11 @@ def _normalize_records(records: list[dict]) -> None:
     for rec in records:
         ext = rec["extracted"]
 
+        for t in ext["full_name"]:
+            v = normalizer.normalize_name(t["value"])
+            if v:
+                t["value"] = v
+
         normalized_phones: list[dict] = []
         for t in ext["phones"]:
             v = normalizer.normalize_phone(t["value"])
@@ -71,6 +76,8 @@ def _ensure_schema(profile: dict[str, Any]) -> dict[str, Any]:
         "location": profile.get("location") or {"city": None, "region": None, "country": None},
         "links": profile.get("links") or {"linkedin": None, "github": None, "portfolio": None, "other": []},
         "headline": profile.get("headline"),
+        "current_company": profile.get("current_company"),
+        "title": profile.get("title"),
         "years_experience": profile.get("years_experience"),
         "skills": profile.get("skills") or [],
         "experience": profile.get("experience") or [],
@@ -93,7 +100,7 @@ def run(data_root: Path) -> list[dict[str, Any]]:
     profiles = merge_engine.merge(records)
     profiles = confidence_calculator.score(profiles)
 
-    generated_at = datetime.now(timezone.utc).isoformat()
+    generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     for p in profiles:
         p["candidate_id"] = _candidate_id(p)
         p["_meta"]["generated_at"] = generated_at

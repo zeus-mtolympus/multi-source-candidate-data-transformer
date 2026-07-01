@@ -16,7 +16,7 @@ def test_invalid_json_records_failure() -> None:
     rec = _rec(github_raw="NOT JSON {{{")
     result = parser.parse([rec])[0]
     assert result["github_parsed"] is None
-    assert "github_parse_failed" in result["load_failed"]
+    assert "github" in result["load_failed"]
 
 
 def test_no_github_leaves_parsed_none() -> None:

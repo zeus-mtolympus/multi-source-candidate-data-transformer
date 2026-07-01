@@ -168,6 +168,42 @@ def test_certifications_unioned_and_deduped() -> None:
     assert certs[0]["year"] == 2023
 
 
+def test_links_are_provenance_tracked() -> None:
+    rec = _rec({
+        "links": [
+            _tagged({"linkedin": "https://linkedin.com/in/x", "github": None, "portfolio": None, "other": []}, "direct", "csv"),
+        ],
+    })
+    profiles = merge_engine.merge([rec])
+    links_prov = [p for p in profiles[0]["provenance"] if p["field"] == "links"]
+    assert len(links_prov) == 1
+    assert links_prov[0]["role"] == "primary"
+    assert links_prov[0]["value"] == "https://linkedin.com/in/x"
+
+
+def test_links_conflict_recorded_as_alternate() -> None:
+    rec = _rec({
+        "links": [
+            _tagged({"linkedin": "https://linkedin.com/in/csv", "github": None, "portfolio": None, "other": []}, "direct", "csv"),
+            _tagged({"linkedin": "https://linkedin.com/in/resume", "github": None, "portfolio": None, "other": []}, "regex_extracted", "resume"),
+        ],
+    })
+    profiles = merge_engine.merge([rec])
+    roles = {p["role"] for p in profiles[0]["provenance"] if p["field"] == "links"}
+    assert roles == {"primary", "conflicting_alternate"}
+
+
+def test_experience_education_certifications_are_provenance_tracked() -> None:
+    rec = _rec({
+        "experience": [_tagged({"company": "Co", "title": "Eng", "start": "2020-01", "end": None, "summary": ""}, "section_heuristic", "resume")],
+        "education": [_tagged({"institution": "IIT", "degree": "B.Tech", "field": "CS", "end_year": 2018}, "section_heuristic", "resume")],
+        "certifications": [_tagged({"name": "AWS Cert", "year": 2023}, "section_heuristic", "resume")],
+    })
+    profiles = merge_engine.merge([rec])
+    prov_fields = {p["field"] for p in profiles[0]["provenance"]}
+    assert {"experience", "education", "certifications"} <= prov_fields
+
+
 def test_duplicate_provenance_uses_singular_field_names() -> None:
     earlier_extracted = {
         "emails": [_tagged("dup@test.com", "direct", "csv")],

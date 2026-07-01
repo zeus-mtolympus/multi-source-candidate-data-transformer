@@ -20,6 +20,8 @@
       "other": []
     },
     "headline": "Full-stack engineer with passion for scalable systems",
+    "current_company": "TechCorp India",
+    "title": "Senior Software Engineer",
     "years_experience": 8,
     "skills": [
       {
@@ -277,9 +279,101 @@
           "country": "IN"
         },
         "role": "conflicting_alternate"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/arjunmehta",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://github.com/arjunm",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://arjunmehta.dev",
+        "role": "primary"
+      },
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "institution": "IIT Madras",
+          "degree": "B.Tech",
+          "field": "Computer Science",
+          "end_year": 2016
+        },
+        "role": "primary"
+      },
+      {
+        "field": "certifications",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "name": "AWS Certified Solutions Architect \u2013 Associate",
+          "year": 2023
+        },
+        "role": "primary"
+      },
+      {
+        "field": "certifications",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "name": "MongoDB Developer Certification",
+          "year": 2021
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "TechCorp India",
+          "title": "Senior Software Engineer",
+          "start": "2022-01",
+          "end": null,
+          "summary": "Led migration of monolithic application to microservices architecture serving 500,000+ daily active users Designed event-driven order processing system using Kafka reducing latency by 40% Implemented CI/CD pipelines with GitHub Actions and ArgoCD cutting deployment time by 60% Introduced distributed tracing with OpenTelemetry improving mean time to resolution by 35% Mentored team of 5 engineers; introduced code review standards and testing culture Conducted system design interviews and contributed to hiring pipeline"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "Nexus Solutions",
+          "title": "Software Developer",
+          "start": "2019-03",
+          "end": "2021-12",
+          "summary": "Built REST APIs using Node.js, Express, and PostgreSQL serving 200k requests per day Developed React dashboard for real-time analytics with Redux state management Implemented caching layer using Redis reducing database load by 55% Migrated legacy jQuery codebase to React, improving Lighthouse performance score from 42 to 91 Integrated third-party payment gateways and automated reconciliation workflows Wrote comprehensive unit and integration tests achieving 87% code coverage"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "InnoLabs",
+          "title": "Junior Software Engineer",
+          "start": "2016-06",
+          "end": "2019-02",
+          "summary": "Developed RESTful services in Node.js for internal HR and payroll tools Built data pipeline scripts in Python to automate report generation Participated in on-call rotation and resolved production incidents"
+        },
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.876,
+    "overall_confidence": 0.806,
     "match_confidence": 1.0,
     "_meta": {
       "sources_used": [
@@ -288,7 +382,7 @@
         "github"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": []
     }
   },
@@ -313,6 +407,8 @@
       "other": []
     },
     "headline": "Product leader driving B2B SaaS growth",
+    "current_company": "Innovate Solutions",
+    "title": "Lead Product Manager",
     "years_experience": 7,
     "skills": [],
     "experience": [],
@@ -427,16 +523,30 @@
           "country": "IN"
         },
         "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/priyasingh",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://priya.design",
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.81,
+    "overall_confidence": 0.63,
     "match_confidence": null,
     "_meta": {
       "sources_used": [
         "csv"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": [
         "no_skills",
         "no_experience",
@@ -465,6 +575,8 @@
       "other": []
     },
     "headline": "Backend developer specializing in cloud",
+    "current_company": null,
+    "title": "Software Developer",
     "years_experience": null,
     "skills": [],
     "experience": [],
@@ -516,9 +628,23 @@
           "country": "IN"
         },
         "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/vikrampatel",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://github.com/vikrampatelnx",
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.72,
+    "overall_confidence": 0.558,
     "match_confidence": 0.5,
     "_meta": {
       "sources_used": [
@@ -527,7 +653,7 @@
       "sources_failed": [
         "github"
       ],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": [
         "no_skills",
         "no_experience",
@@ -556,6 +682,8 @@
       "other": []
     },
     "headline": "Full Stack Engineering Manager",
+    "current_company": "StartupLabs",
+    "title": "Engineering Manager",
     "years_experience": 9,
     "skills": [
       {
@@ -661,9 +789,23 @@
           "country": "IN"
         },
         "role": "conflicting_alternate"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/nehagupta",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://github.com/nehagupta",
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.86,
+    "overall_confidence": 0.68,
     "match_confidence": 1.0,
     "_meta": {
       "sources_used": [
@@ -673,7 +815,7 @@
       "sources_failed": [
         "resume"
       ],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": [
         "no_experience"
       ]
@@ -700,6 +842,8 @@
       "other": []
     },
     "headline": "Senior Solutions Architect",
+    "current_company": "Consultify",
+    "title": "Consultant",
     "years_experience": 12,
     "skills": [
       {
@@ -909,9 +1053,94 @@
           "country": "IN"
         },
         "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/rohankapoor",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://rohanfolio.in",
+        "role": "primary"
+      },
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "institution": "Anna University",
+          "degree": "M.Tech",
+          "field": null,
+          "end_year": 2012
+        },
+        "role": "primary"
+      },
+      {
+        "field": "certifications",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "name": "AWS Certified Solutions Architect \u2013 Professional",
+          "year": null
+        },
+        "role": "primary"
+      },
+      {
+        "field": "certifications",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "name": "PMP (Project Management Professional)",
+          "year": null
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "Consultify",
+          "title": "Senior Consultant",
+          "start": "2021-06",
+          "end": null,
+          "summary": "Led digital transformation programme for Tier-1 bank migrating 40 legacy services to AWS Designed event-driven microservices architecture processing 5M daily transactions with zero data loss Managed stakeholder relationships across C-suite, product, and engineering for 8 concurrent accounts Delivered cost optimisation engagement saving client $800k annually in cloud infrastructure spend"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "Prev Corp",
+          "title": "Technical Lead",
+          "start": "2018-01",
+          "end": "2021-01",
+          "summary": "Architected cloud migration for legacy monolith to microservices on Azure Led team of 9 engineers across 3 time zones Introduced CI/CD practices using Jenkins and Docker reducing release cycle from monthly to weekly"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "InfraBase",
+          "title": "Software Engineer",
+          "start": "2012-01",
+          "end": "2018-01",
+          "summary": "Developed backend services in Java Spring Boot for supply chain management platform Built RESTful APIs integrating with 12 third-party logistics providers Designed caching strategy using Redis reducing database load by 60%"
+        },
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.875,
+    "overall_confidence": 0.805,
     "match_confidence": 1.0,
     "_meta": {
       "sources_used": [
@@ -919,7 +1148,7 @@
         "resume"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": []
     }
   },
@@ -944,6 +1173,8 @@
       "other": []
     },
     "headline": "Backend Engineer building distributed systems",
+    "current_company": "GlobalTech",
+    "title": "Software Engineer",
     "years_experience": 5,
     "skills": [
       {
@@ -1192,9 +1423,68 @@
           "country": null
         },
         "role": "conflicting_alternate"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/ananyasharma",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://github.com/ananyash",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://ananyasharma.in",
+        "role": "primary"
+      },
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "institution": "NIT Trichy",
+          "degree": "B.E.",
+          "field": "Information Technology",
+          "end_year": 2019
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "GlobalTech",
+          "title": "Software Engineer",
+          "start": "2021-01",
+          "end": null,
+          "summary": "Designed and built high-throughput REST APIs in Python (FastAPI) handling 3M+ requests per day Built async task processing pipeline using Celery and Redis reducing job queue latency by 70% Migrated PostgreSQL read replicas to read-optimised cluster improving query p99 from 800ms to 120ms Implemented structured logging and distributed tracing using OpenTelemetry and Datadog Led backend guild meetings and documented architectural decision records"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "TechStart",
+          "title": "Junior Developer",
+          "start": "2019-01",
+          "end": "2021-01",
+          "summary": "Implemented ML pipelines using Pyhton and TensorFlow for churn prediction model Wrote data ingestion scripts pulling from third-party APIs into PostgreSQL Participated in on-call rotations and created runbooks for common failure modes Contributed to internal Python library reducing boilerplate across 6 microservices"
+        },
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.875,
+    "overall_confidence": 0.805,
     "match_confidence": 1.0,
     "_meta": {
       "sources_used": [
@@ -1203,7 +1493,7 @@
         "github"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": []
     }
   },
@@ -1228,6 +1518,8 @@
       "other": []
     },
     "headline": null,
+    "current_company": "Legacy Systems Pvt Ltd",
+    "title": "Senior Developer",
     "years_experience": 11,
     "skills": [],
     "experience": [],
@@ -1286,16 +1578,23 @@
           "country": "IN"
         },
         "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/rahulnair",
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.72,
+    "overall_confidence": 0.567,
     "match_confidence": null,
     "_meta": {
       "sources_used": [
         "csv"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": [
         "no_skills",
         "no_experience",
@@ -1324,6 +1623,8 @@
       "other": []
     },
     "headline": null,
+    "current_company": "Legacy Systems Pvt Ltd",
+    "title": "Software Architect",
     "years_experience": 10,
     "skills": [],
     "experience": [],
@@ -1382,16 +1683,23 @@
           "country": "IN"
         },
         "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/rahulknair",
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.72,
+    "overall_confidence": 0.567,
     "match_confidence": null,
     "_meta": {
       "sources_used": [
         "csv"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": [
         "no_skills",
         "no_experience",
@@ -1420,6 +1728,8 @@
       "other": []
     },
     "headline": null,
+    "current_company": null,
+    "title": null,
     "years_experience": null,
     "skills": [],
     "experience": [],
@@ -1448,14 +1758,14 @@
         "role": "primary"
       }
     ],
-    "overall_confidence": 0.54,
+    "overall_confidence": 0.432,
     "match_confidence": null,
     "_meta": {
       "sources_used": [
         "csv"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": [
         "no_skills",
         "no_experience",
@@ -1484,6 +1794,8 @@
       "other": []
     },
     "headline": "Cloud-native architect and mentor",
+    "current_company": "DevForge",
+    "title": "Principal Engineer",
     "years_experience": 14,
     "skills": [
       {
@@ -1764,9 +2076,101 @@
           "country": "IN"
         },
         "role": "conflicting_alternate"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/karaniyer",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://github.com/karaniyer",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://karaniyer.in",
+        "role": "primary"
+      },
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "institution": "IIT Bombay",
+          "degree": "B.Tech",
+          "field": null,
+          "end_year": 2013
+        },
+        "role": "primary"
+      },
+      {
+        "field": "certifications",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "name": "AWS Certified Solutions Architect \u2013 Professional",
+          "year": null
+        },
+        "role": "primary"
+      },
+      {
+        "field": "certifications",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "name": "Certified Kubernetes Administrator (CKA)",
+          "year": null
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "DevForge",
+          "title": "Principal Engineer",
+          "start": "2020-02",
+          "end": null,
+          "summary": "Architected multi-tenant SaaS platform serving 8M users across 3 regions on AWS with 99.99% uptime SLA Led migration from EC2-based deployments to Kubernetes (EKS) reducing infrastructure costs by 38% Designed event sourcing and CQRS architecture for high-write financial transaction service Built internal developer platform using Backstage enabling 50+ engineers to self-service environments Defined engineering standards, led architecture review board, and drove adoption of TDD practices Recruited and grew platform team from 3 to 12 engineers over 3 years"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "Earlier Startup",
+          "title": "Tech Lead",
+          "start": "2017-01",
+          "end": "2020-01",
+          "summary": "Built core services using JS and PostgreSQL for B2B SaaS analytics product (Series A, 200 enterprise clients) Introduced microservices split reducing average release cycle from 2 weeks to 1 day Set up observability stack: Prometheus, Grafana, and PagerDuty alerting"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "ThoughtEdge",
+          "title": "Senior Software Engineer",
+          "start": "2013-01",
+          "end": "2017-01",
+          "summary": "Delivered full-stack features in Java Spring Boot and AngularJS Designed RESTful API gateway handling authentication and rate limiting for 15 downstream services Introduced automated regression testing reducing production incidents by 42%"
+        },
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.877,
+    "overall_confidence": 0.807,
     "match_confidence": 1.0,
     "_meta": {
       "sources_used": [
@@ -1775,7 +2179,7 @@
         "github"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": []
     }
   },
@@ -1800,6 +2204,8 @@
       "other": []
     },
     "headline": "Frontend specialist with React expertise",
+    "current_company": "InfoTech Solutions",
+    "title": "Lead Frontend Engineer",
     "years_experience": 7,
     "skills": [
       {
@@ -2034,9 +2440,81 @@
           "country": "IN"
         },
         "role": "conflicting_alternate"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/priyankadesai",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://github.com/priyades",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://priyankadesai.in",
+        "role": "primary"
+      },
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "institution": "NIT Warangal",
+          "degree": "B.Tech",
+          "field": "CSE",
+          "end_year": 2017
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "InfoTech Solutions",
+          "title": "Lead Frontend Engineer",
+          "start": "2022-04",
+          "end": null,
+          "summary": "Led UI team of 8 engineers through complete product redesign, shipping 6 weeks ahead of schedule Built shared React component library with 80+ components used across 4 product teams Improved Lighthouse performance scores from 54 to 96 and accessibility score from 61 to 98 Introduced visual regression testing with Percy reducing UI regressions by 80% Set up Storybook documentation improving designer-developer collaboration Implemented lazy loading, code splitting, and CDN strategy reducing initial bundle size by 52%"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "PixelWorks",
+          "title": "Senior Frontend Developer",
+          "start": "2019-01",
+          "end": "2022-01",
+          "summary": "Developed responsive web applications for e-commerce platform serving 2M users Led migration from AngularJS to React, training a team of 6 engineers through the transition Built real-time notification system using WebSockets integrated with Kafka backend Contributed to design system and implemented WCAG 2.1 AA accessibility compliance"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "QuickUI",
+          "title": "Frontend Developer",
+          "start": "2017-01",
+          "end": "2019-01",
+          "summary": "Built dashboards and data visualisation components using D3.js and Chart.js Implemented SSR with Next.js for an SEO-critical marketing site Integrated REST APIs and GraphQL endpoints using Apollo Client"
+        },
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.876,
+    "overall_confidence": 0.806,
     "match_confidence": 1.0,
     "_meta": {
       "sources_used": [
@@ -2045,7 +2523,7 @@
         "github"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": []
     }
   },
@@ -2070,6 +2548,8 @@
       "other": []
     },
     "headline": "Node.js developer",
+    "current_company": "Dyno Systems",
+    "title": "Senior Backend Engineer",
     "years_experience": 6,
     "skills": [],
     "experience": [],
@@ -2184,16 +2664,30 @@
           "country": "IN"
         },
         "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/amitabhrao",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://amitrao.dev",
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.81,
+    "overall_confidence": 0.63,
     "match_confidence": null,
     "_meta": {
       "sources_used": [
         "csv"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": [
         "no_skills",
         "no_experience",
@@ -2222,6 +2716,8 @@
       "other": []
     },
     "headline": "Full Stack Freelancer",
+    "current_company": "Freelance",
+    "title": null,
     "years_experience": 9,
     "skills": [],
     "experience": [],
@@ -2280,9 +2776,23 @@
           "country": "IN"
         },
         "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/sureshmenon",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://github.com/suresh404nonexistent",
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.81,
+    "overall_confidence": 0.63,
     "match_confidence": 0.5,
     "_meta": {
       "sources_used": [
@@ -2291,7 +2801,7 @@
       "sources_failed": [
         "github"
       ],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": [
         "no_skills",
         "no_experience",
@@ -2320,6 +2830,8 @@
       "other": []
     },
     "headline": "Technical Lead",
+    "current_company": "NovaTech",
+    "title": "Engineering Lead",
     "years_experience": 8,
     "skills": [
       {
@@ -2425,9 +2937,23 @@
           "country": "IN"
         },
         "role": "conflicting_alternate"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/lakshmivenkatesh",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://github.com/lakshmiv",
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.86,
+    "overall_confidence": 0.68,
     "match_confidence": 1.0,
     "_meta": {
       "sources_used": [
@@ -2437,7 +2963,7 @@
       "sources_failed": [
         "resume"
       ],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": [
         "no_experience"
       ]
@@ -2464,6 +2990,8 @@
       "other": []
     },
     "headline": "Cloud Architect & Mentor",
+    "current_company": "Apex Innovations",
+    "title": "Software Architect",
     "years_experience": 11,
     "skills": [
       {
@@ -2705,9 +3233,104 @@
           "country": "IN"
         },
         "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/deepakmalhotra",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://deepakfolio.in",
+        "role": "primary"
+      },
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "institution": "IIT Delhi",
+          "degree": "M.Tech",
+          "field": null,
+          "end_year": 2013
+        },
+        "role": "primary"
+      },
+      {
+        "field": "certifications",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "name": "AWS Certified Solutions Architect \u2013 Professional",
+          "year": 2022
+        },
+        "role": "primary"
+      },
+      {
+        "field": "certifications",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "name": "Certified Kubernetes Administrator (CKA)",
+          "year": 2021
+        },
+        "role": "primary"
+      },
+      {
+        "field": "certifications",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "name": "HashiCorp Certified Terraform Associate",
+          "year": 2020
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "Apex Innovations",
+          "title": "Software Architect",
+          "start": "2020-03",
+          "end": null,
+          "summary": "Designed microservices architecture for enterprise supply chain platform handling 10M transactions per day Reduced cloud infrastructure spend by 42% through reserved instance planning and right-sizing Led Kubernetes migration for 35 services, establishing GitOps workflow with ArgoCD and Helm Built internal IaC library in Terraform reducing new environment provisioning from 2 weeks to 4 hours Defined security baseline using AWS IAM, VPC design, and WAF policies Mentored team of 7 engineers, introduced architecture review process"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "Previous Firm",
+          "title": "Technical Lead",
+          "start": "2016-01",
+          "end": "2020-01",
+          "summary": "Led cloud migration of 12 legacy on-premises applications to AWS Designed CI/CD pipelines using Jenkins and Docker reducing release cycle from monthly to weekly Introduced Infrastructure as Code practices using Terraform across 3 engineering teams Built observability platform using Prometheus, Grafana, and PagerDuty"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "CodeSoft",
+          "title": "Software Engineer",
+          "start": "2013-01",
+          "end": "2016-01",
+          "summary": "Developed backend services in Java Spring Boot for banking middleware platform Implemented message queue system using RabbitMQ for async payment processing Contributed to internal DevOps tooling using Python and Bash scripts"
+        },
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.875,
+    "overall_confidence": 0.805,
     "match_confidence": 1.0,
     "_meta": {
       "sources_used": [
@@ -2715,7 +3338,7 @@
         "resume"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": []
     }
   },
@@ -2740,6 +3363,8 @@
       "other": []
     },
     "headline": "Full Stack Developer",
+    "current_company": "LegacyCorp",
+    "title": "Software Engineer",
     "years_experience": 4,
     "skills": [
       {
@@ -2966,9 +3591,68 @@
           "country": "IN"
         },
         "role": "conflicting_alternate"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/meeraiyer",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://github.com/meeraiyer",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://meera.dev",
+        "role": "primary"
+      },
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "institution": "Anna University",
+          "degree": "B.E.",
+          "field": "Computer Science",
+          "end_year": 2021
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "LegacyCorp",
+          "title": "Software Engineer",
+          "start": "2023-01",
+          "end": null,
+          "summary": "Built internal ticket management tool used by 400+ support agents, reducing average resolution time by 22% Developed customer-facing feature flags dashboard using React and Redux Migrated legacy Express codebase to TypeScript improving developer confidence and reducing runtime errors Wrote end-to-end tests using Cypress covering 45 critical user journeys Participated in weekly architecture discussions and contributed to technical roadmap"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "StartUpX",
+          "title": "Developer",
+          "start": "2021-01",
+          "end": "2022-01",
+          "summary": "Full stack development with MERN stack for early-stage SaaS product Integrated Stripe payment gateway and built subscription management module Implemented JWT-based authentication with refresh token rotation Set up CI/CD pipeline on GitHub Actions with automated test runs and staging deployments"
+        },
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.876,
+    "overall_confidence": 0.806,
     "match_confidence": 1.0,
     "_meta": {
       "sources_used": [
@@ -2977,7 +3661,7 @@
         "github"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": []
     }
   },
@@ -3002,6 +3686,8 @@
       "other": []
     },
     "headline": null,
+    "current_company": "TechWave Pvt Ltd",
+    "title": "DevOps Engineer",
     "years_experience": 7,
     "skills": [],
     "experience": [],
@@ -3060,16 +3746,23 @@
           "country": "IN"
         },
         "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/viveksingh",
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.72,
+    "overall_confidence": 0.567,
     "match_confidence": null,
     "_meta": {
       "sources_used": [
         "csv"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": [
         "no_skills",
         "no_experience",
@@ -3098,6 +3791,8 @@
       "other": []
     },
     "headline": null,
+    "current_company": "TechWave Pvt Ltd",
+    "title": "Senior DevOps Engineer",
     "years_experience": 8,
     "skills": [],
     "experience": [],
@@ -3156,16 +3851,23 @@
           "country": "IN"
         },
         "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/vivekssingh",
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.72,
+    "overall_confidence": 0.567,
     "match_confidence": null,
     "_meta": {
       "sources_used": [
         "csv"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": [
         "no_skills",
         "no_experience",
@@ -3194,6 +3896,8 @@
       "other": []
     },
     "headline": null,
+    "current_company": null,
+    "title": null,
     "years_experience": null,
     "skills": [],
     "experience": [],
@@ -3233,14 +3937,14 @@
         "role": "primary"
       }
     ],
-    "overall_confidence": 0.63,
+    "overall_confidence": 0.495,
     "match_confidence": null,
     "_meta": {
       "sources_used": [
         "csv"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": [
         "no_skills",
         "no_experience",
@@ -3269,6 +3973,8 @@
       "other": []
     },
     "headline": "Cloud & DevOps specialist",
+    "current_company": "Cloudify Solutions",
+    "title": "Principal Cloud Architect",
     "years_experience": 13,
     "skills": [
       {
@@ -3545,9 +4251,111 @@
           "country": "IN"
         },
         "role": "conflicting_alternate"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/adityabose",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://github.com/adityabose",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://adityabose.in",
+        "role": "primary"
+      },
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "institution": "IIT Madras",
+          "degree": "B.Tech",
+          "field": null,
+          "end_year": 2015
+        },
+        "role": "primary"
+      },
+      {
+        "field": "certifications",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "name": "AWS Certified Solutions Architect \u2013 Professional",
+          "year": null
+        },
+        "role": "primary"
+      },
+      {
+        "field": "certifications",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "name": "Certified Kubernetes Administrator (CKA)",
+          "year": null
+        },
+        "role": "primary"
+      },
+      {
+        "field": "certifications",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "name": "HashiCorp Certified Terraform Associate",
+          "year": null
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "Cloudify Solutions",
+          "title": "Principal Cloud Architect",
+          "start": "2021-01",
+          "end": null,
+          "summary": "Led Kubernetes adoption programme across 6 business units, standardising on EKS with GitOps via ArgoCD Implemented platform engineering practice reducing developer toil by 60% through self-service tooling Designed multi-region active-active architecture achieving 99.999% availability for critical payments service Built CI/CD platform using GitHub Actions, Helm, and ArgoCD enabling 200+ deploys per week Established FinOps practice reducing cloud spend by $1.2M annually through rightsizing and Spot usage"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "Earlier Company",
+          "title": "DevOps Engineer",
+          "start": "2018-01",
+          "end": "2021-01",
+          "summary": "Managed AWS infrastructure for e-commerce platform (Black Friday peak: 50k rps) Designed disaster recovery architecture with RTO < 15 minutes and RPO < 5 minutes Built monitoring stack using Prometheus, Grafana, and PagerDuty with zero missed SLA months Automated 85% of operational runbooks using Python and Bash scripts"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "StartCloud",
+          "title": "Infrastructure Engineer",
+          "start": "2015-01",
+          "end": "2018-01",
+          "summary": "Provisioned and maintained EC2, RDS, S3, and CloudFront infrastructure Wrote Terraform modules standardising VPC and IAM patterns across 15 AWS accounts Implemented log aggregation pipeline using Elasticsearch, Logstash, and Kibana"
+        },
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.876,
+    "overall_confidence": 0.806,
     "match_confidence": 1.0,
     "_meta": {
       "sources_used": [
@@ -3556,7 +4364,7 @@
         "github"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": []
     }
   },
@@ -3581,6 +4389,8 @@
       "other": []
     },
     "headline": "AI-driven data scientist building predictive models",
+    "current_company": "Analytix AI",
+    "title": "Data Scientist",
     "years_experience": 6,
     "skills": [
       {
@@ -3863,9 +4673,74 @@
           "country": "IN"
         },
         "role": "conflicting_alternate"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/shreyakapoor",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://github.com/shreyakap",
+        "role": "primary"
+      },
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "institution": "IIT Bangalore",
+          "degree": "M.Tech",
+          "field": "Data Science",
+          "end_year": 2018
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "Analytix AI",
+          "title": "Data Scientist",
+          "start": "2022-03",
+          "end": null,
+          "summary": "Built customer churn prediction model (XGBoost) deployed via FastAPI achieving 91% recall and $2.4M saved annually Designed NLP pipeline for support ticket classification using Hugging Face transformers, reducing manual triage by 70% Implemented feature store on AWS SageMaker reducing training pipeline iteration time by 45% Led migration from notebook-based workflows to MLflow experiment tracking and model registry Collaborated with product team to build A/B testing framework for ML model rollouts Mentored 2 junior data scientists on MLOps practices and code quality"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "DataCore",
+          "title": "Data Scientist",
+          "start": "2020-01",
+          "end": "2022-01",
+          "summary": "Developed time-series forecasting models for inventory demand prediction (MAPE < 8%) Built automated data quality checks using Great Expectations integrated into Airflow DAGs Created interactive Tableau dashboards for C-suite consumption of business KPIs Designed ETL pipelines in Python and Spark processing 200GB of daily clickstream data"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "QuanTech",
+          "title": "Data Analyst",
+          "start": "2018-01",
+          "end": "2020-01",
+          "summary": "Performed exploratory data analysis and statistical modelling in Python (Pyhton) and R Built Power BI reports automating 15 weekly manual reporting tasks Queried and manipulated large datasets using SQL and PySpark"
+        },
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.875,
+    "overall_confidence": 0.805,
     "match_confidence": 1.0,
     "_meta": {
       "sources_used": [
@@ -3874,7 +4749,7 @@
         "github"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": []
     }
   },
@@ -3899,6 +4774,8 @@
       "other": []
     },
     "headline": "Cross-platform mobile developer Flutter & React Native",
+    "current_company": "AppWorld",
+    "title": "Mobile Developer",
     "years_experience": 4,
     "skills": [
       {
@@ -4106,9 +4983,54 @@
           "country": "IN"
         },
         "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/ankitverma",
+        "role": "primary"
+      },
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "institution": "Pune University",
+          "degree": "B.E.",
+          "field": "Computer Science",
+          "end_year": 2020
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "AppWorld",
+          "title": "Mobile Developer",
+          "start": "2022-07",
+          "end": null,
+          "summary": "Built cross-platform fintech app in Flutter (Dart) serving 350,000 users with 4.7 App Store rating Implemented offline-first architecture using SQLite and sync engine reducing user-reported errors by 65% Integrated Stripe, Razorpay, and UPI payment SDKs with PCI-DSS compliant token handling Reduced app startup time from 3.2s to 0.9s through lazy loading and code splitting Set up Fastlane CI/CD pipeline automating iOS and Android builds and store submissions Wrote widget and integration tests achieving 82% code coverage"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "MobileSoft",
+          "title": "React Native Developer",
+          "start": "2020-01",
+          "end": "2022-01",
+          "summary": "Developed e-commerce app in React Native (RN) with 200k downloads and 4.5 Play Store rating Built reusable component library shared across iOS and Android reducing development time by 35% Integrated Firebase push notifications, analytics, and crash reporting (Crashlytics) Optimised FlatList rendering for large product catalogs reducing scroll jank to zero Collaborated with UX team on accessibility compliance (WCAG 2.1 AA)"
+        },
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.875,
+    "overall_confidence": 0.805,
     "match_confidence": 1.0,
     "_meta": {
       "sources_used": [
@@ -4116,7 +5038,7 @@
         "resume"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": []
     }
   },
@@ -4141,6 +5063,8 @@
       "other": []
     },
     "headline": "Automating infrastructure at scale with k8s and Terraform",
+    "current_company": "CloudOps",
+    "title": "DevOps Engineer",
     "years_experience": 7,
     "skills": [
       {
@@ -4246,9 +5170,23 @@
           "country": "IN"
         },
         "role": "conflicting_alternate"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/pradeepkumar",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://github.com/pradeepk",
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.86,
+    "overall_confidence": 0.68,
     "match_confidence": 1.0,
     "_meta": {
       "sources_used": [
@@ -4256,7 +5194,7 @@
         "github"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": [
         "no_experience"
       ]
@@ -4283,6 +5221,8 @@
       "other": []
     },
     "headline": "Full-stack developer shipping end-to-end features fast",
+    "current_company": "WebTech Solutions",
+    "title": "Full Stack Developer",
     "years_experience": 5,
     "skills": [
       {
@@ -4517,9 +5457,61 @@
           "country": "IN"
         },
         "role": "conflicting_alternate"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/tanveerahmed",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://github.com/tanveerahmed",
+        "role": "primary"
+      },
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "institution": "Mumbai University",
+          "degree": "B.Tech",
+          "field": "Information Technology",
+          "end_year": 2019
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "WebTech Solutions",
+          "title": "Full Stack Developer",
+          "start": "2022-01",
+          "end": null,
+          "summary": "Built customer-facing SaaS product in Next.js and Node.js serving 80,000 monthly active users Designed multi-tenant data architecture on PostgreSQL with row-level security Implemented real-time collaboration features using WebSockets (Socket.io) and Redis pub/sub Set up automated E2E tests in Playwright covering 60 critical user flows with zero flaky tests Improved API response time from 900ms to 140ms through query optimisation and connection pooling Led team of 3 developers, ran sprint ceremonies, and reported to CTO"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "DevBridge",
+          "title": "Full Stack Developer",
+          "start": "2020-01",
+          "end": "2022-01",
+          "summary": "Built internal analytics platform using React and D3.js visualising operational KPIs Developed REST APIs in Express.js integrated with Stripe and SendGrid Migrated from MySQL to PostgreSQL and introduced Postgress (sic) query optimisation best practices Containerised application using Docker and deployed to AWS ECS"
+        },
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.876,
+    "overall_confidence": 0.806,
     "match_confidence": 1.0,
     "_meta": {
       "sources_used": [
@@ -4528,7 +5520,7 @@
         "github"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": []
     }
   },
@@ -4553,6 +5545,8 @@
       "other": []
     },
     "headline": "Building LLM-powered products and fine-tuning transformers",
+    "current_company": "AILabs",
+    "title": "ML Engineer",
     "years_experience": 3,
     "skills": [
       {
@@ -4800,9 +5794,61 @@
           "country": "IN"
         },
         "role": "conflicting_alternate"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/ritumehta",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://github.com/ritumehta",
+        "role": "primary"
+      },
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "institution": "BITS Pilani",
+          "degree": "B.Tech",
+          "field": "Computer Science",
+          "end_year": 2021
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "AILabs",
+          "title": "ML Engineer",
+          "start": "2022-08",
+          "end": null,
+          "summary": "Fine-tuned Llama 2 and Mistral models for domain-specific question answering achieving 88% accuracy on internal benchmark Built RAG pipeline using LangChain, FAISS, and FastAPI serving 50,000 queries per day with p95 latency < 400ms Reduced LLM inference cost by 55% through prompt caching, quantisation (GGUF), and batching strategies Implemented model evaluation framework tracking hallucination rate, faithfulness, and relevance across 12 metrics Deployed models on AWS SageMaker with auto-scaling and canary rollouts via MLflow Contributed 3 open-source tools to the LangChain ecosystem (combined 1.2k GitHub stars)"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "DataMinds",
+          "title": "Data Scientist",
+          "start": "2021-01",
+          "end": "2022-01",
+          "summary": "Built sentiment analysis pipeline using Hugging Face transformers for social media monitoring product Developed multi-label text classification model (BERT fine-tune) with 93% F1 score Designed Airflow DAG orchestrating weekly model retraining on fresh data"
+        },
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.875,
+    "overall_confidence": 0.806,
     "match_confidence": 1.0,
     "_meta": {
       "sources_used": [
@@ -4811,7 +5857,7 @@
         "github"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": []
     }
   },
@@ -4836,6 +5882,8 @@
       "other": []
     },
     "headline": "High-performance backend systems in Go and gRPC",
+    "current_company": "GoSystems",
+    "title": "Backend Developer",
     "years_experience": 6,
     "skills": [
       {
@@ -5043,9 +6091,54 @@
           "country": "IN"
         },
         "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/varunguptain",
+        "role": "primary"
+      },
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "institution": "COEP Pune",
+          "degree": "B.Tech",
+          "field": "Computer Science",
+          "end_year": 2018
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "GoSystems",
+          "title": "Backend Developer",
+          "start": "2021-04",
+          "end": null,
+          "summary": "Designed and built payment processing microservice in Go handling 12,000 rps at p99 < 20ms Implemented gRPC service mesh with protobuf contracts across 8 internal services Built distributed rate limiter using Redis Lua scripts handling 50M decisions per day Designed idempotency and retry layer eliminating double-charge incidents from network failures Set up distributed tracing with Jaeger and OpenTelemetry providing full request lineage Optimised Postgres query plan reducing reporting query time from 45s to 1.2s through index design"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "NetScale",
+          "title": "Software Developer",
+          "start": "2018-01",
+          "end": "2021-01",
+          "summary": "Built REST APIs in Go for logistics platform integrating 15 third-party carrier APIs Designed async job processing system using Kafka reducing order confirmation latency by 80% Migrated batch processing jobs from cron scripts to reliable task queue (Temporal) Wrote property-based tests catching 12 edge cases missed by unit tests"
+        },
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.875,
+    "overall_confidence": 0.805,
     "match_confidence": 1.0,
     "_meta": {
       "sources_used": [
@@ -5053,7 +6146,7 @@
         "resume"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": []
     }
   },
@@ -5078,6 +6171,8 @@
       "other": []
     },
     "headline": "Vue.js specialist crafting component-driven UIs",
+    "current_company": "UXWorks",
+    "title": "Frontend Developer",
     "years_experience": 5,
     "skills": [
       {
@@ -5176,9 +6271,23 @@
           "country": "IN"
         },
         "role": "conflicting_alternate"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/pallavijoshi",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://github.com/pallavijoshi",
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.86,
+    "overall_confidence": 0.68,
     "match_confidence": 1.0,
     "_meta": {
       "sources_used": [
@@ -5186,7 +6295,7 @@
         "github"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": [
         "no_experience"
       ]
@@ -5213,6 +6322,8 @@
       "other": []
     },
     "headline": "Multi-cloud architect leading AWS and Azure migrations",
+    "current_company": "CloudFirst",
+    "title": "Cloud Architect",
     "years_experience": 10,
     "skills": [
       {
@@ -5495,9 +6606,111 @@
           "country": "IN"
         },
         "role": "conflicting_alternate"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/naveenreddy",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://github.com/naveenr",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://naveenreddy.dev",
+        "role": "primary"
+      },
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "institution": "Osmania University",
+          "degree": "B.Tech",
+          "field": "Electronics and Communication",
+          "end_year": 2014
+        },
+        "role": "primary"
+      },
+      {
+        "field": "certifications",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "name": "AWS Certified Solutions Architect \u2013 Professional",
+          "year": null
+        },
+        "role": "primary"
+      },
+      {
+        "field": "certifications",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "name": "AWS Certified Security Specialty",
+          "year": null
+        },
+        "role": "primary"
+      },
+      {
+        "field": "certifications",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "name": "Microsoft Certified Azure Solutions Architect Expert",
+          "year": null
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "CloudFirst",
+          "title": "Cloud Architect",
+          "start": "2021-09",
+          "end": null,
+          "summary": "Designed multi-cloud strategy spanning AWS and Azure for 200-person engineering org with 99.95% uptime Led lift-and-shift and re-architect migration of 60 applications saving $3.1M annually Built self-service infrastructure portal using Terraform CDK and AWS Service Catalog Established cloud security baseline: IAM guardrails, AWS Config rules, Security Hub, and GuardDuty Reduced S3 storage costs by 68% through intelligent tiering and lifecycle policies Defined FinOps practice enabling per-team cost visibility and chargeback"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "InfraStar",
+          "title": "Senior Cloud Engineer",
+          "start": "2018-01",
+          "end": "2021-01",
+          "summary": "Designed event-driven data processing pipeline on AWS Lambda, SQS, and S3 processing 4TB daily Built multi-account AWS landing zone using Control Tower and AWS Organizations Implemented EKS cluster with Karpenter node autoscaling handling 10x traffic spikes Automated DR runbooks reducing RTO from 4 hours to 22 minutes"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "TechPath",
+          "title": "Cloud Engineer",
+          "start": "2014-01",
+          "end": "2018-01",
+          "summary": "Provisioned and managed EC2, RDS, and CloudFront infrastructure for SaaS product Wrote CloudFormation templates for network, compute, and database tiers Implemented VPN and Direct Connect for hybrid connectivity with on-premise datacenter"
+        },
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.876,
+    "overall_confidence": 0.806,
     "match_confidence": 1.0,
     "_meta": {
       "sources_used": [
@@ -5506,7 +6719,7 @@
         "github"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": []
     }
   },
@@ -5531,6 +6744,8 @@
       "other": []
     },
     "headline": "Data pipeline engineer Spark Airflow and dbt",
+    "current_company": "DataFlow",
+    "title": "Data Engineer",
     "years_experience": 4,
     "skills": [
       {
@@ -5738,9 +6953,54 @@
           "country": "IN"
         },
         "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/komalsingh",
+        "role": "primary"
+      },
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "institution": "DTU Delhi",
+          "degree": "B.Tech",
+          "field": "Computer Science",
+          "end_year": 2020
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "DataFlow",
+          "title": "Data Engineer",
+          "start": "2022-06",
+          "end": null,
+          "summary": "Built batch and streaming data pipelines using Apache Spark and Kafka ingesting 500GB daily from 25 sources Designed dimensional data model on Snowflake reducing average analyst query time by 72% Implemented dbt transformation layer with 120+ models, automated tests, and documentation Set up data quality framework using Great Expectations catching schema drift within minutes of ingestion Built self-serve Airflow DAG scaffolding reducing time to create new pipelines from 2 days to 3 hours Reduced Snowflake compute costs by 35% through clustering optimisation and materialized views"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "QuickData",
+          "title": "Junior Data Engineer",
+          "start": "2020-01",
+          "end": "2022-01",
+          "summary": "Wrote ETL pipelines in Python and PySpark migrating on-premises warehouse to Google BigQuery Built Airflow DAGs replacing 30 cron scripts improving reliability from 78% to 99.6% success rate Created Tableau dashboards delivering daily operations reports to 60 stakeholders Documented data lineage for 80+ datasets enabling GDPR compliance audit"
+        },
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.875,
+    "overall_confidence": 0.805,
     "match_confidence": 1.0,
     "_meta": {
       "sources_used": [
@@ -5748,7 +7008,7 @@
         "resume"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": []
     }
   },
@@ -5773,6 +7033,8 @@
       "other": []
     },
     "headline": "SRE focused on observability reliability and chaos engineering",
+    "current_company": "Reliability Corp",
+    "title": "Site Reliability Engineer",
     "years_experience": 9,
     "skills": [
       {
@@ -6028,9 +7290,74 @@
           "country": "IN"
         },
         "role": "conflicting_alternate"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/harishkrishnan",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://github.com/harishk",
+        "role": "primary"
+      },
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "institution": "Anna University",
+          "degree": "B.E.",
+          "field": "Information Technology",
+          "end_year": 2015
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "Reliability Corp",
+          "title": "Site Reliability Engineer",
+          "start": "2020-02",
+          "end": null,
+          "summary": "Own reliability posture for 120-service platform serving 4M daily active users with 99.99% uptime SLA Built observability platform (Prometheus, Grafana, Loki, Tempo) replacing legacy Nagios setup Implemented chaos engineering programme with LitmusChaos uncovering 23 latent failure modes in first 6 months Designed automated incident response runbooks using PagerDuty and Rundeck reducing MTTR from 45m to 8m Built Kubernetes admission controllers enforcing resource limits, security contexts, and label standards Led SRE guild of 7 engineers across 3 product teams"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "NetReliable",
+          "title": "SRE",
+          "start": "2017-01",
+          "end": "2020-01",
+          "summary": "Maintained 99.9% availability for payment processing platform handling $2B annual transaction volume Designed on-call rotation and escalation policies reducing alert fatigue by 60% Built capacity planning models predicting infrastructure needs 3 months ahead with 92% accuracy Introduced SLI/SLO framework aligned with product team roadmaps"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "PlatOps",
+          "title": "DevOps Engineer",
+          "start": "2015-01",
+          "end": "2017-01",
+          "summary": "Managed Jenkins CI/CD pipelines for 35 Java and Python services Migrated virtual machine deployments to Docker containers on AWS ECS Wrote Ansible playbooks automating OS patching across 200 servers"
+        },
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.875,
+    "overall_confidence": 0.805,
     "match_confidence": 1.0,
     "_meta": {
       "sources_used": [
@@ -6039,7 +7366,7 @@
         "github"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": []
     }
   },
@@ -6064,6 +7391,8 @@
       "other": []
     },
     "headline": "Designing intuitive products for consumer and enterprise",
+    "current_company": "DesignCo",
+    "title": "Senior UX Designer",
     "years_experience": 6,
     "skills": [],
     "experience": [],
@@ -6178,16 +7507,23 @@
           "country": "IN"
         },
         "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/shrutikapoor",
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.81,
+    "overall_confidence": 0.63,
     "match_confidence": null,
     "_meta": {
       "sources_used": [
         "csv"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": [
         "no_skills",
         "no_experience",
@@ -6216,6 +7552,8 @@
       "other": []
     },
     "headline": "Principal engineer leading platform modernisation",
+    "current_company": "BackendPro",
+    "title": "Principal Engineer",
     "years_experience": 9,
     "skills": [],
     "experience": [],
@@ -6330,16 +7668,23 @@
           "country": "IN"
         },
         "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/nikhilrverma",
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.81,
+    "overall_confidence": 0.63,
     "match_confidence": null,
     "_meta": {
       "sources_used": [
         "csv"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": [
         "no_skills",
         "no_experience",
@@ -6368,6 +7713,8 @@
       "other": []
     },
     "headline": "Enterprise architect driving digital transformation",
+    "current_company": "TechBridge",
+    "title": "Senior Architect",
     "years_experience": 11,
     "skills": [],
     "experience": [],
@@ -6433,9 +7780,16 @@
           "country": "IN"
         },
         "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/ravishankar",
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.81,
+    "overall_confidence": 0.63,
     "match_confidence": 0.5,
     "_meta": {
       "sources_used": [
@@ -6444,7 +7798,7 @@
       "sources_failed": [
         "resume"
       ],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": [
         "no_skills",
         "no_experience",
@@ -6473,6 +7827,8 @@
       "other": []
     },
     "headline": "Data analyst turning raw data into actionable dashboards",
+    "current_company": "DataViz",
+    "title": "Data Analyst",
     "years_experience": 7,
     "skills": [
       {
@@ -6666,9 +8022,74 @@
           "country": "IN"
         },
         "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/preetasubramaniam",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://github.com/preetasub",
+        "role": "primary"
+      },
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "institution": "JNTU Hyderabad",
+          "degree": "B.Tech",
+          "field": "Information Technology",
+          "end_year": 2017
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "DataViz",
+          "title": "Data Analyst",
+          "start": "2021-05",
+          "end": null,
+          "summary": "Built 45-dashboard Power BI portfolio for C-suite and operational teams used by 300+ stakeholders daily Designed star-schema data model on Snowflake reducing average dashboard load time from 18s to 2s Automated weekly sales and retention reports replacing 12 hours of manual work per analyst per week Built Python (Pyhton) scripts for data cleaning and anomaly detection feeding into Tableau dashboards Defined company OKR metric framework and built tracking dashboards reviewed in all-hands meetings"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "Insights Inc",
+          "title": "Business Analyst",
+          "start": "2018-01",
+          "end": "2021-01",
+          "summary": "Produced weekly executive dashboards in Tableau for supply chain and inventory operations Wrote complex SQL queries on Redshift joining 25+ tables for revenue attribution analysis Built cohort analysis models in Python identifying customer segments with 3x higher LTV Trained 20 non-technical stakeholders to use self-serve Tableau reports"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "CoreData",
+          "title": "Junior Analyst",
+          "start": "2017-01",
+          "end": "2018-01",
+          "summary": "Compiled and cleaned data from multiple sources into Excel and Google Sheets models Created ad hoc SQL reports for marketing and product teams"
+        },
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.875,
+    "overall_confidence": 0.805,
     "match_confidence": 1.0,
     "_meta": {
       "sources_used": [
@@ -6678,7 +8099,7 @@
       "sources_failed": [
         "github"
       ],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": []
     }
   },
@@ -6703,6 +8124,8 @@
       "other": []
     },
     "headline": null,
+    "current_company": null,
+    "title": null,
     "years_experience": null,
     "skills": [],
     "experience": [],
@@ -6731,14 +8154,14 @@
         "role": "primary"
       }
     ],
-    "overall_confidence": 0.54,
+    "overall_confidence": 0.432,
     "match_confidence": null,
     "_meta": {
       "sources_used": [
         "csv"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": [
         "no_skills",
         "no_experience",
@@ -6767,6 +8190,8 @@
       "other": []
     },
     "headline": "Analytics professional SQL Tableau and Power BI",
+    "current_company": "DataInsights",
+    "title": "Data Analyst",
     "years_experience": 5,
     "skills": [
       {
@@ -6858,9 +8283,23 @@
           "country": "IN"
         },
         "role": "conflicting_alternate"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/sanjaymalhotra",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://github.com/sanjaymalhotra",
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.86,
+    "overall_confidence": 0.68,
     "match_confidence": 1.0,
     "_meta": {
       "sources_used": [
@@ -6868,7 +8307,7 @@
         "github"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": [
         "no_experience"
       ]
@@ -6895,6 +8334,8 @@
       "other": []
     },
     "headline": "DevOps engineer automating CI/CD and cloud infra",
+    "current_company": "InfraTech",
+    "title": "DevOps Engineer",
     "years_experience": 6,
     "skills": [
       {
@@ -7150,9 +8591,74 @@
           "country": "IN"
         },
         "role": "conflicting_alternate"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/kavithapillai",
+        "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://github.com/kavithap",
+        "role": "primary"
+      },
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "institution": "Kerala University",
+          "degree": "B.Tech",
+          "field": "Computer Science",
+          "end_year": 2018
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "InfraTech",
+          "title": "DevOps Engineer",
+          "start": "2022-01",
+          "end": null,
+          "summary": "Designed and implemented GitOps deployment workflow using GitHub Actions, ArgoCD, and Helm for 30-service platform Built Terraform module library standardising AWS infrastructure across 8 product teams Reduced deployment lead time from 3 days to 45 minutes through CI/CD pipeline overhaul Implemented SonarQube and Trivy security scanning gates blocking 94% of critical vulnerabilities before production Built developer self-service environment provisioning tool reducing team blocking time by 75% Maintained 99.95% deployment success rate with zero-downtime rolling updates"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "CloudWorks",
+          "title": "DevOps Engineer",
+          "start": "2020-01",
+          "end": "2022-01",
+          "summary": "Managed Kubernetes clusters (EKS) for microservices platform handling 500k daily requests Wrote Ansible playbooks automating OS configuration and application deployment across 150 servers Set up monitoring with Prometheus, Grafana, and PagerDuty with on-call SLA of < 5 min response Built Docker multi-stage build pipelines reducing image sizes by 60%"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "NetDev",
+          "title": "Junior DevOps",
+          "start": "2018-01",
+          "end": "2020-01",
+          "summary": "Maintained Jenkins CI pipelines for Java and Python services Provisioned EC2 and RDS instances using CloudFormation Wrote Bash and Python scripts automating routine operational tasks"
+        },
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.875,
+    "overall_confidence": 0.805,
     "match_confidence": 1.0,
     "_meta": {
       "sources_used": [
@@ -7161,7 +8667,7 @@
         "github"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": []
     }
   },
@@ -7186,6 +8692,8 @@
       "other": []
     },
     "headline": "Java Spring Boot backend developer building REST APIs",
+    "current_company": "Codebase",
+    "title": "Backend Developer",
     "years_experience": 4,
     "skills": [
       {
@@ -7400,9 +8908,54 @@
           "country": "IN"
         },
         "role": "primary"
+      },
+      {
+        "field": "links",
+        "source": "csv",
+        "method": "direct",
+        "value": "https://linkedin.com/in/arjunsingh",
+        "role": "primary"
+      },
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "institution": "NIT Kurukshetra",
+          "degree": "B.Tech",
+          "field": "Computer Science",
+          "end_year": 2020
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "Codebase",
+          "title": "Backend Developer",
+          "start": "2022-03",
+          "end": null,
+          "summary": "Developed REST APIs in Java Spring Boot for e-commerce order management platform serving 120k daily orders Built asynchronous notification service using Kafka reducing checkout latency by 35ms Implemented OAuth 2.0 and JWT-based authentication for B2B partner API Wrote unit and integration tests with JUnit 5 and Mockito reaching 85% branch coverage Participated in code reviews, architecture discussions, and sprint retrospectives"
+        },
+        "role": "primary"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "section_heuristic",
+        "value": {
+          "company": "TechNova",
+          "title": "Junior Backend Developer",
+          "start": "2020-01",
+          "end": "2022-01",
+          "summary": "Built CRUD APIs for internal HR and leave management system used by 1,500 employees Integrated third-party email and SMS providers using adapter pattern Optimised Hibernate queries reducing N+1 issues on core reporting endpoints Wrote API documentation using Swagger/OpenAPI"
+        },
+        "role": "primary"
       }
     ],
-    "overall_confidence": 0.875,
+    "overall_confidence": 0.805,
     "match_confidence": 1.0,
     "_meta": {
       "sources_used": [
@@ -7410,7 +8963,7 @@
         "resume"
       ],
       "sources_failed": [],
-      "generated_at": "2026-06-30T17:00:55.953525+00:00",
+      "generated_at": "2026-07-01T01:54:07Z",
       "data_quality": []
     }
   }
