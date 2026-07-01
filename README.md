@@ -74,115 +74,24 @@ Resumes in the real world come as PDFs or DOCX files. Libraries like `pdfminer` 
 
 ## Pipeline Modules — Inputs & Outputs
 
-Every module below is deterministic and independently unit-tested. For each one: what it does, a correct/expected case, and a wrong/garbage/edge case — pulled directly from the test suite, not hypothetical.
+Every module below is deterministic and independently unit-tested (see `tests/`).
 
 ### Stage 1
 
-**`source_loader.py`** — reads `recruiter_data.csv`, attaches resume/GitHub file content by the `{name}_resume.txt` / `{name}_github.json` naming convention, built from the CSV `name` column. `resume_file`/`github_url` are only checked for truthiness (does this candidate have enrichment to attempt?) — the actual path always comes from `name`, so `resume_file`'s value should match the real filename on disk (e.g. `"Arjun Mehta_resume.txt"`) to avoid confusion, even though the loader itself doesn't read that string.
-
-```
-✓ correct   row: {name: "Alice Smith", resume_file: "Alice Smith_resume.txt"}, resume/Alice Smith_resume.txt exists
-            → resume_raw: "<file contents>", load_failed: []
-
-✗ missing   row: {name: "Bob Jones", resume_file: "Bob Jones_resume.txt"}, but the .txt file isn't on disk
-            → resume_raw: None, load_failed: ["resume"]   (pipeline continues to the next row)
-```
-
-**`parser.py`** — parses each GitHub JSON snapshot string into a dict.
-
-```
-✓ correct   github_raw: '{"name": "Alice", "repos": []}'
-            → github_parsed: {"name": "Alice", "repos": []}
-
-✗ garbage   github_raw: "NOT JSON {{{"
-            → github_parsed: None, load_failed: ["github"]   (no exception raised)
-```
-
-**`field_extractor.py`** — pulls tagged `(value, method, source)` triples out of each raw source. Nothing is normalized or merged yet.
-
-```
-✓ correct   CSV row: {email: "alice@test.com"}
-            → extracted["emails"] = [{"value": "alice@test.com", "method": "direct", "source": "csv"}]
-
-✗ rejected  resume text: "...References: Contact Bob at bob.ref@oldco.com or +91 99999 11111"
-            → bob.ref@oldco.com never appears in extracted["emails"] — any line containing
-              "refer" is skipped so a former employer's recruiter contact isn't attributed
-              to the candidate (Deepak Malhotra in the sample data, see Edge Case #9)
-```
-
-**`normalizer.py`** — pure format functions (phone, date, country, skill, URL, name). Called once from `stage1.py`; never invents a value it can't confidently produce.
-
-```
-✓ correct   normalize_phone("+91 98765 43210")  → "+919876543210"
-            normalize_skill("Pyhton")            → "python"   (typo, caught by rapidfuzz)
-            normalize_country("India")           → "IN"
-
-✗ garbage   normalize_phone("not a phone")       → None   (dropped, not invented)
-            normalize_date("garbage")            → None
-            normalize_country("Nowhere Land")    → None
-```
-
-**`entity_resolver.py`** — groups records by the CSV `email` column (lowercased, exact match). Last row for a given email wins.
-
-```
-✓ correct   two CSV rows, both email "priya.singh@innovate.co.in" (years_experience 6 then 7)
-            → 1 profile, years_experience: 7 (last row wins), 6 goes to provenance as
-              conflicting_alternate
-
-✗ NOT merged  "Vivek Singh" <vivek.singh@techwave.in> and "Vivek S. Singh" <vivekssingh@techwave.in>
-              → stay as 2 separate profiles — name similarity is never used as a match key,
-                only the email column is
-```
-
-**`merge_engine.py`** — applies CSV > Resume > GitHub priority per field and writes `provenance` for every field (scalars, location, links, experience, education, certifications).
-
-```
-✓ correct   Arjun Mehta — CSV headline: "Full-stack engineer with passion for scalable systems",
-            GitHub bio: "Full-stack engineer @TechCorp | Building scalable systems with React & Node"
-            → profile.headline = the CSV value (CSV wins); GitHub's bio is still recorded in
-              provenance with role: "conflicting_alternate" — the loser is never silently dropped
-
-✗ edge case   Priya Singh (CSV-only, no resume) — CSV directly reports current_company:
-              "Innovate Solutions", title: "Lead Product Manager"
-              → those survive as their own profile fields even though experience[] is empty,
-                so Stage 2's current_title/current_company don't silently go null just
-                because there's no resume to parse an experience section out of
-```
-
-**`confidence_calculator.py`** — turns provenance + the skill map into `overall_confidence` and `match_confidence`.
-
-```
-✓ correct   "python" seen in both resume (0.65) and github (0.50)
-            → confidence = max(0.65, 0.50) + 0.10 corroboration bonus = 0.75
-
-✗ sparse    profile with only full_name populated (weight 0.20, base score 0.90)
-            → overall_confidence = 0.90 * 0.20 = 0.18 — the other 8 fields count as 0.0
-              in the denominator, they are not excluded from the average
-```
+- **`source_loader.py`** — reads `recruiter_data.csv`, attaches resume/GitHub file content by the `{name}_resume.txt` / `{name}_github.json` naming convention, built from the CSV `name` column. `resume_file`/`github_url` are only checked for truthiness (does this candidate have enrichment to attempt?) — the actual path always comes from `name`. A missing file is recorded in `load_failed` and the row continues rather than crashing.
+- **`parser.py`** — parses each GitHub JSON snapshot string into a dict. Garbage JSON sets `github_parsed: None` and logs `load_failed: ["github"]` instead of raising.
+- **`field_extractor.py`** — pulls tagged `(value, method, source)` triples out of each raw source. Nothing is normalized or merged yet. Resume lines inside the References section are skipped so a former employer's recruiter contact isn't attributed to the candidate.
+- **`normalizer.py`** — pure format functions (phone, date, country, skill, URL, name). Called once from `stage1.py`; never invents a value it can't confidently produce — anything it can't parse becomes `None`.
+- **`entity_resolver.py`** — groups records by the CSV `email` column (lowercased, exact match). Last row for a given email wins; name similarity is never used as a match key.
+- **`merge_engine.py`** — applies CSV > Resume > GitHub priority per field and writes `provenance` for every field (scalars, location, links, experience, education, certifications). Losing values are recorded as `conflicting_alternate`, never dropped.
+- **`confidence_calculator.py`** — turns provenance + the skill map into `overall_confidence` and `match_confidence`.
 
 ### Stage 2
 
-**`projection_engine.py`** — walks the canonical profile per config field (dot-path / array index / `[]` wildcard `from` expression), applies `normalize`, builds the output object.
-
-```
-✓ correct   config field: {"path": "city", "from": "location.city"}, profile.location.city = "Mumbai"
-            → output.city = "Mumbai"
-
-✗ missing   config field: {"path": "second_email", "from": "emails[1]"}, profile has only 1 email
-            → output.second_email = None   (index out of range is treated as "missing",
-              not an error, unless the field is marked required or on_missing: "error")
-```
-
-**`schema_validator.py`** — validates config *shape* before Stage 2 touches any candidate data, and validates output *types* after projecting each profile.
-
-```
-✓ correct config   {"path": "skills", "from": "skills[].name", "type": "string[]"}  → passes
-
-✗ rejected config  {"path": "skills", "from": "skills[].name", "type": "string"}
-                    → ValueError: "... wildcard from (...) but declares scalar type 'string' ..."
-                      raised immediately — this is exactly what configs/broken_type_mismatch.json
-                      tests; zero candidates are ever loaded for a config that fails this check
-```
+- **`projection_engine.py`** — walks the canonical profile per config field (dot-path / array index / `[]` wildcard `from` expression), applies `normalize`, builds the output object. A missing index or path resolves to "missing", not an error, unless the field is `required` or `on_missing: "error"`.
+- **`schema_validator.py`** — runs **twice** per Stage 2 invocation:
+  1. **Config validation** (`validate_config`), once up front, before any candidate is touched — rejects a structurally invalid config (e.g. a wildcard `from` paired with a scalar `type`) immediately, so a broken config never gets the chance to process partial data.
+  2. **Output validation** (`validate_output`), once per candidate after `projection_engine.project()` builds that candidate's output — checks the projected value's actual type against the field's declared `type`.
 
 ---
 
